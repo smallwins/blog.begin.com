@@ -1,9 +1,13 @@
 @app
-begin-app
+begin-blog
 
 @static
+folder public
+fingerprint true
 
 @http
+get /posts/:title
+get /*
 
 @tables
 data

@@ -3,9 +3,33 @@
   "version": "0.0.0",
   "description": "A simple Begin app with the minimum necessary file structure",
   "scripts": {
-    "start": "npx sandbox"
+    "start": "npx sandbox",
+    "spellcheck": "cross-env npx spellchecker './src/views/docs/en/**/*.md' --no-suggestions -q -d ./scripts/dictionary.js --plugins spell indefinite-article repeated-words syntax-mentions syntax-urls",
+    "test": "tape -r esm test/*-test.js test/**/*.js | tap-spec"
   },
   "devDependencies": {
     "@architect/sandbox": "^3.3"
+  },
+  "dependencies": {
+    "@architect/architect": "^8.4.10",
+    "@architect/eslint-config": "^1.0.0",
+    "@architect/functions": "^3.13.9",
+    "@architect/inventory": "^1.2.3",
+    "@architect/package": "^6.1.0",
+    "@toycode/markdown-it-class": "^1.2.4",
+    "eslint": "^7.21.0",
+    "esm": "^3.2.25",
+    "highlight.js": "^10.6.0",
+    "js-yaml": "^3.14.1",
+    "markdown-it": "^12.0.4",
+    "markdown-it-anchor": "^7.1.0",
+    "markdown-it-front-matter": "^0.2.3",
+    "slugify": "^1.4.7",
+    "spellchecker-cli": "^4.4.0",
+    "tap-spec": "^5.0.0",
+    "tape": "^5.2.2"
+  },
+  "eslintConfig": {
+    "extends": "@architect/eslint-config"
   }
 }
