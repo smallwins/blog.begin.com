@@ -7,7 +7,7 @@ async function redirect(req) {
     return {
       statusCode: 303,
       headers: {
-        location: '/posts/2021-03-10-first-post'
+        location: '/'
       }
     }
   }

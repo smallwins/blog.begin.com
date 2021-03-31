@@ -15,31 +15,21 @@ const arcGrammar = require('./arc-grammar')
 hljs.registerLanguage('arc', arcGrammar)
 const readFile = util.promisify(fs.readFile)
 const Html = require('@architect/views/modules/document/html.js').default
-const toc = require('@architect/views/docs/table-of-contents')
+const toc = require('@architect/views/posts/table-of-contents')
 const yaml = require('js-yaml')
 const EDIT_DOCS = `edit/main/src/views/docs/`
 const cache = {} // cheap warm cache
 
 exports.handler = async function http (req) {
-  // return {req}
-  // let { pathParameters } = req
-  // let { lang, proxy } = pathParameters
-  // let parts = proxy.split('/')
-  let docName = req.pathParameters.title
 
+  let docName = req.pathParameters.title
+  console.log(req)
   let doc = `${docName}.md`
   let activePath = path.join(
     'posts',
     docName
   )
-  // let editURL = 'https://github.com/architect/arc.codes/'
-  // editURL += path.join(
-  //   EDIT_DOCS,
-  //   lang,
-  //   ...parts,
-  //   doc
-  // )
-  // Add leading slash to match anchor href
+
   let active = `/${activePath}`
 
   let filePath = path.join(

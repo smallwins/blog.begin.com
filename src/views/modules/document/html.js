@@ -4,14 +4,14 @@ import Script from './script.js'
 import State from './state.js'
 import Logo from '../components/logo.js'
 import Icon from '../components/icon.js'
-import Sidebar from '../components/sidebar.js'
+// import Sidebar from '../components/sidebar.js'
 import GithubLink from '../components/github-link.js'
 import SlackLink from '../components/slack-link.js'
+import BlogCard from '../components/blogCard.js'
+
 
 export default function HTML (props = {}) {
   let {
-    children = [],
-    editURL = '',
     lang = 'en',
     scripts = '',
     state = {},
@@ -101,12 +101,13 @@ ${Symbols}
       </div>
       <div class="indicator bg-image0 absolute right0 bottom0 left0"></div>
     </header>
-    ${Sidebar(props)}
+    
     <main
       id="main"
       class="
         h-full
-        col-start-2
+        col-start-1
+        col-end-3
         p3
         overflow-auto
       "
@@ -126,12 +127,8 @@ ${Symbols}
         >
           ${title}
         </h1>
-        <div class="pb4 docs">
-          ${children}
-          <div class="flex justify-end mt4">
-            <a href="${editURL}" target="_blank" rel="noreferrer" class="text1 text-p1 text-h1 text-a2 no-underline font-semibold">Edit this doc on Github →</a>
-          </div>
-        </div>
+        ${BlogCard(props)}
+        
       </div>
     </main>
   </div>
