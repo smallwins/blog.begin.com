@@ -80,3 +80,19 @@
     }
   }
   
+.postsGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+.postCard {
+  padding: 1rem;
+  border-radius: .7rem;
+  background-color: bisque;
+}
+
+.postIMG {
+  background-color: #ffff;
+  height: 12rem;
+}
