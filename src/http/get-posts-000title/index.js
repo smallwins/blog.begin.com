@@ -60,7 +60,6 @@ exports.handler = async function http (req) {
   
   // Declare in outer scope for use later... sorry
   let frontmatter = ''
-  // let image = `<img src="${arc.static('')}">`
   const md = Markdown({
     highlight,
     linkify: true,
@@ -85,10 +84,10 @@ exports.handler = async function http (req) {
       'content-type': 'text/html; charset=utf8'
     },
     body: `
-    ${title}
-    ${image}
-    ${children}
+    ${`<img height="400" src=${arc.static(image)}>`}
     ${description}
+    ${`<h1>${title}</h1>`}
+    ${children}
     `
   }
 }
