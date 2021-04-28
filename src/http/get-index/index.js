@@ -1,6 +1,7 @@
 let fs = require('fs')
 require = require('esm')(module) // eslint-disable-line
 const main =require('@architect/views/modules/pages/main.js').default
+const BlogCard = require('../../views/modules/components/blog-card.js')
 
 const Html = require('@architect/views/modules/document/html.js').default
 const posts = fs.readdirSync(path.join('node_modules', '@architect', 'views', 'posts'))
@@ -17,7 +18,7 @@ exports.handler = async function index(req) {
       'content-type': 'text/html; charset=utf8'
     },
     body: Html({
-      children: main({children: 'Shawn'})
+      children: main({children: `BlogCard`})
     })
   }
 }

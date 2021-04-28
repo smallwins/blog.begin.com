@@ -8,3 +8,12 @@ test('Assert that Index is pulling posts', t => {
   t.end()
 })
 
+test('Assert that Index is pulling posts', t => {
+
+  let expected = '<div>content</div>'
+  let children = "content"
+  let actual = postsLayout({children})
+  
+t.equal(strip(actual), strip(expected), "Index is pulling posts")
+t.end()
+})

@@ -10,30 +10,20 @@ test('Check if Posts layout exists', t => {
 
 test('Check if Posts Layout is rendering', t => {
 
-    let expected = '<div></div>'
-    let actual = postsLayout()
-  t.equal(strip(actual), strip(expected), "Posts layout is rendering", actual)
+  let actual = postsLayout()
+  t.ok(actual, "Posts layout is rendering")
   t.end()
 })
 
 test('Assert that Posts Layout is rendering children  ', t => {
 
-    let expected = '<div>content</div>'
-    let children = "content"
-    let actual = postsLayout({children})
     
-  t.equal(strip(actual), strip(expected), "Posts layout is delivering content")
+    let children = "Begin is OTW"
+    let actual = postsLayout({children})
+
+  t.ok( /Begin is OTW/.test(actual), "Posts layout is rendering children" )
   t.end()
 })
 
 
-test('Assert that Index is pulling posts', t => {
-
-    let expected = '<div>content</div>'
-    let children = "content"
-    let actual = postsLayout({children})
-    
-  t.equal(strip(actual), strip(expected), "Posts layout is delivering content")
-  t.end()
-})
 
