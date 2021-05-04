@@ -1,6 +1,5 @@
 import Logo from '../components/logo.js'
 import Icon from '../components/icon.js'
-// import Sidebar from '../components/sidebar.js'
 import GithubLink from '../components/github-link.js'
 import SlackLink from '../components/slack-link.js'
 // import BlogCard from '../components/blog-card.js'
@@ -91,7 +90,6 @@ export default function postsLayout (props = {}) {
             text2
           "
         >
-
         </h1>
         ${children}
         

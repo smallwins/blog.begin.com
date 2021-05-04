@@ -15,6 +15,8 @@ const arcGrammar = require('./arc-grammar')
 hljs.registerLanguage('arc', arcGrammar)
 const readFile = util.promisify(fs.readFile)
 const Html = require('@architect/views/modules/document/html.js').default
+const main =require('@architect/views/modules/pages/main.js').default
+
 const yaml = require('js-yaml')
 const EDIT_DOCS = `edit/main/src/views/docs/`
 const cache = {} // cheap warm cache
@@ -83,11 +85,8 @@ exports.handler = async function http (req) {
       'cache-control': 'no-cache, no-store, must-revalidate, max-age=0, s-maxage=0',
       'content-type': 'text/html; charset=utf8'
     },
-    body: `
-    ${`<img height="400" src=${arc.static(image)}>`}
-    ${`<blockquote>${description}</blockquote>`}
-    ${`<h1>${title}</h1>`}
-    ${children}
-    `
+    body: Html({children: main({children})
+    })
+    
   }
 }

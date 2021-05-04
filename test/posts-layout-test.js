@@ -16,7 +16,6 @@ test('Check if Posts Layout is rendering', t => {
 })
 
 test('Assert that Posts Layout is rendering children  ', t => {
-
     
     let children = "Begin is OTW"
     let actual = postsLayout({children})
