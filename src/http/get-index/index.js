@@ -49,21 +49,24 @@ const meta = (function readFrontMatter() {
 
     }
     return results
+   
 })()
 
 
 exports.handler = async function index(req) {
 
-  console.log(meta)
+  console.log('meta: ', meta.title)
 
+  // <a href=/posts/${post.replace(".md", "")}>${`<p>${meta.map(met => `<p>${met.title}</p>`).join('')}</p>`}</a>
  
   let blogCard = `
-  <div class="postsGrid">${ posts.map(post => `
+  <div class="postsGrid">${meta.map(met => `
     <div class="postCard">
-      <a href=/posts/${post.replace(".md", "")}>${post}</a>
-      <p>${post}</p>
-      <p>${post}</p>
-    </div>`).join('')} 
+      <img src=${met.image} alt="postIMG" height="100"/>
+     
+      <p>${met.title}</p>
+      <p>${met.description}</p>
+    </div>`).join('')}
   </div>
   `
   
