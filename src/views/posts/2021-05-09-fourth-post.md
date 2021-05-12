@@ -1,8 +1,11 @@
 ---
-title: Post 4
+title: Progressive enhancement ultimate guide
 image: 'image.png'
 category: uncategorized
 description: Architect is an open source project and we want YOUR help!
+author: 'Paul Chin Jr'
+avi: 'paul.jpg'
+readtime: '4 mins'
 ---
 
 # Fourth post

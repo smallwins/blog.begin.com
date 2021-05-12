@@ -1,8 +1,11 @@
 ---
-title: Post 3
+title: Uncanny valley of modern web development
 image: 'image.png'
 category: uncategorized
 description: Architect is an open source project and we want YOUR help!
+author: 'Brian Leroux'
+avi: 'brian.jpg'
+readtime: '4 mins'
 ---
 
 # Third post

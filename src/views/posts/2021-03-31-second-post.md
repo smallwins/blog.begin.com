@@ -1,8 +1,11 @@
 ---
-title: Post 2
+title: The Cobblers Guide To Webcraft
 image: 'image-2.png' 
 category: uncategorized
 description: Architect is an open source project and we want YOUR help!
+author: 'Kristopher Joseph'
+avi: 'kj.png'
+readtime: '4 mins'
 ---
 
 
