@@ -112,9 +112,8 @@ exports.handler = async function index(req) {
     },
     body: Html({
       children: layout({children: `
-       
-        ${blogCard}
         ${headline}
+        ${blogCard}
       `
       })
     })

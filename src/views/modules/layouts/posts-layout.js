@@ -96,10 +96,8 @@ export default function postsLayout (props = {}) {
         
       </div>
     </main>
-    <footer class="bg-p5 text-g0">
-        <ul>
-          <li><a>Link1</a></li>
-        </ul>
+    <footer class="bg-p5 text-g0 text-center p2">
+        <p>© 2021 Beginner Corp | Made with 💖 in San Francisco</p>
     </footer>
   </div>
     `
