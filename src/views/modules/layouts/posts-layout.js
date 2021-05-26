@@ -96,7 +96,7 @@ export default function postsLayout (props = {}) {
         
       </div>
     </main>
-    <footer class="bg-p5 text-g0 text-center p2">
+    <footer class="bg-p5 text-g0 text-center p-1">
         <p>© 2021 Beginner Corp | Made with 💖 in San Francisco</p>
     </footer>
   </div>

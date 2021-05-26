@@ -18,6 +18,12 @@ const Html = require('@architect/views/modules/document/html.js').default
 const postsLayout = require('@architect/views/modules/layouts/posts-layout.js').default
 const main =require('@architect/views/modules/pages/main.js').default
 
+const arcStaticImg = require('markdown-it-arc-static-img')
+const md = require('markdown-it')()
+  .use(arcStaticImg)
+const imgMD = '![My Image](myimage.jpg)'
+const result = md.render(imgMD)
+
 const yaml = require('js-yaml')
 const EDIT_DOCS = `edit/main/src/views/docs/`
 const cache = {} // cheap warm cache
@@ -76,6 +82,7 @@ exports.handler = async function http (req) {
     .use(frontmatterParser, function (str) {
       frontmatter = yaml.load(str)
     })
+    .use(arcStaticImg)
   const children = md.render(file)
   
   const { category, description, title, image } = frontmatter
