@@ -91,7 +91,7 @@ export default function postsLayout (props = {}) {
           "
         >
         </h1>
-        <img src=${image} alt='blogimg' height="500"/>
+        <img src=${image} alt='blogimg' style='width:100%;'/>
         ${children}
         
       </div>
