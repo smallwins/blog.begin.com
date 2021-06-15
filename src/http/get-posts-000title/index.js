@@ -16,8 +16,6 @@ hljs.registerLanguage('arc', arcGrammar)
 const readFile = util.promisify(fs.readFile)
 const Html = require('@architect/views/modules/document/html.js').default
 const postsLayout = require('@architect/views/modules/layouts/posts-layout.js').default
-const main =require('@architect/views/modules/pages/main.js').default
-
 const arcStaticImg = require('markdown-it-arc-static-img')
 const md = require('markdown-it')()
   .use(arcStaticImg)
