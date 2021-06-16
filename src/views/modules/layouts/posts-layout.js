@@ -91,7 +91,7 @@ export default function postsLayout (props = {}) {
           "
         >
         </h1>
-        <img class="w-full block" src=${image} alt='blogimg'style="height: auto;"/>
+        <img class="w-full boxshadow mb3 block" src=${image} alt='blogimg'style="height: auto;"/>
         ${children}
         
       </div>

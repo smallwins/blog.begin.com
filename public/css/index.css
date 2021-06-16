@@ -102,6 +102,9 @@
 .shadow-card:active {
   box-shadow: 0 0px 5px rgba(0, 0, 0, 0.4);
 }
+.boxshadow {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.4);
+}
 
 .transition-transform {
   transition: transform 0.15s ease-out
