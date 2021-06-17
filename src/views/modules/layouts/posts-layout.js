@@ -7,6 +7,9 @@ export default function postsLayout (props = {}) {
 
   let children = props.children || ""
   let image = props.image || ""
+  let avi = props.avi || ""
+  let published = props.published || ""
+  let author = props.author || ""
     return `
     <div
     class="
@@ -91,13 +94,18 @@ export default function postsLayout (props = {}) {
           "
         >
         </h1>
-        <img class="w-full boxshadow mb3 block" src=${image} alt='blogimg'style="height: auto;"/>
+        <img class="w-full boxshadow mb3 block" src=${image} alt='blogimg' style="height: auto;"/>
+        <div class="grid-lg items-center flow-column-dense mt1 mb1">
+          <img class="radius-pill" src=${avi} alt='avi' style="height:2rem;"/>
+          <small>${author}</small>
+          <small>${published}</small>
+        </div>
         ${children}
         
       </div>
     </main>
     <footer class="bg-p5 text-g0 text-center p-1">
-        <p>© 2021 Beginner Corp | Made with 💖 in San Francisco</p>
+      <p>© 2021 Beginner Corp | Made with 💖 in San Francisco</p>
     </footer>
   </div>
     `

@@ -390,6 +390,7 @@
   
   /* WIDTH */
   .w-0{width:0;}
+  .w-half{width:50%;}
   .w-full{width:100%;}
   .w-screen{width:100vw;}
   .min-w-0{min-width:0;}

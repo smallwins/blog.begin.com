@@ -83,7 +83,7 @@ exports.handler = async function http (req) {
     .use(arcStaticImg)
   const children = md.render(file)
   
-  const { category, description, title, image } = frontmatter
+  const { category, description, title, image, avi, author, published } = frontmatter
 
   return {
     statusCode: 200,
@@ -91,7 +91,7 @@ exports.handler = async function http (req) {
       'cache-control': 'no-cache, no-store, must-revalidate, max-age=0, s-maxage=0',
       'content-type': 'text/html; charset=utf8'
     },
-    body: Html({children: postsLayout({category, description, title, image: arc.static(image), children})
+    body: Html({children: postsLayout({category, description, title, image: arc.static(image), avi: arc.static(avi), author, published, children})
     }),
     
   }

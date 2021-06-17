@@ -51,15 +51,7 @@ const createCard = (function readFrontMatter() {
     return results
 })()
 
-
-
-// let sortedCards = createCard.sort(function(a, b) {
-//   console.log("post1: ", a, "post2: ", b)
-// })
-
-let sortedCards = createCard.sort((a, b) => (a.post < b.post ? 1 : -1))
-
-// console.log(sortedCards)
+createCard.sort((a, b) => (a.post < b.post ? 1 : -1))
 
 exports.handler = async function index(req) {
 
@@ -99,7 +91,7 @@ exports.handler = async function index(req) {
             <small class="text-g4">${card.frontmatter.readtime}</small>
           </div>
         </div>
-    </div>`).join('')} </a>
+    </div>`).join('')}</a>
   </div>
   `
   
