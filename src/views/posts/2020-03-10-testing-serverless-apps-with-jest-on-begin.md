@@ -6,7 +6,7 @@ description: In this post we’ll demonstrate the basics of testing with Jest on
 author: 'Paul Chin Jr'
 avi: 'paul.jpg'
 readtime: '3 mins'
-published: '03-10-2020'
+published: 'March 10, 2020'
 ---
 
 # Serverless app testing with Jest on Begin

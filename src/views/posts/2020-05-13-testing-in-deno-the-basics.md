@@ -6,7 +6,7 @@ description: Deno is a next-generation JavaScript runtime that makes testing a f
 author: 'Brian Leroux'
 avi: 'brian.jpg'
 readtime: '4 mins'
-published: '05-13-2020'
+published: 'May 13, 2020'
 ---
 
 

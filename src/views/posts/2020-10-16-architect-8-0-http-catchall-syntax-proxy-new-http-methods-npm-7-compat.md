@@ -6,7 +6,7 @@ description: More flexible and powerful than ever, with greedy catchall syntax, 
 author: 'Ryan Block'
 avi: 'ryan.png'
 readtime: '3 mins'
-published: '10-16-2020'
+published: 'October 16, 2020'
 ---
 
 # Architect 8.0: HTTP catchall syntax, @proxy, new HTTP methods, npm 7 compat

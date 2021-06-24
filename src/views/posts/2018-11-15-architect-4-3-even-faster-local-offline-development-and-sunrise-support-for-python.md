@@ -6,7 +6,7 @@ description: Architect treats local offline development of serverless apps as a 
 author: 'Ryan Block'
 avi: 'ryan.png'
 readtime: '2 mins'
-published: '11-15-2018'
+published: 'November 15, 2018'
 ---
 
 # Architect 4.3: even faster local offline development, and sunrise support for Python!

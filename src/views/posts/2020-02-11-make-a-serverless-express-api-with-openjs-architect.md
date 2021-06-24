@@ -6,7 +6,7 @@ description: Migrate your existing Express API or make use of your existing Expr
 author: 'Brian Leroux'
 avi: 'brian.jpg'
 readtime: '2 mins'
-published: '02-11-2020'
+published: 'February 11, 2020'
 ---
 
 <small>Photo by Fikri Rasyid</small>

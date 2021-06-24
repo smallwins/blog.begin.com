@@ -6,7 +6,7 @@ description: Frontend patterns with Architect serverless framework
 author: 'Kristofer Joseph'
 avi: 'kj.png'
 readtime: '3 mins'
-published: '11-13-2018'
+published: 'November 13, 2018'
 ---
 
 

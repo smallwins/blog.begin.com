@@ -6,7 +6,7 @@ description: Slack for JS is a super tiny Slack Web API client for NodeJS and th
 author: 'Brian Leroux'
 avi: 'brian.jpg'
 readtime: '2 mins'
-published: '01-22-2018'
+published: 'January 22, 2018'
 ---
 
 # Slack for JS 10.x! 🔥

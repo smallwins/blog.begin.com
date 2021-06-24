@@ -6,7 +6,7 @@ description: The bots have landed. And as is usually the case, some early produc
 author: 'Ryan Block'
 avi: 'ryan.png'
 readtime: '8 mins'
-published: '04-19-2017'
+published: 'April 19, 2017'
 ---
 
 # How to build a better bot

@@ -6,7 +6,7 @@ description: In part 1 of this series, we used Architect to provision the infras
 author: 'Brian Leroux'
 avi: 'brian.jpg'
 readtime: '8 mins'
-published: '02-16-2018'
+published: 'February 16, 2018'
 ---
 
 # Build an infinitely scalable* Slack app, part 2: prepping for distribution in the Slack App Directory

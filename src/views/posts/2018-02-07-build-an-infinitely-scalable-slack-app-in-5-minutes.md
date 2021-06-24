@@ -6,7 +6,7 @@ description: Everyone’s favorite work messaging app — Slack — offers a pow
 author: 'Brian Leroux'
 avi: 'brian.jpg'
 readtime: '7 mins'
-published: '02-07-2018'
+published: 'February 07, 2018'
 ---
 
 

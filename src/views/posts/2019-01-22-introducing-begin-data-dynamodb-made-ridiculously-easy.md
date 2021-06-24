@@ -6,7 +6,7 @@ description: Fast, scalable cloud function-based apps need fast, scalable cloud 
 author: 'Brian Leroux'
 avi: 'brian.jpg'
 readtime: '5 mins'
-published: '01-22-2019'
+published: 'January 22, 2019'
 ---
 
 <small>Photo by John Barkiple</small>

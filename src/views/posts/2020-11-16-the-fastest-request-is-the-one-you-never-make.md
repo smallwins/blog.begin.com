@@ -6,7 +6,7 @@ description: By popular demand:OpenJS Architect 8.3 (El Chupacabra) now supports
 author: 'Paul Chin Jr'
 avi: 'paul.jpg'
 readtime: '4 mins'
-published: '11-16-2020'
+published: 'November 16, 2020'
 ---
 
 # The fastest request is the one you never make.

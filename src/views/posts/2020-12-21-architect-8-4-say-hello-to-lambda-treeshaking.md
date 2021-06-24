@@ -6,7 +6,7 @@ description: One of the thing that sets OpenJS Architect apart from other server
 author: 'Ryan Block'
 avi: 'ryan.png'
 readtime: '2 mins'
-published: '12-21-2020'
+published: 'December 21, 2020'
 ---
 
 # Architect 8.4: say hello to Lambda treeshaking

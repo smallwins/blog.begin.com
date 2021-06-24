@@ -6,7 +6,7 @@ description: In this post we’ll demonstrate using Babel to implement a great n
 author: 'Paul Chin Jr'
 avi: 'paul.jpg'
 readtime: '3 mins'
-published: '03-11-2020'
+published: 'March 11, 2020'
 ---
 
 # Testing serverless apps with Mocha on Begin

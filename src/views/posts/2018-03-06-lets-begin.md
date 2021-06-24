@@ -6,7 +6,7 @@ description: Today’s tools for managing work are broken
 author: 'Ryan Block'
 avi: 'ryan.png'
 readtime: '6 mins'
-published: '03-06-2018'
+published: 'March 06, 2018'
 ---
 
 # Let’s Begin!

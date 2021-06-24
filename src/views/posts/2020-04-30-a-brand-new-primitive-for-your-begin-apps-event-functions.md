@@ -6,7 +6,7 @@ description: Today we’re introducing an entirely new primitive to Begin apps:e
 author: 'Ryan Block'
 avi: 'ryan.png'
 readtime: '4 mins'
-published: '04-30-2020'
+published: 'April 30, 2020'
 ---
 
 

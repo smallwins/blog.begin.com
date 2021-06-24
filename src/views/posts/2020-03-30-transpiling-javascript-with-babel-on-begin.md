@@ -6,7 +6,7 @@ description: In this post we’ll demonstrate using Babel to implement a great n
 author: 'Paul Chin Jr'
 avi: 'paul.jpg'
 readtime: '4 mins'
-published: '03-30-2020'
+published: 'March 30, 2020'
 ---
 
 # Transpiling JavaScript with Babel on Begin

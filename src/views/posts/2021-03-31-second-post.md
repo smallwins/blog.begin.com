@@ -6,7 +6,7 @@ description: Architect is an open source project and we want YOUR help!
 author: 'Kristofer Joseph'
 avi: 'kj.png'
 readtime: '4 mins'
-published: '03-31-2021'
+published: 'March 31, 2021'
 ---
 
 

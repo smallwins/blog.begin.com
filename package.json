@@ -8,7 +8,7 @@
     "test": "tape -r esm test/*-test.js test/**/*.js | tap-spec"
   },
   "devDependencies": {
-    "@architect/sandbox": "^3.3"
+    "@architect/sandbox": "^3.6.0"
   },
   "dependencies": {
     "@architect/architect": "^8.4.10",

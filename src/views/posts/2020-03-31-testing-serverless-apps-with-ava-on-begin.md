@@ -6,7 +6,7 @@ description: This post will give an overview of testing with AVA on a serverless
 author: 'Paul Chin Jr'
 avi: 'paul.jpg'
 readtime: '4 mins'
-published: '03-31-2020'
+published: 'March 31, 2020'
 ---
 
 # Testing serverless apps with AVA on Begin

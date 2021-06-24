@@ -6,7 +6,7 @@ description: Architect is an open source project and we want YOUR help!
 author: 'ShawnHosea'
 avi: 'shawn.jpg'
 readtime: '4 mins'
-published: '05-12-2021'
+published: 'May 12, 2021'
 ---
 
 # Fifth post

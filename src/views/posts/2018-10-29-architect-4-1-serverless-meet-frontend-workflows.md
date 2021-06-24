@@ -6,7 +6,7 @@ description: Last week we released Architect 4 (Yeti), focused on simplicity and
 author: 'Ryan Block'
 avi: 'ryan.png'
 readtime: '2 mins'
-published: '10-29-2018'
+published: 'October 29, 2018'
 ---
 
 <small>Photo by Val Vesa</small>

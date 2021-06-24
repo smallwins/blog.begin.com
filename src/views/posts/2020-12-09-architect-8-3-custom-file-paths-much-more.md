@@ -6,7 +6,7 @@ description: By popular demand:OpenJS Architect 8.3 (El Chupacabra) now supports
 author: 'Ryan Block'
 avi: 'ryan.png'
 readtime: '3 mins'
-published: '12-09-2020'
+published: 'December 09, 2020'
 ---
 
 # Architect 8.3: custom file paths & much more

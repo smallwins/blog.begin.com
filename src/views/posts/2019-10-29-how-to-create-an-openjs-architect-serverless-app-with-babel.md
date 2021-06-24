@@ -6,7 +6,7 @@ description: Author serverless AWS Lambda functions with next-generation JS
 author: 'Brian Leroux'
 avi: 'brian.jpg'
 readtime: '3 mins'
-published: '10-29-2019'
+published: 'October 29, 2019'
 ---
 
 # How to create an OpenJS Architect serverless app with Babel and Rollup

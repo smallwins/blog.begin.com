@@ -6,7 +6,7 @@ description: We’re excited to announce that all new Begin apps will now ship w
 author: 'Paul Chin Jr'
 avi: 'paul.jpg'
 readtime: '3 mins'
-published: '09-23-2020'
+published: 'September 23, 2020'
 ---
 
 # Begin now ships API Gateway HTTP APIs by default

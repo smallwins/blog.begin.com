@@ -6,7 +6,7 @@ description: The simplest, fastest way to build modern applications just got a l
 author: 'Ryan Block'
 avi: 'ryan.png'
 readtime: '4 mins'
-published: '09-29-2019'
+published: 'September 29, 2019'
 ---
 
 # Architect 6.0: Ruby, Python, CDNs, and CloudFormation

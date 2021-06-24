@@ -6,7 +6,7 @@ description: In this post we’ll look at an example app deployed on Begin with 
 author: 'Paul Chin Jr'
 avi: 'paul.jpg'
 readtime: '3 mins'
-published: '05-14-2020'
+published: 'May 14, 2020'
 ---
 
 

@@ -6,7 +6,7 @@ description: Experimental next generation JavaScript runtime with first class Ty
 author: 'Brian Leroux'
 avi: 'brian.jpg'
 readtime: '3 mins'
-published: '12-20-2019'
+published: 'December 20, 2019'
 ---
 
 # Serverless Deno support with Architect

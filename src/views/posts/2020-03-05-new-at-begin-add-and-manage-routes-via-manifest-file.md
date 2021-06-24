@@ -6,7 +6,7 @@ description: We’ve got some pretty big news for how you build apps on Begin:it
 author: 'Brian Leroux'
 avi: 'brian.jpg'
 readtime: '3 mins'
-published: '03-05-2020'
+published: 'March 05, 2020'
 ---
 
 # New at Begin: add and manage routes via manifest file

@@ -6,7 +6,7 @@ description: The future is serverless, and the future is here
 author: 'Ryan Block'
 avi: 'ryan.png'
 readtime: '2 mins'
-published: '11-09-2018'
+published: 'November 09, 2018'
 ---
 
 <small>photo by Ugne Vasyliute</small>

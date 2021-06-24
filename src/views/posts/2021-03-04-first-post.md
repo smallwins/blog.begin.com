@@ -6,7 +6,7 @@ description: Architect is an open source project and we want YOUR help!
 author: 'Ryan Block'
 avi: 'ryan.png'
 readtime: '4 mins'
-published: '03-04-2021'
+published: 'March 04, 2021'
 ---
 
 # First post

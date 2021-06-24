@@ -6,7 +6,7 @@ description: Terms like master-slave carry powerful implications of racial supre
 author: 'Ryan Block'
 avi: 'ryan.png'
 readtime: '3 mins'
-published: '07-15-2020'
+published: 'July 15, 2020'
 ---
 
 

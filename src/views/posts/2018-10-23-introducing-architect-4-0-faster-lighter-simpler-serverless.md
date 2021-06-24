@@ -6,7 +6,7 @@ description: We’ve been listening to your feedback and today we’re extremely
 author: 'Ryan Block'
 avi: 'ryan.png'
 readtime: '5 mins'
-published: '10-23-2018'
+published: 'October 23, 2018'
 ---
 
 # Introducing Architect 4.0: faster, lighter, simpler serverless

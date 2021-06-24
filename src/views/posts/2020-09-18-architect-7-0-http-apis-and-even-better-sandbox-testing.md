@@ -6,7 +6,7 @@ description: By popular demand:API Gateway HTTP APIs are now the default in Arch
 author: 'Ryan Block'
 avi: 'ryan.png'
 readtime: '4 mins'
-published: '09-18-2020'
+published: 'September 18, 2020'
 ---
 
 # Architect 7.0: HTTP APIs and even better Sandbox testing!
