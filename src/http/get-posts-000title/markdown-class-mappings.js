@@ -26,7 +26,9 @@ module.exports = {
       'mb-1'
     ],
     ul: [
-      'mb1'
+      'mb3',
+      'pl3',
+      'mt3'
     ],
     li: [
       'ml-1'
@@ -45,8 +47,8 @@ module.exports = {
     ],
     a: [
       'font-medium',
-      'text-p5',
-      'text-h1'
+      'text-p3',
+      'text-h2'
     ],
     strong: [
       'font-semibold',
@@ -80,6 +82,10 @@ module.exports = {
       'border-g1',
       'border1',
       'bg-g0'
+    ],
+    img: [
+      'mb3',
+      'mt3'
     ]
   }
   

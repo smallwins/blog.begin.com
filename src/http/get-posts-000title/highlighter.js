@@ -2,11 +2,11 @@
 module.exports = function (hljs, escapeHtml, str, lang) {
   if (lang && hljs.getLanguage(lang)) {
     try {
-      return `<pre class="hljs radius1 mb0 mb1-lg"><div class="flex justify-end"><button id="copy-button"
+      return `<pre class="hljs radius1 pb1 pt1 mb3 mt3"><div class="flex justify-end"><button id="copy-button"
       class="
-        pt-4
+        pt-1
         pr1
-        pb-4
+        pb-1
         pl1
         border0
         border-solid
@@ -25,7 +25,7 @@ module.exports = function (hljs, escapeHtml, str, lang) {
     }
   }
 
-  return `<pre class="hljs mb0 radius1 mb1-lg"><div class="flex justify-end"><button id="copy-button"
+  return `<pre class="hljs radius1 pb1 pt1 mb3 mt3"><div class="flex justify-end"><button id="copy-button"
   class="
     pt-4
     pr1

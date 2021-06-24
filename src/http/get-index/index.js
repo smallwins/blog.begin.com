@@ -52,10 +52,11 @@ const createCard = (function readFrontMatter() {
 })()
 
 
-let sortedCards = createCard.sort((a, b) => (a.post < b.post ? 1 : -1))
 
 
 exports.handler = async function index(req) {
+  let sortedCards = createCard.sort((a, b) => (a.post < b.post ? 1 : -1))
+  // let featuredCard = createCard.sort((a, b) => (a.post < b.post ? 1 : -1))
 
   let blogCard = `
   <div class="grid-lg col-3 gap1">${createCard.map(card => `
@@ -103,12 +104,35 @@ exports.handler = async function index(req) {
   </div>
   `
   
-  let headline = `
-  <div class="mb3 text-center">
-    <h1 class="font-black text-p5 text4">The Begin Blog</h1>
-    <h2 class="text-g8">A treatise on elegance.</h2>
-  </div>
-  `
+  // let featuredPost = `
+  // <div class="
+  // mb0
+  // bg-p1
+  // b-p18
+  // radius1
+  // shadow-card
+  // object-contain
+  // transform-scale-hover
+  // transform-scale-active
+  // transition-transform
+  // ">
+  //   <a class="no-underline-lg no-underline" href="/posts/${card.post.replace(".md", "")}">
+  //   <div class="
+  //     pt3
+  //     pb3
+  //     pr1
+  //     pl1
+  //     topCorners
+  //     background-size-cover
+  //     transition-transform
+  //     transition-background-x"
+  //     guides-item-bg-h
+  //     h-gradient
+  //     style="background-image:url(${arc.static(card.frontmatter.image)})">
+  //     <h3 class="text-p1">${card.frontmatter.title}</h3>
+  //   </div> 
+  // </div>
+  // `
 
   return {
     statusCode: 200,
@@ -118,7 +142,7 @@ exports.handler = async function index(req) {
     },
     body: Html({
       children: layout({children: `
-        ${headline}
+       
         ${blogCard}
       `
       })
