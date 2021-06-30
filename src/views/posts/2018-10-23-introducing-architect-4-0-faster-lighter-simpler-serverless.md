@@ -9,8 +9,6 @@ readtime: '5 mins'
 published: 'October 23, 2018'
 ---
 
-# Introducing Architect 4.0: faster, lighter, simpler serverless
-
 ![arc56](arc56.jpg)
 
 <small>"white rods illustration” by Pierre Châtel-Innocenti</small>

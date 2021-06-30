@@ -10,8 +10,6 @@ published: 'October 29, 2018'
 ---
 
 
-# Serverless frontend patterns with Architect Views
-
 ![arc54](arc54.jpg)
 <small>Photo by Val Vesa</small>
 

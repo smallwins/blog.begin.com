@@ -10,8 +10,6 @@ published: 'January 24, 2019'
 ---
 
 
-# Introducing Architect 5.0: fully serverless WebSockets
-
 ![arc44](arc44.jpg)
 <small>Photo by John Barkiple</small>
 

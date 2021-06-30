@@ -10,8 +10,6 @@ published: 'April 30, 2020'
 ---
 
 
-# A brand new primitive for your Begin apps: event functions!
-
 ![arc14](arc14.jpg)
 <small>Photo by Traf</small>
 

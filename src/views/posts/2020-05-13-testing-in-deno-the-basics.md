@@ -10,8 +10,6 @@ published: 'May 13, 2020'
 ---
 
 
-# Testing in Deno: the basics
-
 ![arc13](arc13.jpg)
 <small>Photo by Blanca Paloma Sánchez</small>
 

@@ -10,8 +10,6 @@ published: 'July 15, 2020'
 ---
 
 
-# How-to rename your ‘master’ branch to ‘main’ (or something else)
-
 ![arc8](arc8.jpg)
 <small>Photo by Carly Reeves</small>
 

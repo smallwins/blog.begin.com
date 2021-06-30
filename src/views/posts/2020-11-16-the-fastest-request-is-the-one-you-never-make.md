@@ -9,8 +9,6 @@ readtime: '4 mins'
 published: 'November 16, 2020'
 ---
 
-# The fastest request is the one you never make.
-
 ![arc3](arc3.jpg)
 <small>Photo by NOAA on Unsplash</small>
 

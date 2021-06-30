@@ -10,8 +10,6 @@ published: 'November 09, 2018'
 ---
 
 
-# Enable CORS on your serverless application with a single boolean
-
 ![arc53](arc53.jpg)
 <small>photo by Rye Jessen</small>
 

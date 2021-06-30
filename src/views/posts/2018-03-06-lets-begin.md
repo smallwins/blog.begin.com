@@ -9,8 +9,6 @@ readtime: '6 mins'
 published: 'March 06, 2018'
 ---
 
-# Let’s Begin!
-
 ![arc58](arc58.png)
 
 **Today’s tools for managing work are broken**

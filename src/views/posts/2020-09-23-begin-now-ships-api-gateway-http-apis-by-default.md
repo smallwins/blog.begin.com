@@ -9,8 +9,6 @@ readtime: '3 mins'
 published: 'September 23, 2020'
 ---
 
-# Begin now ships API Gateway HTTP APIs by default
-
 ![arc7](arc7.jpg)
 <small>Photo by Victor Lu</small>
 

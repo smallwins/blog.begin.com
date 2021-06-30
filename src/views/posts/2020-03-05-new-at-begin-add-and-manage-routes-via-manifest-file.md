@@ -9,8 +9,6 @@ readtime: '3 mins'
 published: 'March 05, 2020'
 ---
 
-# New at Begin: add and manage routes via manifest file
-
 ![arc24](arc24.png)
 
 We’ve got some pretty big news for how you build apps on Begin: **it’s finally possible to add and remove your app’s routes entirely via manifest file.**

@@ -10,8 +10,6 @@ published: 'March 09, 2020'
 ---
 
 
-# Serverless app testing with TAP on Begin
-
 ![arc23](arc23.png)
 <small>Testing with TAP is pretty easy!</small>
 

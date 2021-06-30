@@ -9,11 +9,9 @@ readtime: '5 mins'
 published: 'January 22, 2019'
 ---
 
-<small>Photo by John Barkiple</small>
-
-# Introducing Begin Data: DynamoDB made ridiculously easy!
 
 ![arc44](arc44.jpg)
+<small>Photo by John Barkiple</small>
 
 Fast, scalable cloud function-based apps need fast, scalable cloud function-capable persistence.
 

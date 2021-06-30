@@ -9,7 +9,6 @@ readtime: '2 mins'
 published: 'December 21, 2020'
 ---
 
-# Architect 8.4: say hello to Lambda treeshaking
 
 ![arc1](arc1.png)
 

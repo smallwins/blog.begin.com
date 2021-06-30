@@ -10,8 +10,6 @@ published: 'November 13, 2018'
 ---
 
 
-# Serverless ES Modules
-
 ![arc51](arc51.jpg)
 <small>Photo by Johny Goerend</small>
 

@@ -9,8 +9,6 @@ readtime: '2 mins'
 published: 'April 22, 2020'
 ---
 
-# A new view for Begin Data
-
 ![arc15](arc15.png)
 
 [Begin Data](https://docs.begin.com/en/data/begin-data) is a fast, durable key value store that comes with every Begin app — even the free ones!

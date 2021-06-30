@@ -9,8 +9,6 @@ readtime: '4 mins'
 published: 'September 29, 2019'
 ---
 
-# Architect 6.0: Ruby, Python, CDNs, and CloudFormation
-
 ![arc1](arc1.png)
 
 Since 2017, Architect has been the premiere foundation-backed open source serverless framework, with a clear focus on being the simplest, fastest way to build a modern web app.

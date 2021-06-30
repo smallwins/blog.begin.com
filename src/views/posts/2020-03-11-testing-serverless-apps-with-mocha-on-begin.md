@@ -9,8 +9,6 @@ readtime: '3 mins'
 published: 'March 11, 2020'
 ---
 
-# Testing serverless apps with Mocha on Begin
-
 ![arc21](arc21.png)
 
 [Mocha](https://mochajs.org/) is a well known testing framework for Node.js. It can support both xUnit and TAP outputs, and developers can choose their favorite assertion library. Mocha’s flexibility and large community still makes it a great choice for testing your Begin apps.

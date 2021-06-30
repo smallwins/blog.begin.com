@@ -10,8 +10,6 @@ published: 'December 03, 2018'
 ---
 
 
-# The real reason frameworks get adopted
-
 ![arc46](arc46.jpg)
 <small>Photo by Dan Gold</small>
 

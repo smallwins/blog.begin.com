@@ -9,9 +9,6 @@ readtime: '7 mins'
 published: 'March 30, 2016'
 ---
 
-
-# Conversational interaction design: constructing context
-
 ![arc77](arc76.png)
 
 Recently I wrote about interface visibility — the presence and degree of friction in interface design and human computer interaction — and [the idea that it exists distinctly from specific interface paradigms](https://medium.com/@ryan/bots-messaging-and-the-interface-visibility-scale-c77ce56f1401).

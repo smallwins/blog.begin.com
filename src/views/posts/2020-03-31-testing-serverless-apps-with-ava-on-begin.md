@@ -9,8 +9,6 @@ readtime: '4 mins'
 published: 'March 31, 2020'
 ---
 
-# Testing serverless apps with AVA on Begin
-
 ![arc16](arc16.png)
 
 [AVA](http://avajs.dev/) is a testing framework that aims to make your tests and results as concise as possible. The docs are straightforward and illustrate their philosophy towards building a productive test suite. One interesting feature is that AVA output is formatted to show code excerpts where your tests fail. We’ll see an example of that [later on](https://blog.begin.com/testing-serverless-apps-with-ava-on-begin-d0cfc8844df7#8e0e).

@@ -10,8 +10,6 @@ published: 'July 15, 2020'
 ---
 
 
-# Begin supports renaming default GitHub branches
-
 ![arc9](arc9.jpg)
 <small>Photo by Jan Huber</small>
 

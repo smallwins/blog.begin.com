@@ -10,8 +10,6 @@ published: 'November 14, 2018'
 ---
 
 
-# Local, offline serverless app development with Architect
-
 ![arc50](arc50.jpg)
 <small>photo by Valeriy Andrushko</small>
 

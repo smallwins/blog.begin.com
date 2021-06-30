@@ -9,8 +9,6 @@ readtime: '3 mins'
 published: 'December 20, 2019'
 ---
 
-# Serverless Deno support with Architect
-
 ![deno](deno.png)
 
 > This post was last updated May, 2020 as Deno hit 1.0

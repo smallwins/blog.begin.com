@@ -5,6 +5,8 @@ export default function postsLayout (props = {}) {
 
   let children = props.children || ""
   let image = props.image || ""
+  let title = props.title || ""
+
   let avi = props.avi || ""
   let published = props.published || ""
   let author = props.author || ""
@@ -94,16 +96,17 @@ export default function postsLayout (props = {}) {
         >
         </h1>
        
-        ${children}
+        <h1>${title}</h1>
         <div class="flex mt1 mb1">
-          <div class="">
-            <img class="radius-pill" src=${avi} alt='avi' style="height:2rem;"/>
-          </div>
-          <div class="pl-3">
-            <p class="text-p5 text-1">Written by: ${author}</p>
-            <p class="text-g4 text-1">${published}</p>
-          </div>
+        <div class="">
+        <img class="radius-pill" src=${avi} alt='avi' style="height:2rem;"/>
         </div>
+        <div class="pl-3">
+        <p class="text-p5 text-1">Written by: ${author}</p>
+        <p class="text-g4 text-1">${published}</p>
+        </div>
+        </div>
+        ${children}
     
       </div>
     </main>

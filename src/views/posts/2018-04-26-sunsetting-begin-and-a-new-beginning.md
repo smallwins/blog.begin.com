@@ -9,9 +9,6 @@ readtime: '2 mins'
 published: 'April 26, 2018'
 ---
 
-
-# Sunsetting Begin — and a new Beginning
-
 ![arc57](arc57.png)
 <small>Photo by Mario Antonio Pena Zapatería</small>
 

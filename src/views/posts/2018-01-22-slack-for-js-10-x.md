@@ -9,8 +9,6 @@ readtime: '2 mins'
 published: 'January 22, 2018'
 ---
 
-# Slack for JS 10.x! 🔥
-
 ![arc71](arc71.png)
 
 [Slack for JS](https://www.npmjs.com/package/slack) is a super tiny Slack Web API client for NodeJS and the browser.

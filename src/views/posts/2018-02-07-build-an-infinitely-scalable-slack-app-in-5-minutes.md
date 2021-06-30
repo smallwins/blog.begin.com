@@ -10,8 +10,6 @@ published: 'February 07, 2018'
 ---
 
 
-# Build an infinitely scalable* Slack app in 5 minutes
-
 ![arc64](arc64.png)
 <small>Image courtesy gas2</small>
 

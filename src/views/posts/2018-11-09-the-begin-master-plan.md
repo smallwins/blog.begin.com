@@ -9,11 +9,9 @@ readtime: '2 mins'
 published: 'November 09, 2018'
 ---
 
-<small>photo by Ugne Vasyliute</small>
-
-# The Begin master plan
 
 ![arc52](arc52.jpg)
+<small>photo by Ugne Vasyliute</small>
 
 When we got started in 2015, we didn’t set out to build a serverless application platform.
 

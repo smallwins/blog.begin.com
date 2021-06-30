@@ -9,8 +9,6 @@ readtime: '3 mins'
 published: 'October 31, 2019'
 ---
 
-# How to create a bundler-free OpenJS Architect serverless app with Babel
-
 ![arc25](arc25.jpg)
 
 In this article we’ll set up an **OpenJS Architect** project that uses Babel to compile code for AWS Lambda, but without adding a bundler or additional external dependencies. Folks looking for the most minimal serverless setup for a modern JS build step, this is article for you!

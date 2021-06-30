@@ -9,8 +9,6 @@ readtime: '3 mins'
 published: 'March 10, 2020'
 ---
 
-# Serverless app testing with Jest on Begin
-
 ![arc22](arc22.png)
 
 Jest is a super popular and very robust JavaScript testing library. As you likely know, investing in your testing will help you write highly maintainable applications, and help ensure that new code will be less likely to cause regressions.

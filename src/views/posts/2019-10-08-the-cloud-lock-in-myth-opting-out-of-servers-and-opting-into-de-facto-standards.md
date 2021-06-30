@@ -10,8 +10,6 @@ published: 'October 08, 2019'
 ---
 
 
-# The cloud lock-in myth: opting out of servers, and opting into de facto standards
-
 ![arc33](arc33.jpg)
 <small>Photo by Sam Schooler</small>
 

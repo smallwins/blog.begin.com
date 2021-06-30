@@ -10,8 +10,6 @@ published: 'May 14, 2020'
 ---
 
 
-# Serverless Deno + React with server-side rendering on Begin
-
 ![arc11](arc11.jpg)
 <small>Photo by Maria Oswalt on Unsplash</small>
 

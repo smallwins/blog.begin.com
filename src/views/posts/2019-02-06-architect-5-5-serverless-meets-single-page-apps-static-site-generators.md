@@ -10,8 +10,6 @@ published: 'February 06, 2019'
 ---
 
 
-# Architect 5.5: serverless meets single-page apps & static site generators
-
 ![arc39](arc39.jpg)
 <small>Photo by Ahmad Kadhim</small>
 
