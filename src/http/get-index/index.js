@@ -69,8 +69,9 @@ exports.handler = async function index(req) {
       object-contain
       transform-scale-hover
       transform-scale-active
-      transition-transform"
-    >
+      transition-transform
+      relative
+      ">
       <a class="no-underline-lg no-underline" href="/posts/${card.post.replace(".md", "")}">
       <div class="
         pt3
@@ -83,14 +84,15 @@ exports.handler = async function index(req) {
         transition-background-x"
         guides-item-bg-h
         h-gradient
+        
         style="background-image:url(${arc.static(card.frontmatter.image)})">
         <h3 class="text-p1">${card.frontmatter.title}</h3>
       </div>
       
         <div class="p1">  
-          <p class="text-g8 mb-3">${card.frontmatter.description}</p>
+          <p class="text-g8 mb5 pb3">${card.frontmatter.description}</p>
 
-          <div class="flex items-end w-full mt1">
+          <div class="flex items-end w-full mt1 mb1 absolute bottom0">
             <div class="justify-start">
               <img class="radius-pill" src=${card.frontmatter.avi} alt="avi" height="40"/>
               <p class="text-p5 text-1">${card.frontmatter.author}</p>
