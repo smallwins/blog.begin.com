@@ -18,7 +18,7 @@ module.exports = function (hljs, escapeHtml, str, lang) {
         text-h1
         font-semibold
         cursor-pointer
-      ">Copy</button></div><span id="copy-success">Code copied! :)</span><code id="code">${hljs.highlight(str,{language: "vbscript", ignoreIllegals: true}).value}</code></pre>`
+      ">Copy</button></div><span id="copy-success">Code copied! :)</span>${hljs.highlight(str,{language: "vbscript", ignoreIllegals: true}).value}</pre>`
     }
     catch (err) {
       console.error(err)
@@ -41,5 +41,5 @@ module.exports = function (hljs, escapeHtml, str, lang) {
     text-h1
     font-semibold
     cursor-pointer
-  ">Copy</button></div><span id="copy-success">Code copied! :)</span><code>${escapeHtml(str)}</code></pre>`
+  ">Copy</button></div><span id="copy-success">Code copied! :)</span>${escapeHtml(str)}</pre>`
 }

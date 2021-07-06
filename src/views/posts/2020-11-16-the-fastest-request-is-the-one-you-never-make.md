@@ -20,9 +20,12 @@ As web developers, we interact directly with the application layer through HTTP.
 
 Creating unique filenames will force the cache to update but managing those file names can be cumbersome. Each asset becomes a new file every time you update it. For example: `index.js` becomes `index-somehash123.js` after a saved change. Then it will update again to `index-somehas456.js` after another saved change. This process hashing a filename is known as fingerprinting.
 
-Let’s start by creating a new Begin app, where we will add an API route that will return the fingerprinted filename of the client-side JavaScript file at runtime!
+**Let’s start by creating a new Begin app, where we will add an API route that will return the fingerprinted filename of the client-side JavaScript file at runtime!**
 
-![Deploy to begin](deploy-to-begin.png)
+<!-- ![Deploy to begin](deploy-to-begin.png) -->
+
+<div class="mb5 mt5" align="center"><a href="https://begin.com/apps/create?template=https://github.com/pchinjr/fcc-serverless-api"><img height="70" src="https://res.cloudinary.com/practicaldev/image/fetch/s--yYw27_-V--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://static.begin.com/deploy-to-begin.svg" alt="Deploy to Begin" loading="lazy"></a></div>
+
 
 Take a look at the static assets tab in your Begin console and you will see two files that have been uploaded to S3 that correspond to the /public folder in the project.
 
@@ -108,7 +111,7 @@ return {
 
 - Deploy a new Personal Website to Begin in 30 seconds (no credit card required):
 
-![Deploy to begin](deploy-to-begin.png)
+<div class="mb5 mt5" align="center"><a href="https://begin.com/apps/create?template=https://github.com/pchinjr/fcc-serverless-api"><img height="70" src="https://res.cloudinary.com/practicaldev/image/fetch/s--yYw27_-V--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://static.begin.com/deploy-to-begin.svg" alt="Deploy to Begin" loading="lazy"></a></div>
 
 - [Try out another Begin tutorial, like a full CRUD app with Begin Data!](https://docs.begin.com/en/guides/crud-app)
 - 🌟 Check out (and star!) Begin’s open core [OpenJS Architect on GitHub](https://github.com/architect/architect)

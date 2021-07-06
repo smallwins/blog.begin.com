@@ -140,11 +140,12 @@
   border-top-right-radius:4px;
   border-top-left-radius:4px;
 }
-/* 
+
 code {
-  background-color: #272822;
-  color: #272822;
-  border-radius: 0.3em;
-  padding: 4px 5px 6px;
+  background-color: #ffe8f0;
+  color: #eb0052;
+  font-size: 0.888rem;
+  border-radius: 0.2em;
+  padding: 2px 6px 2px;
   white-space: nowrap;
-} */
+}
