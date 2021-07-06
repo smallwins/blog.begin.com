@@ -10,7 +10,7 @@ published: 'October 29, 2018'
 ---
 
 
-![arc54](arc54.jpg)
+![arc54](post-assets/arc54.jpg)
 <small>Photo by Val Vesa</small>
 
 [Architect](https://arc.codes/) projects can now use the `src/views` directory, which automatically shares code to all — or just some — of your project’s `@http` `GET` functions.

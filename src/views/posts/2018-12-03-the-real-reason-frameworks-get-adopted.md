@@ -10,7 +10,7 @@ published: 'December 03, 2018'
 ---
 
 
-![arc46](arc46.jpg)
+![arc46](post-assets/arc46.jpg)
 <small>Photo by Dan Gold</small>
 
 Sitting down to write a serverless application in 2018 feels a lot like it did to write a greenfield web application in the pre-Rails and Django times. Before the titanic Ruby and Python frameworks were de rigeur, things were slow, messy, and there were no conventions to speak of.
@@ -23,7 +23,7 @@ That pre-framework milieu of creating web applications felt a lot like what it f
 
 The complexity of XML Java config has been replaced with gigantic sentient CloudFormation YAML files which, once capable of describing themselves, may actually pose a threat to humanity. The cloud can be an intimidating place, and getting started with cutting edge tech like Lambda and DynamoDB just isn’t easy enough — or at least it wasn’t.
 
-![arc47](arc47.png)
+![arc47](post-assets/arc47.png)
 
 Begin is a serverless application platform that allows beginners and experts alike to deploy fully functional, production ready, secure, and scalable FaaS-based applications in under a minute. Begin is composed of three major elements:
 

@@ -9,7 +9,7 @@ readtime: '2 mins'
 published: 'April 22, 2020'
 ---
 
-![arc15](arc15.png)
+![arc15](post-assets/arc15.png)
 
 [Begin Data](https://docs.begin.com/en/data/begin-data) is a fast, durable key value store that comes with every Begin app — even the free ones!
 
@@ -27,7 +27,7 @@ We heard that you wanted to be able to access your Begin Data from the Begin con
 
 Head to your app, **click Data in the left nav**, and from there you can see and better manage your persistent storage:
 
-![arc15](arc15.png)
+![arc15](post-assets/arc15.png)
 
 ## Learn more about Begin Data
 

@@ -9,7 +9,7 @@ readtime: '3 mins'
 published: 'March 10, 2020'
 ---
 
-![arc22](arc22.png)
+![arc22](post-assets/arc22.png)
 
 Jest is a super popular and very robust JavaScript testing library. As you likely know, investing in your testing will help you write highly maintainable applications, and help ensure that new code will be less likely to cause regressions.
 
@@ -80,7 +80,7 @@ test('data.get', async () => {
 
 Pushing your code to GitHub will automatically run your test suite (and deploy your code to the `staging` environment). View the results of your latest build’s test output in the Begin Activity view:
 
-![arc21](arc22.png)
+![arc21](post-assets/arc22.png)
 
 <small>Say ‘Hi’ to Ship It Squirrel for me.</small>
 

@@ -10,7 +10,7 @@ published: 'May 13, 2020'
 ---
 
 
-![arc13](arc13.jpg)
+![arc13](post-assets/arc13.jpg)
 <small>Photo by Blanca Paloma Sánchez</small>
 
 > Deno is a next-generation JavaScript runtime that makes 

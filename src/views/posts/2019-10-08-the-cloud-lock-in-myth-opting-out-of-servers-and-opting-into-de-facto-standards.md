@@ -1,5 +1,5 @@
 ---
-title: The cloud lock-in myth:opting out of servers, and opting into de facto standards
+title: 'The cloud lock-in myth: opting out of servers, and opting into de facto standards'
 image: 'image.png' 
 category: uncategorized
 description: The forecast is cloudy; with zero chance of servers
@@ -10,7 +10,7 @@ published: 'October 08, 2019'
 ---
 
 
-![arc33](arc33.jpg)
+![arc33](post-assets/arc33.jpg)
 <small>Photo by Sam Schooler</small>
 
 Practically all future compute workloads will run on cloud vendor infra. This is hardly a controversial statement in late 2019. But where we are in this lengthy transition, and how it will unfold, is still heavily debated, as are the considerations behind deciding on cloud vendors, and services. The flashpoint of this debate is, as ever, anxiety around lock-in — a scary and nebulous concept that strikes fear into the hearts of devs and CTOs alike.
@@ -55,7 +55,7 @@ In the world of internet connected software it’s common to think of standards 
 
 Likewise, there are many **de facto standards**, which represent that which has informally achieved a dominant position by public acceptance. Internet Explorer’s famous (and nearly two decades old) XMLHttpRequest is a very good example of a de facto standard — bewildering spelling and all.
 
-![arc34](arc34.png)
+![arc34](post-assets/arc34.png)
 
 It’s important to differentiate between specs and standards. Specs are valuable, and may signal stability. But specs that precede an implementation usually fail because of the classic software discovery conundrum: something will be missed, and the consequences may make implementation terrible or impossible (see: soap/ws-* and XML-RPC).
 
@@ -73,7 +73,7 @@ If the personal computing, first/second wave internet computing, and mobile comp
 
 ## Join or die
 
-![arc35](arc35.jpg)
+![arc35](post-assets/arc35.jpg)
 
 When (re)evaluating your stack, consider whether the competitive landscape affords you the luxury of not using the best technology available today. Do you want to compete against companies in your space that are equipped with faster lead times to production, greater developer focus on business logic, and affordable elastic scalability?
 

@@ -1,5 +1,5 @@
 ---
-title: Architect 5.5:serverless meets single-page apps & static site generators
+title: 'Architect 5.5: serverless meets single-page apps & static site generators'
 image: 'image.png' 
 category: uncategorized
 description: Seamless integration of SPAs & static site generators with a super-fast serverless backend
@@ -10,7 +10,7 @@ published: 'February 06, 2019'
 ---
 
 
-![arc39](arc39.jpg)
+![arc39](post-assets/arc39.jpg)
 <small>Photo by Ahmad Kadhim</small>
 
 We’re extremely excited to announce **Architect 5.5 (Catalope)¹**, bringing seamless in-network, same-domain integration of SPAs, static site generators, and AWS serverless systems like Lambda and DynamoDB.
@@ -23,7 +23,7 @@ Architect’s static asset support runs deep. Your project’s `public/ `folder 
 
 But now we have a path forward to support current-generation SSR and SPA apps and their tooling— and even better, this approach allows you to mix and match these techniques on a **per URL** basis. Here’s an example of what we mean:
 
-![arc40](arc40.png)
+![arc40](post-assets/arc40.png)
 
 In **Architect 5.5**, requests to your app that are not already defined by your Architect project manifest flow through your serverless infrastructure’s HTTP `get /` route, which can now selectively proxy and cache requests to your public website S3 buckets (or 404, as you please).
 
@@ -31,7 +31,7 @@ This model enables intercepting, processing, and caching content from S3 via Lam
 
 The following `app.arc` project manifest defines a root HTTP lambda handler and two S3 buckets.
 
-![arc41](arc41.png)
+![arc41](post-assets/arc41.png)
 
 <small>JSF Architect can also operate on arc.json or arc.yaml files should you prefer those syntaxes</small>
 
@@ -50,7 +50,7 @@ Setting {spa:true} will ensure no matter what URL folder depth the `public/index
 
 Let’s imagine a full serverless REST app:
 
-![arc42](arc42.png)
+![arc42](post-assets/arc42.png)
 
 <small>Each line under @http is a different lambda function</small>
 
@@ -98,7 +98,7 @@ Stay tuned, we have a lot more in store for 2019! 🐍💎
 - [Try out the demo app locally (no AWS required!)²](https://github.com/arc-repos/arc-example-spa)
 - 💓 Build something cool and [tell us about it on Twitter](https://twitter.com/begin)!
 
-![arc43](arc43.png)
+![arc43](post-assets/arc43.png)
 
 ¹ 5.5: a little tribute to one of the greats… the browser that sparked the flame that would become AJAX, SPAs, and so much more: Internet Explorer 5.5! 💓
 

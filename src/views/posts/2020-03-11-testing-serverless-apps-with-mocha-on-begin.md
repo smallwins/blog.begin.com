@@ -9,7 +9,7 @@ readtime: '3 mins'
 published: 'March 11, 2020'
 ---
 
-![arc21](arc21.png)
+![arc21](post-assets/arc21.png)
 
 [Mocha](https://mochajs.org/) is a well known testing framework for Node.js. It can support both xUnit and TAP outputs, and developers can choose their favorite assertion library. Mocha’s flexibility and large community still makes it a great choice for testing your Begin apps.
 
@@ -88,7 +88,7 @@ Even though this example does not implement [Begin Data](https://docs.begin.com/
 
 It’s finally time to see your beautiful app in production. Pushing code to GitHub will automatically run the tests defined in your `package.json` (and deploy your code to the `staging` environment). View the results of your latest build’s test output in the Begin Activity view:
 
-![arc21](arc21.png)
+![arc21](post-assets/arc21.png)
 
 <small>Say ‘Hi’ to Ship It Squirrel for me.</small>
 

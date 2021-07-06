@@ -1,5 +1,5 @@
 ---
-title: Architect 8.3:custom file paths & much more
+title: 'Architect 8.3: custom file paths & much more'
 image: 'image.png' 
 category: uncategorized
 description: By popular demand:OpenJS Architect 8.3 (El Chupacabra) now supports custom file paths, custom Lambda templates, a fresh new local (and global) preferences file, and lots more!
@@ -9,7 +9,7 @@ readtime: '4 mins'
 published: 'November 16, 2020'
 ---
 
-![arc3](arc3.jpg)
+![arc3](post-assets/arc3.jpg)
 <small>Photo by NOAA on Unsplash</small>
 
 ## C.R.E.A.M — Cache rules everything around me
@@ -26,7 +26,7 @@ Let’s start by creating a new Begin app, where we will add an API route that w
 
 Take a look at the static assets tab in your Begin console and you will see two files that have been uploaded to S3 that correspond to the /public folder in the project.
 
-![arc4](arc4.png)
+![arc4](post-assets/arc4.png)
 
 Next, let’s edit `app.arc` by adding `@static fingerprint true` which will fingerprint the files and create an asset manifest, `public/static.json`.
 
@@ -42,7 +42,7 @@ fingerprint true
 
 After you push that change to your default branch, Begin will create a new build. Now take another look at the Static Assets tab. Your app is configured to serve the latest asset from a long-lived cache. Your S3 bucket will have `background-fingerprint123.jpg`, but your client-side code will still recognize `background.jpg`, thanks to `static.json`!
 
-![arc5](arc5.png)
+![arc5](post-assets/arc5.png)
 
 Now you know that users will always have the freshest content.
 
@@ -100,7 +100,7 @@ return {
 
 `arc.static` is a helpful method that returns a URI path to your static asset file based on a lookup from `static.json`.
 
-![arc6](arc6.png)
+![arc6](post-assets/arc6.png)
 
 `background.jpg` is now `background-c580ddd102.jpg` and we can let `arc.static()` keep track of the full file reference for you!
 

@@ -9,7 +9,7 @@ readtime: '3 mins'
 published: 'September 23, 2020'
 ---
 
-![arc7](arc7.jpg)
+![arc7](post-assets/arc7.jpg)
 <small>Photo by Victor Lu</small>
 
 We’re excited to announce that all new Begin apps will now ship with next-generation AWS API Gateway `HTTP` APIs by default!

@@ -10,7 +10,7 @@ published: 'February 07, 2018'
 ---
 
 
-![arc64](arc64.png)
+![arc64](post-assets/arc64.png)
 <small>Image courtesy gas2</small>
 
 Everyone’s favorite work messaging app — Slack — offers a powerful, open platform for developing rich applications in an increasingly important venue: where teams work and communicate together online. (This is why we started Begin!)
@@ -128,7 +128,7 @@ You can find the URLs by navigating to API Gateway in the AWS Console, selecting
 
 For reference, the generated routes will be something like these:
 
-![arc65](arc65.png)
+![arc65](post-assets/arc65.png)
 
 <small>Staging and Production isolation means you setup two separate Slack apps. Seems a bit painful at first but as you iterate on your app you will find it is worth it.</small>
 
@@ -140,17 +140,17 @@ Now we need to create and configure your Slack application with these newly gene
 
 Navigate to https://api.slack.com and click on **“Your Apps” → “Create New App”.**
 
-![arc66](arc66.png)
+![arc66](post-assets/arc66.png)
 
 Once you’ve created your app, then navigate to “**Slash Command**” in the left column, and click the “**Create New Command**” button.
 
 The **Request URL** value should be your `/staging/bot/slash` path from the routes you just generated (so it should look something like https://xxx.execute-api.us-west-1.amazonaws.com/staging/bot/slash).
 
-![arc67](arc67.png)
+![arc67](post-assets/arc67.png)
 
 To help make initial testing easier, you can install the app to your personal Slack workspace by navigating to **“Basic Information”** and clicking **“Install App to Workspace”**. (In a future post we’ll properly wire up the production install process with **Add to Slack**.)
 
-![arc68](arc68.png)
+![arc68](post-assets/arc68.png)
 
 ## Step 3: Write a bit of code! ⌨
 
@@ -183,7 +183,7 @@ Next, deploy the changes to `staging` by running `npm run deploy`. A full deploy
 
 Now go test the app in Slack!
 
-![arc69](arc69.png)
+![arc69](post-assets/arc69.png)
 
 ### B. Action handler code
 
@@ -191,7 +191,7 @@ Ok, time to make that button actually do something. Go back to the app configura
 
 Set the **Request URL** to your `/staging/bot/actions` path. Don’t forget to hit “**Save changes**”!
 
-![arc70](arc70.png)
+![arc70](post-assets/arc70.png)
 
 Back in your local project, `src/slack/bot-actions/index.js` should read:
 

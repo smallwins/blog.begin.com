@@ -10,7 +10,7 @@ published: 'November 09, 2018'
 ---
 
 
-![arc52](arc52.jpg)
+![arc52](post-assets/arc52.jpg)
 <small>photo by Ugne Vasyliute</small>
 
 When we got started in 2015, we didn’t set out to build a serverless application platform.

@@ -9,7 +9,7 @@ readtime: '3 mins'
 published: 'October 31, 2019'
 ---
 
-![arc25](arc25.jpg)
+![arc25](post-assets/arc25.jpg)
 
 In this article we’ll set up an Architect project that uses TypeScript to compile code for AWS Lambda.
 
@@ -92,7 +92,7 @@ Work locally, then deploy to AWS when you’re happy with your app
 
 ## Set up CI/CD
 
-![arc27.png](arc27.png)
+![arc27.png](post-assets/arc27.png)
 
 Now that everything is working locally we can set up Begin to deploy our code from GitHub whenever we commit. Login to Begin with your GitHub account, click New app, and scroll to the big Import app button. (My first build was completed in 11.003 seconds!)
 
@@ -102,7 +102,7 @@ You can use the GitHub repo [brianleroux/arc-example-typescript](https://github.
 
 Now you’re up and running with serverless TypeScript.
 
-![arc27.png](arc27.png)
+![arc27.png](post-assets/arc27.png)
 
 `async function handler (req: object) {}` returns the above!
 

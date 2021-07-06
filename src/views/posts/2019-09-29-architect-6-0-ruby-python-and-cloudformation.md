@@ -1,5 +1,5 @@
 ---
-title: Architect 6.0:Ruby, Python, CDNs, and CloudFormation
+title: 'Architect 6.0: Ruby, Python, CDNs, and CloudFormation'
 image: 'image.png' 
 category: uncategorized
 description: The simplest, fastest way to build modern applications just got a lot more powerful
@@ -9,7 +9,7 @@ readtime: '4 mins'
 published: 'September 29, 2019'
 ---
 
-![arc1](arc1.png)
+![arc1](post-assets/arc1.png)
 
 Since 2017, Architect has been the premiere foundation-backed open source serverless framework, with a clear focus on being the simplest, fastest way to build a modern web app.
 
@@ -23,7 +23,7 @@ Want to give it a go? Here’s the super quickstart, no AWS credentials required
 npm i -g @architect/architect
 ```
 
-![arc36](arc36.png)
+![arc36](post-assets/arc36.png)
 
 [Learn more about building with Architect’s various serverless app primitives](https://arc.codes/quickstart/layout), such as [HTTP functions](https://arc.codes/primitives/http), [WebSockets](https://arc.codes/primitives/ws), [events](https://arc.codes/primitives/events), and more.
 
@@ -33,7 +33,7 @@ There’s a lot of exciting changes enabled by the move to CloudFormation which 
 
 ## Ruby & Python
 
-![arc37](arc37.png)
+![arc37](post-assets/arc37.png)
 
 Architect now includes first-class Ruby and Python support, in addition to Node.js. You can go all-in with a single runtime for all cloud functions in your project, or you can leverage the strengths of each by mixing and matching runtimes on a per-cloud-function basis.
 
@@ -95,6 +95,6 @@ Technology is not a zero sum game, and we’d also like to acknowledge and thank
 
 Since open sourcing Architect with the OpenJS Foundation, there have been over 280 releases — [with more to come based on your feedback](https://github.com/architect/architect/issues/new/choose) and contributions!
 
-![arc38](arc38.png)
+![arc38](post-assets/arc38.png)
 
 <small>The mighty Ogopogo!</small>

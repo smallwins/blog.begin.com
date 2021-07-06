@@ -1,5 +1,5 @@
 ---
-title: Introducing Architect 4.0:faster, lighter, simpler serverless
+title: 'Introducing Architect 4.0: faster, lighter, simpler serverless'
 image: 'image.png' 
 category: uncategorized
 description: We’ve been listening to your feedback and today we’re extremely excited to introduce Architect 4.0 (Yeti), the fastest, simplest, most powerful way to build serverless applications.
@@ -9,7 +9,7 @@ readtime: '5 mins'
 published: 'October 23, 2018'
 ---
 
-![arc56](arc56.jpg)
+![arc56](post-assets/arc56.jpg)
 
 <small>"white rods illustration” by Pierre Châtel-Innocenti</small>
 
@@ -174,4 +174,4 @@ With this release, as always, we’d like to give a shout out to all the members
 
 Of course, if you’re not too busy, we’d certainly [appreciate a ⭐️ on GitHub](https://github.com/arc-repos/architect).
 
-![arc49](arc49.png)
+![arc49](post-assets/arc49.png)

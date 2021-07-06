@@ -9,7 +9,7 @@ readtime: '4 mins'
 published: 'March 31, 2020'
 ---
 
-![arc16](arc16.png)
+![arc16](post-assets/arc16.png)
 
 [AVA](http://avajs.dev/) is a testing framework that aims to make your tests and results as concise as possible. The docs are straightforward and illustrate their philosophy towards building a productive test suite. One interesting feature is that AVA output is formatted to show code excerpts where your tests fail. We’ll see an example of that [later on](https://blog.begin.com/testing-serverless-apps-with-ava-on-begin-d0cfc8844df7#8e0e).
 
@@ -77,7 +77,7 @@ test('@begin/data', async t => {
 
 AVA has an interesting feature with its test output which shows code excerpts and diffs between expected and actual values. This actually helped me while creating this very example app: I misspelled a variable name, and not only did the test fail, it showed me the difference. Using tools like linters and test runners saves time and frustration during development.
 
-![arc17](arc17.png)
+![arc17](post-assets/arc17.png)
 
 <small>Modern debugging is often an exercise in spell check.</small>
 
@@ -85,7 +85,7 @@ AVA has an interesting feature with its test output which shows code excerpts an
 
 Now it’s time to really see all your hard work pay off. Pushing your code to GitHub will automatically run your test suite (and deploy your code to the `staging` environment). View the results of your latest build’s test output in the Begin Activity view:
 
-![arc16](arc16.png)
+![arc16](post-assets/arc16.png)
 
 <small>Great Success!</small>
 

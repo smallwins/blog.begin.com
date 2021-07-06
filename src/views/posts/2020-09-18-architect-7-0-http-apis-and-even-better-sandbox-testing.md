@@ -1,5 +1,5 @@
 ---
-title: Architect 7.0:HTTP APIs and even better Sandbox testing!
+title: 'Architect 7.0: HTTP APIs and even better Sandbox testing!'
 image: 'image.png' 
 category: uncategorized
 description: By popular demand:API Gateway HTTP APIs are now the default in Architect serverless apps
@@ -9,7 +9,7 @@ readtime: '4 mins'
 published: 'September 18, 2020'
 ---
 
-![arc1](arc1.png)
+![arc1](post-assets/arc1.png)
 
 [OpenJSF Architect](https://arc.codes/) now powers thousands of serverless applications all over the world. Folks continue to tell us they value its focused, direct, stable, lock-in-free approach to building blazing fast modern web apps without ever having to manage a single server.
 
@@ -21,7 +21,7 @@ Chupacabra now deploys AWS API Gateway v2.0 (aka `HTTP`) APIs by default, and sh
 
 Want to give it a go? Here’s the super quickstart, no AWS credentials required:
 
-![arc6](arc6.gif)
+![arc6](post-assets/arc6.gif)
 
 First: `npm init @architect ./your-app-name`
 Then: `npx arc sandbox`
@@ -108,6 +108,6 @@ Since releasing Architect with the OpenJS Foundation, there have been over 390 r
 Oh, and don’t forget to join the [Architect conversation in Slack](https://architecture-as-text.slack.com/archives/C6BGT0D08/p1600199636147600)!
 
 
-![Art by Michael Ramstead](arc2.png)
+![Art by Michael Ramstead](post-assets/arc2.png)
 
 <small>Art by [Michael Ramstead](https://www.michaelramstead.com/)</small>

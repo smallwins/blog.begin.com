@@ -1,5 +1,5 @@
 ---
-title: Architect 8.0:HTTP catchall syntax, @proxy, new HTTP methods, npm 7 compat
+title: 'Architect 8.0: HTTP catchall syntax, @proxy, new HTTP methods, npm 7 compat'
 image: 'image.png' 
 category: uncategorized
 description: More flexible and powerful than ever, with greedy catchall syntax, and legacy server migration with @proxy
@@ -9,7 +9,7 @@ readtime: '3 mins'
 published: 'October 16, 2020'
 ---
 
-![arc1](arc1.png)
+![arc1](post-assets/arc1.png)
 
 [OpenJSF Architect](https://arc.codes/) powers thousands of real production serverless applications all over the world. We continue to hear how valuable folks find its focused, direct, stable, lock-in-free approach to building blazing fast modern web apps without ever having to manage a single server.
 
@@ -19,7 +19,7 @@ Today we’re announcing Architect 8 (El Chupacabra), which adds the newest Arch
 
 Want to give it a go? Here’s the super quickstart, no AWS credentials required:
 
-![arc6](arc6.gif)
+![arc6](post-assets/arc6.gif)
 
 First: `npm init @architect ./your-app-name`
 Then: `npx arc sandbox`
@@ -84,6 +84,6 @@ As ever, we must express our gratitude to the Architect community for its feedba
 
 Don’t forget to join the [Architect conversation in Slack!](https://architecture-as-text.slack.com/archives/C6BGT0D08/p1600199636147600)
 
-![Art by Michael Ramstead](arc2.png)
+![Art by Michael Ramstead](post-assets/arc2.png)
 
 <small>Art by [Michael Ramstead](https://www.michaelramstead.com/)</small>

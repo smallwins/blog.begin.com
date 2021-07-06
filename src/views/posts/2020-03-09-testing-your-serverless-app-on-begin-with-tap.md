@@ -10,7 +10,7 @@ published: 'March 09, 2020'
 ---
 
 
-![arc23](arc23.png)
+![arc23](post-assets/arc23.png)
 <small>Testing with TAP is pretty easy!</small>
 
 [Node-Tap (part of the TAP family)](https://node-tap.org/) is a mature, powerful, and lightweight testing framework that help you write highly maintainable applications, and help ensure that new code will be less likely to cause regressions.
@@ -87,7 +87,7 @@ tap.test('data.get', async t => {
 Pushing your code to GitHub will automatically run your test suite (and deploy your code to the `staging` environment). View the results of your latest build’s test output in the Begin Activity view:
 
 
-![arc21](arc22.png)
+![arc21](post-assets/arc22.png)
 
 <small>Say ‘Hi’ to Ship It Squirrel for me.</small>
 

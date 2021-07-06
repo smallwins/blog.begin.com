@@ -10,7 +10,7 @@ published: 'November 14, 2018'
 ---
 
 
-![arc50](arc50.jpg)
+![arc50](post-assets/arc50.jpg)
 <small>photo by Valeriy Andrushko</small>
 
 > Devs require the ability to preview work before committing it and, perhaps more importantly, the ability to run unit and integration tests as fast as possible. Time is precious, and every iteration counts — extra steps unnecessarily extend the feedback loop and lead time to production. [Architect serverless framework](https://www.npmjs.com/package/@architect/architect) is organized and optimized around these principles.

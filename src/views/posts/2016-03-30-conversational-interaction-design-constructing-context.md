@@ -1,5 +1,5 @@
 ---
-title: Conversational interaction design:constructing context
+title: 'Conversational interaction design: constructing context'
 image: 'image.png' 
 category: uncategorized
 description: Recently I wrote about interface visibility — the presence and degree of friction in interface design and human computer interaction — and the idea that it exists distinctly from specific interface paradigms.
@@ -9,7 +9,7 @@ readtime: '7 mins'
 published: 'March 30, 2016'
 ---
 
-![arc77](arc76.png)
+![arc77](post-assets/arc76.png)
 
 Recently I wrote about interface visibility — the presence and degree of friction in interface design and human computer interaction — and [the idea that it exists distinctly from specific interface paradigms](https://medium.com/@ryan/bots-messaging-and-the-interface-visibility-scale-c77ce56f1401).
 
@@ -17,7 +17,7 @@ Since then I’ve been itching to revisit and dig a little deeper into the nuts 
 
 The space is still super early, but in my (admittedly brief) time designing bot interactions, I’ve noticed a few key patterns that have shaped my own mental model for constructing seamless conversational interactions.
 
-![arc77](arc77.png)
+![arc77](post-assets/arc77.png)
 
 ## Initiation
 
@@ -73,7 +73,7 @@ When it comes to interactions with bot, alignment should be the highest-order us
 
 ## Achieving alignment
 
-![arc78](arc78.jpg)
+![arc78](post-assets/arc78.jpg)
 
 I’d wager there’s a whole other post, maybe even a book, in user-bot alignment. But it’s still very early days, so let’s just set the table for now.
 
@@ -119,4 +119,4 @@ Hopefully it doesn’t come as any surprise, but I’m working with some wonderf
 
 Thanks to [Phil Libin](https://twitter.com/plibin), [Ryan Freitas](https://twitter.com/ryanchris), [Angelina Fabbro](https://twitter.com/hopefulcyborg), [Amber Costley](https://twitter.com/amberdawn), [MSG](https://twitter.com/msg), [Van Miranda](https://twitter.com/van_miranda), [Ryan Hoover](https://twitter.com/rrhoover), and [Veronica Belmont](https://twitter.com/veronica) for reading early drafts of this!
 
-![arc79](arc79.png)
+![arc79](post-assets/arc79.png)

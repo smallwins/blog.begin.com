@@ -1,5 +1,5 @@
 ---
-title: Architect 4.1:serverless, meet frontend workflows
+title: 'Architect 4.1: serverless, meet frontend workflows'
 image: 'image.png' 
 category: uncategorized
 description: Last week we released Architect 4 (Yeti), focused on simplicity and speed. Today we’re incredibly stoked to share Architect 4.1, our most frontend friendly release ever.
@@ -10,7 +10,7 @@ published: 'October 29, 2018'
 ---
 
 
-![arc55](arc55.jpg)
+![arc55](post-assets/arc55.jpg)
 <small>Photo by Val Vesa</small>
 
 Last week we [released Architect 4 (Yeti)](https://blog.begin.com/introducing-architect-4-0-faster-lighter-simpler-serverless-59f6dc156bf2), focused on simplicity and speed. Today we’re incredibly stoked to share [Architect 4.1](https://arc.codes/), our most frontend friendly release ever.
@@ -92,4 +92,4 @@ mkdir src/views
 npx sandbox
 ```
 
-![arc49](arc49.png)
+![arc49](post-assets/arc49.png)

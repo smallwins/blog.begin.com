@@ -9,7 +9,7 @@ readtime: '2 mins'
 published: 'September 25, 2017'
 ---
 
-![arc71](arc71.png)
+![arc71](post-assets/arc71.png)
 
 Super stoked to share the latest version of our JS client for the Slack Web API! You can find the [source code here](https://github.com/smallwins/slack) and the [npm distribution here](https://npmjs.com/slack).
 

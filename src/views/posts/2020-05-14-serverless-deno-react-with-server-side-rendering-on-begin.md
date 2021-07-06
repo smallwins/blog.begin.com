@@ -10,7 +10,7 @@ published: 'May 14, 2020'
 ---
 
 
-![arc11](arc11.jpg)
+![arc11](post-assets/arc11.jpg)
 <small>Photo by Maria Oswalt on Unsplash</small>
 
 [Deno](https://deno.land/) is a next-generation JavaScript runtime that features a built-in TypeScript compiler and code bundler, allowing developers to create applications without Webpack, Babel, or Rollup. Oh, and we can run Deno in serverless functions! Combining these results in a much cleaner codebase for server-side rendered React.js applications.
@@ -159,7 +159,7 @@ render() {
 
 Our app is now a real-time clock that executes on the client to update the DOM every second with the current time.
 
-![arc12](arc12.jpg)
+![arc12](post-assets/arc12.jpg)
 <small>Photo by Cara Fuller on Unsplash</small>
 
 ## Local development

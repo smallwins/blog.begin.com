@@ -1,5 +1,5 @@
 ---
-title: Introducing Architect 5.0:fully serverless WebSockets
+title: 'Introducing Architect 5.0: fully serverless WebSockets'
 image: 'image.png' 
 category: uncategorized
 description: Realtime serverless compute is here!
@@ -10,7 +10,7 @@ published: 'January 24, 2019'
 ---
 
 
-![arc44](arc44.jpg)
+![arc44](post-assets/arc44.jpg)
 <small>Photo by John Barkiple</small>
 
 We’re thrilled to announce Architect 5.0 (Catalope), with full API Gateway WebSocket integration. We can’t wait to share what we learned, current limitations, and our excitement for future serverless WebSockets support unlocks.
@@ -220,6 +220,6 @@ Running `npx sandbox` also kicks up `ws://localhost:3333` and ensures `src/ws/*`
 - [Try out the demo app locally (no AWS required!)](https://github.com/arc-repos/arc-example-ws)
 - 💓 Build something cool and [tell us about it on Twitter](https://twitter.com/begin)!
 
-![arc45](arc45.png)
+![arc45](post-assets/arc45.png)
 
 <small>The fearsome Catalope!</small>

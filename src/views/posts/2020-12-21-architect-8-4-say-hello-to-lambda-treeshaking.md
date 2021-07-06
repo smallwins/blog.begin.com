@@ -1,5 +1,5 @@
 ---
-title: Architect 8.4:say hello to Lambda treeshaking
+title: 'Architect 8.4: say hello to Lambda treeshaking'
 image: 'image.png' 
 category: uncategorized
 description: One of the thing that sets OpenJS Architect apart from other serverless tools is its opinion that serverless apps work best when composed of many small, discrete Lambda cloud functions.
@@ -10,7 +10,7 @@ published: 'December 21, 2020'
 ---
 
 
-![arc1](arc1.png)
+![arc1](post-assets/arc1.png)
 
 One of the thing that sets OpenJS Architect apart from other serverless tools is its opinion that serverless apps work best when composed of many small, discrete Lambda cloud functions.
 
@@ -74,6 +74,6 @@ We think this is a massive step forward in the ergonomics of building cloud func
 
 ¹ Architect will ship ESM support when Lambda ships Node.js 14 support; dynamic requires are not supported
 
-![Art by Michael Ramstead](arc2.png)
+![Art by Michael Ramstead](post-assets/arc2.png)
 
 <small>Art by [Michael Ramstead](https://www.michaelramstead.com/)</small>

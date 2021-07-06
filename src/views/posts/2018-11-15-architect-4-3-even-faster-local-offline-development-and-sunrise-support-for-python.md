@@ -1,5 +1,5 @@
 ---
-title: Architect 4.3:even faster local offline development, and sunrise support for Python!
+title: 'Architect 4.3: even faster local offline development, and sunrise support for Python!'
 image: 'image.png' 
 category: uncategorized
 description: Architect treats local offline development of serverless apps as a first-class concern, and today we’re taking it to the next level.
@@ -9,7 +9,7 @@ readtime: '2 mins'
 published: 'November 15, 2018'
 ---
 
-![arc48](arc48.gif)
+![arc48](post-assets/arc48.gif)
 
 [Architect](https://arc.codes/) treats local offline development of serverless apps as a first-class concern, and today we’re taking it to the next level.
 
@@ -88,4 +88,4 @@ def handler(event, context):
 npx sandbox
 ```
 
-![arc49](arc49.png)
+![arc49](post-assets/arc49.png)

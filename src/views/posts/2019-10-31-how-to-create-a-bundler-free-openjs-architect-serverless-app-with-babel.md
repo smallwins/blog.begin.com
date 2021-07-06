@@ -9,7 +9,7 @@ readtime: '3 mins'
 published: 'October 31, 2019'
 ---
 
-![arc25](arc25.jpg)
+![arc25](post-assets/arc25.jpg)
 
 In this article we’ll set up an **OpenJS Architect** project that uses Babel to compile code for AWS Lambda, but without adding a bundler or additional external dependencies. Folks looking for the most minimal serverless setup for a modern JS build step, this is article for you!
 
@@ -102,7 +102,7 @@ Add the classic npm start and `npm run build` commands, and set up `npm run buil
 
 ## Set up CI/CD
 
-![arc29](arc29.png)
+![arc29](post-assets/arc29.png)
 
 Now that everything is working locally we can set up [Begin](https://begin.com/) to deploy our code from GitHub whenever we commit. Login to Begin with your GitHub account, click `New app`, and scroll to the big `Import app` button. (My first build was completed in 12.541 seconds!)
 
@@ -112,7 +112,7 @@ You can use the GitHub repo [brianleroux/arc-example-babel-basic](https://github
 
 Now you’re up and running with Babel on serverless without any extra dependencies. Here’s an ES module utilizing optional chaining in current Node + Lambda:
 
-![arc30](arc30.png)
+![arc30](post-assets/arc30.png)
 
 You can find the [full source code for this tutorial here](https://github.com/brianleroux/arc-example-babel-basic).
 

@@ -9,7 +9,7 @@ readtime: '4 mins'
 published: 'March 30, 2020'
 ---
 
-![arc19](arc19.jpg)
+![arc19](post-assets/arc19.jpg)
 
 Transpilers are tools that read source code in one syntax and output it into another syntax. For example, your source could be written in TypeScript, or utilize an experimental language feature, and a transpiler will make sure it turns into standard JS. Transpilers let developers work with a wider variety tools, while also keeping the output compliant with browsers and Node.js.
 
@@ -67,7 +67,7 @@ But by using a JavaScript language feature called [optional chaining](https://de
 
 This means your code won’t error if `foo` isn’t found. And if so inclined, you can also write a default value, too: `req.params?.foo || 'somedefaultvalue'`
 
-![arc19](arc19.jpg)
+![arc19](post-assets/arc19.jpg)
 
 <small>Photo by Samson on Unsplash</small>
 
@@ -106,7 +106,7 @@ The `build` script will consider the entire `/lib` directory and run `Babel` out
 
 Now we can run `npm start` to both run Babel and start `@architect/sandbox` (a local development environment that emulates AWS API Gateway, Lambda, and an in-memory instance of DynamoDB).
 
-![arc20](arc20.jpg)
+![arc20](post-assets/arc20.jpg)
 
 <small>Photo by Allie Smith on Unsplash</small>
 

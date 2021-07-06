@@ -1,5 +1,5 @@
 ---
-title: A brand new primitive for your Begin apps:event functions!
+title: 'A brand new primitive for your Begin apps: event functions!'
 image: 'image.png' 
 category: uncategorized
 description: Today we’re introducing an entirely new primitive to Begin apps:event functions (@events)!
@@ -10,7 +10,7 @@ published: 'April 30, 2020'
 ---
 
 
-![arc14](arc14.jpg)
+![arc14](post-assets/arc14.jpg)
 <small>Photo by Traf</small>
 
 Begin already gives you the most advanced set of serverless tools and application primitives in its class:

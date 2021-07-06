@@ -10,7 +10,7 @@ published: 'February 11, 2020'
 ---
 
 
-![arc25](arc25.jpg)
+![arc25](post-assets/arc25.jpg)
 <small>Photo by Fikri Rasyid</small>
 
 It’s finally possible to transition your Express apps to a fully serverless architecture with just a few lines of code.

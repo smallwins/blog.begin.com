@@ -9,7 +9,7 @@ readtime: '6 mins'
 published: 'March 06, 2018'
 ---
 
-![arc58](arc58.png)
+![arc58](post-assets/arc58.png)
 
 **Today’s tools for managing work are broken**
 
@@ -35,7 +35,7 @@ These tools rely heavily on their users learning complicated task management met
 
 For all of the above reasons (and so many more), this class of tools tends to be adopted by only a fraction of a given organization — like engineering or sales. Invariably, our teammates in design, accounting, comms, admin, marketing, and so many other disciplines, are largely left behind, or asked to get onboard with an industrial-grade technical issue tracker.
 
-![arc59](arc59.png)
+![arc59](post-assets/arc59.png)
 
 Hold up. Aren’t our tools are supposed to make us more powerful?
 
@@ -53,4 +53,4 @@ So we got to work. And here we are today.
 
 Say hello to [Begin](https://begin.com/)!
 
-![arc60](arc60.png)
+![arc60](post-assets/arc60.png)

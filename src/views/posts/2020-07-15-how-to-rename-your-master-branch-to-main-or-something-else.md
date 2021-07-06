@@ -1,5 +1,5 @@
 ---
-title: How-to rename your ‘master’ branch to ‘main’ (or something else)
+title: How to rename your ‘master’ branch to ‘main’ (or something else)
 image: 'image.png' 
 category: uncategorized
 description: Terms like master-slave carry powerful implications of racial supremacy and oppression, and have no place in our lexicon. Efforts across our industry are rightfully underway to retire such references to the dustbin of history, where they belong.
@@ -10,7 +10,7 @@ published: 'July 15, 2020'
 ---
 
 
-![arc8](arc8.jpg)
+![arc8](post-assets/arc8.jpg)
 <small>Photo by Carly Reeves</small>
 
 Terms like master-slave carry powerful implications of racial supremacy and oppression, and have no place in our lexicon. Efforts [across our industry](https://tools.ietf.org/id/draft-knodel-terminology-00.html#rfc.section.1) are [rightfully underway](https://mysqlhighavailability.com/mysql-terminology-updates/) to retire such references to the dustbin of history, where they belong.
@@ -43,7 +43,7 @@ Then head to repository on GitHub and:
 - Click `Update`
 - That’s it!
 
-![arc9](arc9.png)
+![arc9](post-assets/arc9.png)
 
 Future collaborators will automatically be on `main`; existing contributors may have a small amount of work to do to get set up, namely:
 

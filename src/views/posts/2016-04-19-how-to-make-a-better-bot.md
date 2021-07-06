@@ -9,7 +9,7 @@ readtime: '8 mins'
 published: 'April 19, 2017'
 ---
 
-![arc72](arc72.gif)
+![arc72](post-assets/arc72.gif)
 
 The bots have landed. And as is usually the case, some early products shipped that could have [used some](https://twitter.com/trekforever/status/720668368496230400) [more time](https://twitter.com/kifleswing/status/719973868040011776) [in the oven](https://twitter.com/spencerchen/status/721920593797382145). Personally, I’ve yet to use a bot that’s really impressed me.
 
@@ -31,7 +31,7 @@ Like, really hard.
 
 Designing rich, complex conversational interactions presents an entirely new set of challenges. The tools definitely aren’t fully baked yet, and the few primitives we have are still more academic than battle-hardened.
 
-![arc73](arc73.gif)
+![arc73](post-assets/arc73.gif)
 
 What’s worse, when bot interactions go awry, they can be frustrating in a way that app errors just aren’t. There’s something deeply, irrationally frustrating about not being understood by a piece of technology whose first and most important job is to parse what you’re saying. It’s enough to make some people want to throw their devices across the room.
 
@@ -57,7 +57,7 @@ Most bots will be available in mediums where humans communicate with each other,
 
 > Here’s a bot that really just does not want to talk to you.
 
-![arc74](arc74.png)
+![arc74](post-assets/arc74.png)
 
 But that doesn’t mean your bot has to actually hold a conversation. CNN’s Facebook bot is a great early example of this. Here’s a bot that really just does not want to talk to you.
 
@@ -73,7 +73,7 @@ Anyone making a bot will find the right balance for their product, but what’s 
 
 ## A trip to the Robot Store
 
-![arc75](arc75.png)
+![arc75](post-assets/arc75.png)
 
 One metaphor I’ve been known to trot out with the Beginners is *taking a trip to the Robot Store*. Imagine there’s a bright, shiny, beautiful, store with shelves lined with hundreds of different robots, designed and lovingly built by dozens of companies from all over the world.
 

@@ -10,7 +10,7 @@ published: 'July 15, 2020'
 ---
 
 
-![arc9](arc9.jpg)
+![arc9](post-assets/arc9.jpg)
 <small>Photo by Jan Huber</small>
 
 ## We‘re excited to announce that Begin apps will deploy with any default branch you configure in GitHub.
@@ -23,7 +23,7 @@ For example, you can now rename `master` branch to `main` and Begin will continu
 
 [Check out our step-by-step guide to rename your default branch](https://blog.begin.com/how-to-rename-your-master-branch-to-main-or-something-else-d55a04f456c0)
 
-![arc10](arc10.png)
+![arc10](post-assets/arc10.png)
 
 ## Next Steps
 

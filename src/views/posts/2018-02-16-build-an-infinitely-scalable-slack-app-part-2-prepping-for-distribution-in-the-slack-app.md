@@ -1,5 +1,5 @@
 ---
-title: Build an infinitely scalable* Slack app, part 2:prepping for distribution in the Slack App Directory
+title: 'Build an infinitely scalable* Slack app, part 2: prepping for distribution in the Slack App Directory'
 image: 'image.png' 
 category: uncategorized
 description: In part 1 of this series, we used Architect to provision the infrastructure needed to build a (theoretically) infinitely scalable serverless Slack app.
@@ -9,7 +9,7 @@ readtime: '8 mins'
 published: 'February 16, 2018'
 ---
 
-![arc58](arc58.png)
+![arc58](post-assets/arc58.png)
 
 In [part 1 of this series](https://blog.begin.com/build-an-infinitely-scalable-slack-app-in-5-minutes-972789924f3f), we used [Architect](https://arc.codes/) to provision the infrastructure needed to build a (theoretically) infinitely scalable serverless Slack app.
 
@@ -157,7 +157,7 @@ Now that you’ve got your Slack credentials, open up the AWS Console, find the 
 
 Finally, you’ll need to configure an environment variable for `SLACK_INSTALL_REDIRECT`, which is the fully qualified URL for your deployment, should look something like this: https://xxx.execute-api.us-west-1.amazonaws.com/staging/bot/install
 
-![arc62](arc62.png)
+![arc62](post-assets/arc62.png)
 
 Adding `SLACK_CLIENT_ID`, `SLACK_CLIENT_SECRET` and `SLACK_INSTALL_REDIRECT`
 
@@ -165,7 +165,7 @@ Adding `SLACK_CLIENT_ID`, `SLACK_CLIENT_SECRET` and `SLACK_INSTALL_REDIRECT`
 
 Don’t forget to add the button to `src/html/get-index/index.js` and run `npm run deploy` to check out your work. It should look something like this:
 
-![arc63](arc63.png)
+![arc63](post-assets/arc63.png)
 
 Not too shabby!
 

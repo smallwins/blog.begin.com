@@ -9,7 +9,7 @@ readtime: '3 mins'
 published: 'December 20, 2019'
 ---
 
-![deno](deno.png)
+![deno](post-assets/deno.png)
 
 > This post was last updated May, 2020 as Deno hit 1.0
 

@@ -9,7 +9,7 @@ readtime: '3 mins'
 published: 'October 29, 2019'
 ---
 
-![arc25](arc25.jpg)
+![arc25](post-assets/arc25.jpg)
 
 In this article we’ll set up an OpenJS Architect project that uses Babel and Rollup to take advantage of next-generation and experimental JS syntax features. Future editions will explore TypeScript and JSX.
 
@@ -131,7 +131,7 @@ Work locally, then deploy to AWS when you’re happy with your app
 
 ## Set up CI/CD
 
-![arc31](arc31.png)
+![arc31](post-assets/arc31.png)
 
 Now that everything is working locally we can set up [Begin](https://begin.com/) to deploy our code from GitHub whenever we commit. Login to Begin with your GitHub account, click `New app`, and scroll to the big `Import app` button. (My first build was completed in 11.474 seconds!)
 
@@ -141,7 +141,7 @@ You can use the GitHub repo [brianleroux/arc-example-babel](https://github.com/b
 
 Now you’re up and running with some serverless Babel. Here’s another example of enabling [optional chaining](https://github.com/tc39/proposal-optional-chaining) on a request object’s `queryStringParameter` property — something that would normally require nested accessors:
 
-![arc32](arc32.png)
+![arc32](post-assets/arc32.png)
 
 `req.queryStringParameters && req.queryStringParameters.foo` no more!
 

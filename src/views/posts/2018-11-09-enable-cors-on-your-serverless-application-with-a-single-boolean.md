@@ -10,7 +10,7 @@ published: 'November 09, 2018'
 ---
 
 
-![arc53](arc53.jpg)
+![arc53](post-assets/arc53.jpg)
 <small>photo by Rye Jessen</small>
 
 > Previous versions of this post referred to using CORS in a now out of date version of Architect; however, we have preserved forwards compatibility in our runtime helper library [@architect/functions](https://www.npmjs.com/package/@architect/functions), and updated this post.

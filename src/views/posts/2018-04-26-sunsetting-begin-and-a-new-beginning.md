@@ -9,7 +9,7 @@ readtime: '2 mins'
 published: 'April 26, 2018'
 ---
 
-![arc57](arc57.png)
+![arc57](post-assets/arc57.png)
 <small>Photo by Mario Antonio Pena Zapatería</small>
 
 I’ve got some bad news, and some good news.
