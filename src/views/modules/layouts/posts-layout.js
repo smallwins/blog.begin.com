@@ -94,7 +94,7 @@ export default function postsLayout (props = {}) {
         >
         </h1>
        
-        <h1>${title}</h1>
+        <h1 class="leading1">${title}</h1>
         <div class="flex mt1 mb1">
         <div class="">
         <img class="radius-pill" src=${avi} alt='avi' style="height:2rem;"/>

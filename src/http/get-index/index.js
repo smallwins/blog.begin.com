@@ -55,8 +55,15 @@ const createCard = (function readFrontMatter() {
 
 
 exports.handler = async function index(req) {
-  let sortedCards = createCard.sort((a, b) => (a.post < b.post ? 1 : -1))
-  // let featuredCard = createCard.sort((a, b) => (a.post < b.post ? 1 : -1))
+  createCard.sort((a, b) => (a.post < b.post ? 1 : -1))
+
+  let descrip = createCard.map(card => {
+    if (`${card.frontmatter.description}`.length >= 90) {
+      return `${card.frontmatter.description}`.length + '...'
+    }
+  })
+ 
+  console.log(descrip)
 
   let blogCard = `
   <div class="grid-lg col-3 gap1">${createCard.map(card => `
@@ -90,7 +97,7 @@ exports.handler = async function index(req) {
       </div>
       
         <div class="p1">  
-          <p class="text-g8 mb5 pb3">${card.frontmatter.description}</p>
+          <p class="text-g8 mb5 pb3">${`${card.frontmatter.description}`.slice(0,90) + `<small class="text-p5"> [...]</small>`}</p>
 
           <div class="flex items-end w-full mt1 mb1 absolute bottom0">
             <div class="justify-start">
