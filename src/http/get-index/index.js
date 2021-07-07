@@ -57,8 +57,6 @@ const createCard = (function readFrontMatter() {
 exports.handler = async function index(req) {
   createCard.sort((a, b) => (a.post < b.post ? 1 : -1))
 
-
-
   let blogCard = `
   <div class="grid-lg col-3 gap1">${createCard.map(card => `
     <div class="
@@ -82,24 +80,25 @@ exports.handler = async function index(req) {
         topCorners
         background-size-cover
         transition-transform
-        transition-background-x"
+        transition-background-x
         guides-item-bg-h
-        h-gradient
-        
-        style="background-image:url(${arc.static(card.frontmatter.image)})">
-        <h3 class="text-p1">${card.frontmatter.title}</h3>
+        h-gradient"
+        card-image-height 
+        style="background-image:url(${arc.static(card.frontmatter.image)})
+        ">
+        <h3 class="text-p1 mb1">${card.frontmatter.title}</h3>
       </div>
       
-        <div class="p1">  
+        <div class="p1 flex flex-col">  
           <p class="text-g8 mb5 pb3">${`${card.frontmatter.description}`.slice(0,90) + `<small class="text-p5"> [...]</small>`}</p>
 
-          <div class="flex items-end w-full mt1 mb1 absolute bottom0">
-            <div class="justify-start">
+          <div class="flex flex-grow-0 justify-between">
+            <div>
               <img class="radius-pill" src=${card.frontmatter.avi} alt="avi" height="40"/>
               <p class="text-p5 text-1">${card.frontmatter.author}</p>
             </div>
-            <div class="justify-end">
-              <p class="text-g4 text-1 ">${card.frontmatter.readtime}</p>
+            <div class="self-end">
+              <p class="text-g4 text-1">${card.frontmatter.readtime}</p>
             </div>
           </div>
         </div></a>

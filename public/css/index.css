@@ -149,3 +149,7 @@ code {
   padding: 2px 6px 2px;
   white-space: nowrap;
 }
+
+.card-image-height {
+  height: 5rem;
+}
