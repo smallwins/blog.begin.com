@@ -10,12 +10,11 @@ export default function layout (props = {}) {
   let image = props.image || ""
     return `
     <div
-    class="
-      
-    "
+    class=""
   >
     <header
       class="
+        z1
         pt-1
         pr2
         pb0
