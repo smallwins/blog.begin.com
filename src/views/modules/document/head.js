@@ -39,12 +39,38 @@ export default function Head (props = {}) {
 <meta name="og:type" content="website">
 
 <!-- Styles/Favicons -->
-<link rel="icon" type="image/png" sizes="32x32" href="https://s3-us-west-2.amazonaws.com/arc.codes/architect-favicon-32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="https://s3-us-west-2.amazonaws.com/arc.codes/architect-favicon-16.png">
-<link rel="icon" type="image/png" sizes="64x64" href="https://s3-us-west-2.amazonaws.com/arc.codes/architect-favicon-64.png">
+<link rel="shortcut icon" href="https://static.begin.com/web/favicon/favicon-56e6452eeb.ico">
+  <link rel="icon" sizes="16x16 32x32 64x64" href="https://static.begin.com/web/favicon/favicon-56e6452eeb.ico">
+  <link rel="icon" type="image/png" sizes="196x196" href="https://static.begin.com/web/favicon/favicon-192-bc060311d1.png">
+  <link rel="icon" type="image/png" sizes="160x160" href="https://static.begin.com/web/favicon/favicon-160-6e9d3c9bbf.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="https://static.begin.com/web/favicon/favicon-96-acf16ca0c9.png">
+  <link rel="icon" type="image/png" sizes="70x70" href="https://static.begin.com/web/favicon/favicon-70-14c1770032.png">
+  <link rel="icon" type="image/png" sizes="64x64" href="https://static.begin.com/web/favicon/favicon-64-4e4fccb66f.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://static.begin.com/web/favicon/favicon-32-f37ee3b53a.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://static.begin.com/web/favicon/favicon-16-5360d8ce95.png">
+  <link rel="apple-touch-icon" href="https://static.begin.com/web/favicon/favicon-180-850d64b843.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://static.begin.com/web/favicon/favicon-180-850d64b843.png">
+  <link rel="apple-touch-icon" sizes="167x167" href="https://static.begin.com/web/favicon/favicon-167-63e0656ffa.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="https://static.begin.com/web/favicon/favicon-152-f15654f2f6.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="https://static.begin.com/web/favicon/favicon-144-3cc7686595.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="https://static.begin.com/web/favicon/favicon-120-05e93b438f.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="https://static.begin.com/web/favicon/favicon-114-9d5f535b1f.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="https://static.begin.com/web/favicon/favicon-76-306d37f9c5.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="https://static.begin.com/web/favicon/favicon-72-38e0a12778.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="https://static.begin.com/web/favicon/favicon-60-7a2cc0a167.png">
+  <link rel="apple-touch-icon" sizes="57x57" href="https://static.begin.com/web/favicon/favicon-57-2bc6f07542.png">
+  <meta name="theme-color" content="#7f00c8">
+  <meta name="msapplication-TileColor" content="#FFFFFF">
+  <meta name="msapplication-TileImage" content="https://static.begin.com/web/favicon/favicon-144-3cc7686595.png">
+  <meta name="msapplication-config" content="https://static.begin.com/web/favicon/browserconfig-09f65ae49c.xml">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
 <link rel="stylesheet" type="text/css" href="/css/styles.css">
 <link rel="stylesheet" type="text/css" href="/css/index.css">
 <link rel="stylesheet" type="text/css" href="/css/syntax.css">
+<link rel="stylesheet" href="https://fonts.begin.com/fonts.css">
 </head>
 `
 }

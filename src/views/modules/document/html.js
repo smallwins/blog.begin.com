@@ -35,7 +35,7 @@ ${Symbols}
 <body
   class="
     h-full
-    font-sans
+    font-face
     
   "
 >
