@@ -1,6 +1,6 @@
 ---
 title: 'Architect 7.0: HTTP APIs and even better Sandbox testing!'
-image: 'image.png' 
+image: 'post-assets/arc1.jpg' 
 category: uncategorized
 description: By popular demand:API Gateway HTTP APIs are now the default in Architect serverless apps
 author: 'Ryan Block'
@@ -9,7 +9,7 @@ readtime: '4 mins'
 published: 'September 18, 2020'
 ---
 
-![arc1](post-assets/arc1.png)
+![arc1](post-assets/arc1.jpg)
 
 [OpenJSF Architect](https://arc.codes/) now powers thousands of serverless applications all over the world. Folks continue to tell us they value its focused, direct, stable, lock-in-free approach to building blazing fast modern web apps without ever having to manage a single server.
 

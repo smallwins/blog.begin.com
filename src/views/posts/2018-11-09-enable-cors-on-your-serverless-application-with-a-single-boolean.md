@@ -1,6 +1,6 @@
 ---
 title: Enable CORS on your serverless application with a single boolean
-image: 'image.png' 
+image: 'post-assets/arc53.jpg' 
 category: uncategorized
 description: Retrieve data from any static site with Architect. CORS is often painful to implement. But with Architect we’ve made it significantly nicer to work with. Now you can build an API and retrieve your data from any static website.
 author: 'Brian Leroux'

@@ -1,6 +1,6 @@
 ---
 title: ☀️ Let’s Begin!
-image: 'image.png' 
+image: 'post-assets/arc58.png' 
 category: uncategorized
 description: Today’s tools for managing work are broken. You love your team and your teammates. You want to do your best work, and help everyone do their best work, too.
 author: 'Ryan Block'

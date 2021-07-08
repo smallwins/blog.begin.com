@@ -1,6 +1,6 @@
 ---
 title: Build an infinitely scalable* Slack app in 5 minutes
-image: 'image.png' 
+image: 'post-assets/arc64.png' 
 category: uncategorized
 description: Everyone’s favorite work messaging app — Slack — offers a powerful, open platform for developing rich applications in an increasingly important venue:where teams work and communicate together online.
 author: 'Brian Leroux'

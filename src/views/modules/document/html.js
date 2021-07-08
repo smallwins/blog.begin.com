@@ -36,7 +36,6 @@ ${Symbols}
   class="
     h-full
     font-face
-    
   "
 >
   ${children}

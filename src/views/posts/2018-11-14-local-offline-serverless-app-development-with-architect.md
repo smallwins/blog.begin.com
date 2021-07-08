@@ -1,6 +1,6 @@
 ---
 title: Local, offline serverless app development with Architect
-image: 'image.png' 
+image: 'post-assets/arc50.jpg' 
 category: uncategorized
 description: Build & deploy serverlessly without sacrificing the local development experience
 author: 'Brian Leroux'

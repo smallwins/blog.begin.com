@@ -1,6 +1,6 @@
 ---
 title: Serverless Deno support with Architect
-image: 'image.png' 
+image: 'post-assets/deno.png' 
 category: uncategorized
 description: Experimental next generation JavaScript runtime with first class TypeScript support now in beta
 author: 'Brian Leroux'

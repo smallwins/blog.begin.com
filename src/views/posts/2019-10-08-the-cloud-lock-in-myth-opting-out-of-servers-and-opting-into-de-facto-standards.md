@@ -1,6 +1,6 @@
 ---
 title: 'The cloud lock-in myth: opting out of servers, and opting into de facto standards'
-image: 'image.png' 
+image: 'post-assets/arc33.jpg' 
 category: uncategorized
 description: The forecast is cloudy; with zero chance of servers. Practically all future compute workloads will run on cloud vendor infra.
 author: 'Brian Leroux'

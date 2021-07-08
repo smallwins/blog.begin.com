@@ -1,6 +1,6 @@
 ---
 title: 'A brand new primitive for your Begin apps: event functions!'
-image: 'image.png' 
+image: 'post-assets/arc14.jpg' 
 category: uncategorized
 description: Today we’re introducing an entirely new primitive to Begin apps:event functions (@events)!
 author: 'Ryan Block'

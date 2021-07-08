@@ -1,6 +1,6 @@
 ---
 title: Serverless app testing with Jest on Begin
-image: 'image.png' 
+image: 'post-assets/arc22.png' 
 category: uncategorized
 description: In this post we’ll demonstrate the basics of testing with Jest on a serverless app in Begin; the example app in this post will achieve the same results as our article about testing with Tap.
 author: 'Paul Chin Jr'

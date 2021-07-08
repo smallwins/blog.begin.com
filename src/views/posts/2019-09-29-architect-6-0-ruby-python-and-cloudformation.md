@@ -1,6 +1,6 @@
 ---
 title: 'Architect 6.0: Ruby, Python, CDNs, and CloudFormation'
-image: 'image.png' 
+image: 'post-assets/arc1.jpg' 
 category: uncategorized
 description: The simplest, fastest way to build modern applications just got a lot more powerful
 author: 'Ryan Block'
@@ -9,7 +9,7 @@ readtime: '4 mins'
 published: 'September 29, 2019'
 ---
 
-![arc1](post-assets/arc1.png)
+![arc1](post-assets/arc1.jpg)
 
 Since 2017, Architect has been the premiere foundation-backed open source serverless framework, with a clear focus on being the simplest, fastest way to build a modern web app.
 

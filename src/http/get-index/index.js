@@ -89,7 +89,7 @@ exports.handler = async function index(req) {
       </div>
       
         <div class="p1 flex flex-col">  
-          <p class="text-g8 mb5 pb3">${`${card.frontmatter.description}`.slice(0,90) + `<small class="text-p5"> [...]</small>`}</p>
+          <p class="text-g8 mb2 pb3">${`${card.frontmatter.description}`.slice(0,90) + `<small class="text-p5"> [...]</small>`}</p>
 
           <div class="flex flex-grow-0 justify-between">
             <div>

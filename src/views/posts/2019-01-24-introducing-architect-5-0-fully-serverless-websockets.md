@@ -1,6 +1,6 @@
 ---
 title: 'Introducing Architect 5.0: fully serverless WebSockets'
-image: 'image.png' 
+image: 'post-assets/arc44.jpg' 
 category: uncategorized
 description: Realtime serverless compute is here! e’re thrilled to announce Architect 5.0 (Catalope), with full API Gateway WebSocket integration.
 author: 'Brian Leroux'

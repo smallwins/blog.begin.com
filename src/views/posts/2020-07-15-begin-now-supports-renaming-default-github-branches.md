@@ -1,6 +1,6 @@
 ---
 title: Begin supports renaming default GitHub branches
-image: 'image.png' 
+image: 'post-assets/arc9.jpg' 
 category: uncategorized
 description: We‘re excited to announce that Begin apps will deploy with any default branch you configure in GitHub.
 author: 'Paul Chin Jr'

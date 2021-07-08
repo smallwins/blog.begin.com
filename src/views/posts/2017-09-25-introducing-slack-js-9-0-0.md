@@ -1,6 +1,6 @@
 ---
 title: Introducing Slack JS 9.0.0 🎉
-image: 'image.png' 
+image: 'post-assets/arc71.jpg' 
 category: uncategorized
 description: Slack for JS is a super tiny Slack Web API client for NodeJS and the browser.
 author: 'Brian Leroux'
@@ -9,9 +9,9 @@ readtime: '2 mins'
 published: 'September 25, 2017'
 ---
 
-![arc71](post-assets/arc71.png)
+![arc71](post-assets/arc71.jpg)
 
-Super stoked to share the latest version of our JS client for the Slack Web API! You can find the [source code here](https://github.com/smallwins/slack) and the [npm distribution here](https://npmjs.com/slack).
+> Super stoked to share the latest version of our JS client for the Slack Web API! You can find the [source code here](https://github.com/smallwins/slack) and the [npm distribution here](https://npmjs.com/slack).
 
 ## Speed is 🔑
 

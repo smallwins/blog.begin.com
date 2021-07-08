@@ -1,6 +1,6 @@
 ---
 title: Transpiling JavaScript with Babel on Begin
-image: 'image.png' 
+image: 'post-assets/arc19.jpg' 
 category: uncategorized
 description: In this post we’ll demonstrate using Babel to implement a great new unreleased JS feature:optional chaining.
 author: 'Paul Chin Jr'

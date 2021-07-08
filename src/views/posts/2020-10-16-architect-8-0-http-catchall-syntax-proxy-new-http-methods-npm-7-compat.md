@@ -1,6 +1,6 @@
 ---
 title: 'Architect 8.0: HTTP catchall syntax, @proxy, new HTTP methods, npm 7 compat'
-image: 'image.png' 
+image: 'post-assets/arc1.jpg' 
 category: uncategorized
 description: More flexible and powerful than ever, with greedy catchall syntax, and legacy server migration with @proxy
 author: 'Ryan Block'
@@ -9,7 +9,7 @@ readtime: '3 mins'
 published: 'October 16, 2020'
 ---
 
-![arc1](post-assets/arc1.png)
+![arc1](post-assets/arc1.jpg)
 
 [OpenJSF Architect](https://arc.codes/) powers thousands of real production serverless applications all over the world. We continue to hear how valuable folks find its focused, direct, stable, lock-in-free approach to building blazing fast modern web apps without ever having to manage a single server.
 

@@ -1,6 +1,6 @@
 ---
 title: Slack for JS 10.x! 🔥
-image: 'image.png' 
+image: 'post-assets/arc71.jpg' 
 category: uncategorized
 description: Slack for JS is a super tiny Slack Web API client for NodeJS and the browser.
 author: 'Brian Leroux'
@@ -9,7 +9,7 @@ readtime: '2 mins'
 published: 'January 22, 2018'
 ---
 
-![arc71](post-assets/arc71.png)
+![arc71](post-assets/arc71.jpg)
 
 [Slack for JS](https://www.npmjs.com/package/slack) is a super tiny Slack Web API client for NodeJS and the browser.
 

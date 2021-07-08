@@ -1,6 +1,6 @@
 ---
 title: Serverless frontend patterns with Architect Views
-image: 'image.png' 
+image: 'post-assets/arc54.jpg' 
 category: uncategorized
 description: Retrieve data from any static site with Architect. Architect views helps you share view specific code between Lambda functions.
 author: 'Kristofer Joseph'

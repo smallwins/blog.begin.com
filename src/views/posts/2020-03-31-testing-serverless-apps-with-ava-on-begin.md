@@ -1,6 +1,6 @@
 ---
 title: Testing serverless apps with AVA on Begin
-image: 'image.png' 
+image: 'post-assets/arc16.png' 
 category: uncategorized
 description: This post will give an overview of testing with AVA on a serverless app in Begin. You can also check out our other articles on TAP, Jest, and Mocha.
 author: 'Paul Chin Jr'

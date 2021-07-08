@@ -1,6 +1,6 @@
 ---
 title: Testing in Deno:the basics
-image: 'image.png' 
+image: 'post-assets/arc13.jpg' 
 category: uncategorized
 description: Deno is a next-generation JavaScript runtime that makes testing a first class capability. In this guide we’ll show you how to use Deno to write an automated test suite. In part 2 we will setup Begin.com for CI/CD and module publishing.
 author: 'Brian Leroux'

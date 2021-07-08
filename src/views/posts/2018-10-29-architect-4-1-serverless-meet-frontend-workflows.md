@@ -1,6 +1,6 @@
 ---
 title: 'Architect 4.1: serverless, meet frontend workflows'
-image: 'image.png' 
+image: 'post-assets/arc55.jpg' 
 category: uncategorized
 description: Last week we released Architect 4 (Yeti), focused on simplicity and speed. Today we’re incredibly stoked to share Architect 4.1, our most frontend friendly release ever.
 author: 'Ryan Block'

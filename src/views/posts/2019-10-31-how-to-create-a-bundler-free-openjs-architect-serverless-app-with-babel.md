@@ -1,6 +1,6 @@
 ---
 title: How to create a bundler-free OpenJS Architect serverless app with Babel
-image: 'image.png' 
+image: 'post-assets/arc25.jpg' 
 category: uncategorized
 description: Author serverless AWS Lambda functions with next-generation JS, and without using bundlers
 author: 'Brian Leroux'
