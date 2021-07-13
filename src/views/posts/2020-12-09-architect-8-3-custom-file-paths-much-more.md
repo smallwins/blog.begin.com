@@ -11,7 +11,7 @@ published: 'December 09, 2020'
 
 ![arc1](post-assets/arc1.jpg)
 
-By popular demand: OpenJS Architect 8.3 (El Chupacabra) now supports custom file paths, custom Lambda templates, a fresh new local (and global) preferences file, and lots more!
+## By popular demand: OpenJS Architect 8.3 (El Chupacabra) now supports custom file paths, custom Lambda templates, a fresh new local (and global) preferences file, and lots more!
 
 ## Custom file paths
 

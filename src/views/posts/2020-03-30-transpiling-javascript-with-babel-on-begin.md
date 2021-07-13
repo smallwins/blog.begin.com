@@ -11,7 +11,7 @@ published: 'March 30, 2020'
 
 ![arc19](post-assets/arc19.jpg)
 
-Transpilers are tools that read source code in one syntax and output it into another syntax. For example, your source could be written in TypeScript, or utilize an experimental language feature, and a transpiler will make sure it turns into standard JS. Transpilers let developers work with a wider variety tools, while also keeping the output compliant with browsers and Node.js.
+## Transpilers are tools that read source code in one syntax and output it into another syntax. For example, your source could be written in TypeScript, or utilize an experimental language feature, and a transpiler will make sure it turns into standard JS. Transpilers let developers work with a wider variety tools, while also keeping the output compliant with browsers and Node.js.
 
 In this post we’ll demonstrate using [Babel](https://babeljs.io/docs/en/) to implement a great new unreleased JS feature: [optional chaining](https://github.com/tc39/proposal-optional-chaining).
 
@@ -19,7 +19,7 @@ In this post we’ll demonstrate using [Babel](https://babeljs.io/docs/en/) to i
 
 Hit this button to deploy a new Node.js + Babel example app to Begin in 15 seconds:
 
-![Deploy to begin](deploy-to-begin.png)
+<a href="https://begin.com/apps/create?template=https://github.com/pchinjr/fcc-serverless-api"><img class="block m-auto mt3 mb3" src="https://res.cloudinary.com/practicaldev/image/fetch/s--yYw27_-V--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://static.begin.com/deploy-to-begin.svg" alt="Deploy to Begin" loading="lazy"></a>
 
 ## Setting up a new project
 
@@ -141,7 +141,7 @@ Congrats! Now go flex your new JavaScript powers and test out more [experimental
 
 - Deploy an AVA example app to Begin in 15 seconds:
 
-![Deploy to begin](deploy-to-begin.png)
+<a href="https://begin.com/apps/create?template=https://github.com/pchinjr/fcc-serverless-api"><img class="block m-auto mt3 mb3" src="https://res.cloudinary.com/practicaldev/image/fetch/s--yYw27_-V--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://static.begin.com/deploy-to-begin.svg" alt="Deploy to Begin" loading="lazy"></a>
 
 - [Try out another Begin tutorial, like a full CRUD app with Begin Data!](https://docs.begin.com/en/guides/crud-app)
 - 🌟 Check out (and star!) Begin’s open core [OpenJS Architect](https://github.com/architect/architect) on GitHub

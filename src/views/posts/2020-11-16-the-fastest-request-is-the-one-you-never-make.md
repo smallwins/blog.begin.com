@@ -24,8 +24,7 @@ Creating unique filenames will force the cache to update but managing those file
 
 <!-- ![Deploy to begin](deploy-to-begin.png) -->
 
-<div class="mb5 mt5" align="center"><a href="https://begin.com/apps/create?template=https://github.com/pchinjr/fcc-serverless-api"><img height="70" src="https://res.cloudinary.com/practicaldev/image/fetch/s--yYw27_-V--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://static.begin.com/deploy-to-begin.svg" alt="Deploy to Begin" loading="lazy"></a></div>
-
+<a href="https://begin.com/apps/create?template=https://github.com/pchinjr/fcc-serverless-api"><img class="block m-auto mt3 mb3" src="https://res.cloudinary.com/practicaldev/image/fetch/s--yYw27_-V--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://static.begin.com/deploy-to-begin.svg" alt="Deploy to Begin" loading="lazy"></a>
 
 Take a look at the static assets tab in your Begin console and you will see two files that have been uploaded to S3 that correspond to the /public folder in the project.
 
@@ -111,7 +110,7 @@ return {
 
 - Deploy a new Personal Website to Begin in 30 seconds (no credit card required):
 
-<div class="mb5 mt5" align="center"><a href="https://begin.com/apps/create?template=https://github.com/pchinjr/fcc-serverless-api"><img height="70" src="https://res.cloudinary.com/practicaldev/image/fetch/s--yYw27_-V--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://static.begin.com/deploy-to-begin.svg" alt="Deploy to Begin" loading="lazy"></a></div>
+<a href="https://begin.com/apps/create?template=https://github.com/pchinjr/fcc-serverless-api"><img class="block m-auto mt3 mb3" src="https://res.cloudinary.com/practicaldev/image/fetch/s--yYw27_-V--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://static.begin.com/deploy-to-begin.svg" alt="Deploy to Begin" loading="lazy"></a>
 
 - [Try out another Begin tutorial, like a full CRUD app with Begin Data!](https://docs.begin.com/en/guides/crud-app)
 - 🌟 Check out (and star!) Begin’s open core [OpenJS Architect on GitHub](https://github.com/architect/architect)

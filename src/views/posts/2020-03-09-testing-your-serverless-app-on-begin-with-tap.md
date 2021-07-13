@@ -13,15 +13,15 @@ published: 'March 09, 2020'
 ![arc23](post-assets/arc23.png)
 <small>Testing with TAP is pretty easy!</small>
 
-[Node-Tap (part of the TAP family)](https://node-tap.org/) is a mature, powerful, and lightweight testing framework that help you write highly maintainable applications, and help ensure that new code will be less likely to cause regressions.
+## [Node-Tap (part of the TAP family)](https://node-tap.org/) is a mature, powerful, and lightweight testing framework that help you write highly maintainable applications, and help ensure that new code will be less likely to cause regressions.
 
-In this post we’ll demonstrate the basics of testing with TAP on a serverless app in [Begin](https://begin.com/); the example app in this post will achieve the same results as our [article about testing with Jest](https://blog.begin.com/testing-serverless-apps-with-jest-on-begin-1408e1811e68).
+In this post we’ll demonstrate the basics of testing with TAP on a serverless app in [Begin](https://begin.com/); the example app in this post will achieve the same results as our [article about testing with Jest](/posts/2020-03-10-testing-serverless-apps-with-jest-on-begin).
 
 ## Try out testing with TAP right now
 
 Hit this button to deploy a new Node.js + Node-Tap example project to Begin in 15 seconds:
 
-![Deploy to begin](deploy-to-begin.png)
+<a href="https://begin.com/apps/create?template=https://github.com/pchinjr/fcc-serverless-api"><img class="block m-auto mt3 mb3" src="https://res.cloudinary.com/practicaldev/image/fetch/s--yYw27_-V--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://static.begin.com/deploy-to-begin.svg" alt="Deploy to Begin" loading="lazy"></a>
 
 ## Testing your libraries
 
@@ -103,7 +103,7 @@ Check out more examples of what you can build on Begin with our open source guid
 
 - Deploy an AVA example app to Begin in 15 seconds:
 
-![Deploy to begin](deploy-to-begin.png)
+<a href="https://begin.com/apps/create?template=https://github.com/pchinjr/fcc-serverless-api"><img class="block m-auto mt3 mb3" src="https://res.cloudinary.com/practicaldev/image/fetch/s--yYw27_-V--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://static.begin.com/deploy-to-begin.svg" alt="Deploy to Begin" loading="lazy"></a>
 
 - [Try out another Begin tutorial, like a full CRUD app with Begin Data!](https://docs.begin.com/en/guides/crud-app)
 - 🌟 Check out (and star!) Begin’s open core [OpenJS Architect](https://github.com/architect/architect) on GitHub

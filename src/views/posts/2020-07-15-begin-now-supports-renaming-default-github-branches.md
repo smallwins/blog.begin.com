@@ -21,7 +21,7 @@ This feature is a nice improvement for customization and a small step forward in
 
 For example, you can now rename `master` branch to `main` and Begin will continue deploying to `staging` and `production` environments on every `git push`. At Begin, we are proud to enable open workflows while maintaining best practices.
 
-[Check out our step-by-step guide to rename your default branch](https://blog.begin.com/how-to-rename-your-master-branch-to-main-or-something-else-d55a04f456c0)
+[Check out our step-by-step guide to rename your default branch](/posts/2020-07-15-how-to-rename-your-master-branch-to-main-or-something-else)
 
 ![arc10](post-assets/arc10.png)
 
@@ -29,7 +29,7 @@ For example, you can now rename `master` branch to `main` and Begin will continu
 
 - Deploy a new Personal Website to Begin in 30 seconds (no credit card required):
 
-![Deploy to begin](deploy-to-begin.png)
+<a href="https://begin.com/apps/create?template=https://github.com/pchinjr/fcc-serverless-api"><img class="block m-auto mt3 mb3" src="https://res.cloudinary.com/practicaldev/image/fetch/s--yYw27_-V--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://static.begin.com/deploy-to-begin.svg" alt="Deploy to Begin" loading="lazy"></a>
 
 - [Try out another Begin tutorial, like a full CRUD app with Begin Data!](https://docs.begin.com/en/guides/crud-app)
 - 🌟 Check out (and star!) Begin’s open core [OpenJS Architect](https://github.com/architect/architect) on GitHub

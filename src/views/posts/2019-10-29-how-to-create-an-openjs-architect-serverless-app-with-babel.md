@@ -11,7 +11,7 @@ published: 'October 29, 2019'
 
 ![arc25](post-assets/arc25.jpg)
 
-In this article we’ll set up an OpenJS Architect project that uses Babel and Rollup to take advantage of next-generation and experimental JS syntax features. Future editions will explore TypeScript and JSX.
+## In this article we’ll set up an OpenJS Architect project that uses Babel and Rollup to take advantage of next-generation and experimental JS syntax features. Future editions will explore TypeScript and JSX.
 
 Other articles in this series you may be interested in:
 

@@ -11,7 +11,7 @@ published: 'November 15, 2018'
 
 ![arc48](post-assets/arc48.gif)
 
-[Architect](https://arc.codes/) treats local offline development of serverless apps as a first-class concern, and today we’re taking it to the next level.
+## [Architect](https://arc.codes/) treats local offline development of serverless apps as a first-class concern, and today we’re taking it to the next level.
 
 [Architect 4.3 (Yeti)](https://www.npmjs.com/package/@architect/architect) includes an all-new version of sandbox (`npx sandbox`) that starts up instantly, instantly loads your local code changes, and best of all, paves the way for multiple runtimes.
 

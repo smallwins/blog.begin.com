@@ -11,7 +11,7 @@ published: 'October 31, 2019'
 
 ![arc25](post-assets/arc25.jpg)
 
-In this article we’ll set up an **OpenJS Architect** project that uses Babel to compile code for AWS Lambda, but without adding a bundler or additional external dependencies. Folks looking for the most minimal serverless setup for a modern JS build step, this is article for you!
+## In this article we’ll set up an **OpenJS Architect** project that uses Babel to compile code for AWS Lambda, but without adding a bundler or additional external dependencies. Folks looking for the most minimal serverless setup for a modern JS build step, this is article for you!
 
 Other articles in this series you may be interested in:
 

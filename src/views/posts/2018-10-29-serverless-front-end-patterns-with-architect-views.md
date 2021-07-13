@@ -13,7 +13,7 @@ published: 'October 29, 2018'
 ![arc54](post-assets/arc54.jpg)
 <small>Photo by Val Vesa</small>
 
-[Architect](https://arc.codes/) projects can now use the `src/views` directory, which automatically shares code to all — or just some — of your project’s `@http` `GET` functions.
+## [Architect](https://arc.codes/) projects can now use the `src/views` directory, which automatically shares code to all — or just some — of your project’s `@http` `GET` functions.
 
 This might seem like a small change, but it opens the door for a multitude of common frontend patterns, such as sharing view components for the server side render of PWAs.
 

@@ -13,7 +13,7 @@ published: 'April 30, 2020'
 ![arc14](post-assets/arc14.jpg)
 <small>Photo by Traf</small>
 
-Begin already gives you the most advanced set of serverless tools and application primitives in its class:
+## Begin already gives you the most advanced set of serverless tools and application primitives in its class:
 
 - [Static assets](https://docs.begin.com/en/getting-started/static-assets) for publishing any kind of web asset or page
 - [HTTP functions](https://docs.begin.com/en/http-functions/api-reference) (@http), enabling full server-side rendering
@@ -25,7 +25,7 @@ Today we’re introducing **an entirely new primitive to Begin apps: event funct
 
 Hit this button to deploy an event functions example app to Begin in 30 seconds:
 
-![Deploy to begin](deploy-to-begin.png)
+<a href="https://begin.com/apps/create?template=https://github.com/pchinjr/fcc-serverless-api"><img class="block m-auto mt3 mb3" src="https://res.cloudinary.com/practicaldev/image/fetch/s--yYw27_-V--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://static.begin.com/deploy-to-begin.svg" alt="Deploy to Begin" loading="lazy"></a>
 
 ## Event functions: what are they, and how do they work?
 
@@ -95,7 +95,7 @@ Our goal at Begin is to unlock the full power of modern application architecture
 
 - Deploy an example app with Begin events in 15 seconds (no credit card required):
 
-![Deploy to begin](deploy-to-begin.png)
+<a href="https://begin.com/apps/create?template=https://github.com/pchinjr/fcc-serverless-api"><img class="block m-auto mt3 mb3" src="https://res.cloudinary.com/practicaldev/image/fetch/s--yYw27_-V--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://static.begin.com/deploy-to-begin.svg" alt="Deploy to Begin" loading="lazy"></a>
 
 - [Try out another Begin tutorial, like a full CRUD app with Begin Data!](https://docs.begin.com/en/guides/crud-app)
 - 🌟 Check out (and star!) Begin’s open core [OpenJS Architect](https://github.com/architect/architect) on GitHub

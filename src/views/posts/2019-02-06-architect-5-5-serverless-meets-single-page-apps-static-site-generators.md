@@ -13,7 +13,7 @@ published: 'February 06, 2019'
 ![arc39](post-assets/arc39.jpg)
 <small>Photo by Ahmad Kadhim</small>
 
-We’re extremely excited to announce **Architect 5.5 (Catalope)¹**, bringing seamless in-network, same-domain integration of SPAs, static site generators, and AWS serverless systems like Lambda and DynamoDB.
+## We’re extremely excited to announce **Architect 5.5 (Catalope)¹**, bringing seamless in-network, same-domain integration of SPAs, static site generators, and AWS serverless systems like Lambda and DynamoDB.
 
 With Architect 5.5, any developer can easily, seamlessly combine the best of all worlds: a massively scalable trusted backend runtime, with in-network persistence, and statically-rendered frontend-facing assets from Gatsby, Jekyll, and Hugo, to name a few.
 
@@ -31,7 +31,20 @@ This model enables intercepting, processing, and caching content from S3 via Lam
 
 The following `app.arc` project manifest defines a root HTTP lambda handler and two S3 buckets.
 
-![arc41](post-assets/arc41.png)
+```arc
+# defines app namespace
+@app
+spa
+
+# defines src/http/get-index lambda
+@http
+get /
+
+# defines two S3 buckets
+@static
+staging my-staging-bucket
+production my-prod-bucket
+```
 
 <small>JSF Architect can also operate on arc.json or arc.yaml files should you prefer those syntaxes</small>
 
@@ -50,7 +63,26 @@ Setting {spa:true} will ensure no matter what URL folder depth the `public/index
 
 Let’s imagine a full serverless REST app:
 
-![arc42](post-assets/arc42.png)
+```arc
+# defines app namespace
+@app
+spa
+
+# defines src/http/get-index lambda and backend api
+@http
+get /
+post /api/auth          # auth
+get /api/todos          # list todos
+get /api/todos/:tpdp    # read todo
+post /api/todos         # create todo
+patch /api/todos/:todo  # update todo
+delete /api/todos/:todo # destroy todo
+
+# defines two S3 buckets
+@static
+staging my-staging-bucket
+production my-prod-bucket
+```
 
 <small>Each line under @http is a different lambda function</small>
 

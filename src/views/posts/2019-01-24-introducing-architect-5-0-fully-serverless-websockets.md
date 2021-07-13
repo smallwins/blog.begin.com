@@ -13,12 +13,12 @@ published: 'January 24, 2019'
 ![arc44](post-assets/arc44.jpg)
 <small>Photo by John Barkiple</small>
 
-We’re thrilled to announce Architect 5.0 (Catalope), with full API Gateway WebSocket integration. We can’t wait to share what we learned, current limitations, and our excitement for future serverless WebSockets support unlocks.
+## We’re thrilled to announce Architect 5.0 (Catalope), with full API Gateway WebSocket integration. We can’t wait to share what we learned, current limitations, and our excitement for future serverless WebSockets support unlocks.
 
 This article will:
 
-- [Answer your burning questions about serverless WebSockets on AWS ](https://blog.begin.com/introducing-architect-5-0-fully-serverless-websockets-20bb97673c4e#f3ac)🔥
-- [Show you how to build serverless WebSockets](https://blog.begin.com/introducing-architect-5-0-fully-serverless-websockets-20bb97673c4e#ac3b) with [JSF Architect](https://arc.codes/)
+- [Answer your burning questions about serverless WebSockets on AWS ](/posts/2019-01-24-introducing-architect-5-0-fully-serverless-websockets)🔥
+- [Show you how to build serverless WebSockets](/posts/2019-01-24-introducing-architect-5-0-fully-serverless-websockets) with [JSF Architect](https://arc.codes/)
 
 ## Serverless WebSocket FAQ 🔌
 

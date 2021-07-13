@@ -5,8 +5,8 @@ module.exports = {
       'text2'
     ],
     h2: [
-      'mt3',
-      'mb-1',
+      'mt2',
+      'mb2',
       'font-semibold',
       'text1'
     ],
@@ -25,6 +25,10 @@ module.exports = {
     p: [
       'mb-1'
     ],
+    p: [
+      'mb-1',
+      'mt-1'
+    ],
     ul: [
       'mb3',
       'pl3',
@@ -34,7 +38,8 @@ module.exports = {
       'ml-1'
     ],
     blockquote: [
-      'mb-1',
+      'mb1',
+      'mt1',
       'p0',
       'text-g8',
       'bg-p8',
@@ -84,10 +89,16 @@ module.exports = {
       'bg-g0'
     ],
     img: [
-      'mt-1'
+      'mt-1',
+      'mb-1',
+      'container1',
+      'block',
+      'm-auto'
     ],
     ol: [
-      'pl3'
+      'pl3',
+      'mt2',
+      'mb2'
     ]
   }
   

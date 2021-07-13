@@ -11,15 +11,15 @@ published: 'March 10, 2020'
 
 ![arc22](post-assets/arc22.png)
 
-Jest is a super popular and very robust JavaScript testing library. As you likely know, investing in your testing will help you write highly maintainable applications, and help ensure that new code will be less likely to cause regressions.
+## Jest is a super popular and very robust JavaScript testing library. As you likely know, investing in your testing will help you write highly maintainable applications, and help ensure that new code will be less likely to cause regressions.
 
-In this post we’ll demonstrate the basics of testing with Jest on a serverless app in [Begin](https://begin.com/); the example app in this post will achieve the same results as our [article about testing with Tap](https://blog.begin.com/testing-your-serverless-app-on-begin-with-tap-54f39714d3bd).
+In this post we’ll demonstrate the basics of testing with Jest on a serverless app in [Begin](https://begin.com/); the example app in this post will achieve the same results as our [article about testing with Tap](/posts/2020-03-09-testing-your-serverless-app-on-begin-with-tap).
 
 ## Try out testing with Jest right now
 
 Hit this button to deploy a new Node.js + Jest example project to Begin in 15 seconds:
 
-![Deploy to begin](deploy-to-begin.png)
+<a href="https://begin.com/apps/create?template=https://github.com/pchinjr/fcc-serverless-api"><img class="block m-auto mt3 mb3" src="https://res.cloudinary.com/practicaldev/image/fetch/s--yYw27_-V--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://static.begin.com/deploy-to-begin.svg" alt="Deploy to Begin" loading="lazy"></a>
 
 ## Testing the libraries
 
@@ -88,7 +88,7 @@ Pushing your code to GitHub will automatically run your test suite (and deploy y
 
 - Deploy an AVA example app to Begin in 15 seconds:
 
-![Deploy to begin](deploy-to-begin.png)
+<a href="https://begin.com/apps/create?template=https://github.com/pchinjr/fcc-serverless-api"><img class="block m-auto mt3 mb3" src="https://res.cloudinary.com/practicaldev/image/fetch/s--yYw27_-V--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://static.begin.com/deploy-to-begin.svg" alt="Deploy to Begin" loading="lazy"></a>
 
 - [Try out another Begin tutorial, like a full CRUD app with Begin Data!](https://docs.begin.com/en/guides/crud-app)
 - 🌟 Check out (and star!) Begin’s open core [OpenJS Architect](https://github.com/architect/architect) on GitHub

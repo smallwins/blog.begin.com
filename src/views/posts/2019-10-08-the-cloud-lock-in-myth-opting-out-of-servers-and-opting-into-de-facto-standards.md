@@ -13,7 +13,7 @@ published: 'October 08, 2019'
 ![arc33](post-assets/arc33.jpg)
 <small>Photo by Sam Schooler</small>
 
-Practically all future compute workloads will run on cloud vendor infra. This is hardly a controversial statement in late 2019. But where we are in this lengthy transition, and how it will unfold, is still heavily debated, as are the considerations behind deciding on cloud vendors, and services. The flashpoint of this debate is, as ever, anxiety around lock-in — a scary and nebulous concept that strikes fear into the hearts of devs and CTOs alike.
+## Practically all future compute workloads will run on cloud vendor infra. This is hardly a controversial statement in late 2019. But where we are in this lengthy transition, and how it will unfold, is still heavily debated, as are the considerations behind deciding on cloud vendors, and services. The flashpoint of this debate is, as ever, anxiety around lock-in — a scary and nebulous concept that strikes fear into the hearts of devs and CTOs alike.
 
 But as it turns out, in the modern cloud era, concern over lock-in is something of a red herring. We’ll take a closer look at why this is the case by examining the evolution of cloud compute through to its logical conclusion: the cloud function.
 

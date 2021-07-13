@@ -13,15 +13,16 @@ published: 'November 13, 2018'
 ![arc51](post-assets/arc51.jpg)
 <small>Photo by Johny Goerend</small>
 
+## Architect enables you to serve ES Modules to the browser via local workflows and from Lambda cloud functions.
+
 The vast majority of [browsers in use today support ES Modules](https://caniuse.com/#feat=es6-module), but until recently it’s been difficult to use modules in your project. Before widespread browser support, modules required a compilation step via a tool like Webpack (or Browserify, or Gulp, etc.) in order to convert them into something the browser could use.
 
 But now you can use ES Modules in the browser without any extra overhead, making them the perfect companion to the serverless stack.
 
-## Architect enables you to serve ES Modules to the browser via local workflows and from Lambda cloud functions.
 
 This post will walk you through how to get started working with standards based JavaScript modules in an Architect serverless project.
 
-> We’ll build on concepts from [serverless frontend patterns with Architect Views](https://blog.begin.com/serverless-front-end-patterns-with-architect-views-cf4748aa1ec7), so you may find it helpful to [check that out first](https://blog.begin.com/serverless-front-end-patterns-with-architect-views-cf4748aa1ec7).
+> We’ll build on concepts from [serverless frontend patterns with Architect Views](/posts/2018-10-29-serverless-front-end-patterns-with-architect-views), so you may find it helpful to [check that out first](/posts/2018-10-29-serverless-front-end-patterns-with-architect-views).
 
 1. Make a new Architect project
 

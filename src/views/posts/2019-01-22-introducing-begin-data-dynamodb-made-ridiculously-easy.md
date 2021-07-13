@@ -13,7 +13,7 @@ published: 'January 22, 2019'
 ![arc44](post-assets/arc44.jpg)
 <small>Photo by John Barkiple</small>
 
-Fast, scalable cloud function-based apps need fast, scalable cloud function-capable persistence.
+## Fast, scalable cloud function-based apps need fast, scalable cloud function-capable persistence.
 
 AWS DynamoDB is a great solution for serverless data, but working with it can be quite intimidating! [Begin Data](https://docs.begin.com/en/data/begin-data) is a super tiny wrapper for DynamoDB that makes it incredibly easy to get started using it for your application’s key/value and document persistence.
 

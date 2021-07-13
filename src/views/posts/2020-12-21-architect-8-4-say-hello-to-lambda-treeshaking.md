@@ -12,7 +12,7 @@ published: 'December 21, 2020'
 
 ![arc1](post-assets/arc1.jpg)
 
-One of the thing that sets OpenJS Architect apart from other serverless tools is its opinion that serverless apps work best when composed of many small, discrete Lambda cloud functions.
+## One of the thing that sets OpenJS Architect apart from other serverless tools is its opinion that serverless apps work best when composed of many small, discrete Lambda cloud functions.
 
 This approach offers the greatest coldstart performance, security isolation, deployment speed, and mean time to bug resolution. However, this approach also comes with a minor drawback: the need to manage many Lambdas’ dependencies.
 Or at least it used to! Architect 8.4 introduces a new concept we call Lambda Node.js modules treeshaking.

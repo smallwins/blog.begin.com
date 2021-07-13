@@ -13,7 +13,7 @@ published: 'May 14, 2020'
 ![arc11](post-assets/arc11.jpg)
 <small>Photo by Maria Oswalt on Unsplash</small>
 
-[Deno](https://deno.land/) is a next-generation JavaScript runtime that features a built-in TypeScript compiler and code bundler, allowing developers to create applications without Webpack, Babel, or Rollup. Oh, and we can run Deno in serverless functions! Combining these results in a much cleaner codebase for server-side rendered React.js applications.
+## [Deno](https://deno.land/) is a next-generation JavaScript runtime that features a built-in TypeScript compiler and code bundler, allowing developers to create applications without Webpack, Babel, or Rollup. Oh, and we can run Deno in serverless functions! Combining these results in a much cleaner codebase for server-side rendered React.js applications.
 
 In this post we’ll look at an example app deployed on [Begin](http://begin.com/) with CI/CD.
 
@@ -25,7 +25,7 @@ You can install Deno in a few different ways. I chose to install it with `brew i
 
 Hit this button to deploy a **Deno React app** to Begin in 30 seconds (no credit card required):
 
-![Deploy to begin](deploy-to-begin.png)
+<a href="https://begin.com/apps/create?template=https://github.com/pchinjr/fcc-serverless-api"><img class="block m-auto mt3 mb3" src="https://res.cloudinary.com/practicaldev/image/fetch/s--yYw27_-V--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://static.begin.com/deploy-to-begin.svg" alt="Deploy to Begin" loading="lazy"></a>
 
 After deploying to Begin, you’ll have a new repo. Let’s clone it and take a closer look:
 
@@ -176,7 +176,7 @@ You’re already done! Every Begin app builds, tests, and deploys your app to `s
 
 - Deploy a **Deno + React SSR example app** to Begin in 30 seconds (no credit card required):
 
-![Deploy to begin](deploy-to-begin.png)
+<a href="https://begin.com/apps/create?template=https://github.com/pchinjr/fcc-serverless-api"><img class="block m-auto mt3 mb3" src="https://res.cloudinary.com/practicaldev/image/fetch/s--yYw27_-V--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://static.begin.com/deploy-to-begin.svg" alt="Deploy to Begin" loading="lazy"></a>
 
 - [Try out another Begin tutorial, like a full CRUD app with Begin Data!](https://docs.begin.com/en/guides/crud-app)
 - 🌟 Check out (and star!) Begin’s open core [OpenJS Architect](https://github.com/architect/architect) on GitHub

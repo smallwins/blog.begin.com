@@ -11,7 +11,7 @@ published: 'October 16, 2020'
 
 ![arc1](post-assets/arc1.jpg)
 
-[OpenJSF Architect](https://arc.codes/) powers thousands of real production serverless applications all over the world. We continue to hear how valuable folks find its focused, direct, stable, lock-in-free approach to building blazing fast modern web apps without ever having to manage a single server.
+## [OpenJSF Architect](https://arc.codes/) powers thousands of real production serverless applications all over the world. We continue to hear how valuable folks find its focused, direct, stable, lock-in-free approach to building blazing fast modern web apps without ever having to manage a single server.
 
 Today we’re announcing Architect 8 (El Chupacabra), which adds the newest Architect pragma, `@proxy`, and makes `@http` routes even more powerful with three new additions!
 

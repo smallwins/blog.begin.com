@@ -13,7 +13,7 @@ published: 'November 14, 2018'
 ![arc50](post-assets/arc50.jpg)
 <small>photo by Valeriy Andrushko</small>
 
-> Devs require the ability to preview work before committing it and, perhaps more importantly, the ability to run unit and integration tests as fast as possible. Time is precious, and every iteration counts — extra steps unnecessarily extend the feedback loop and lead time to production. [Architect serverless framework](https://www.npmjs.com/package/@architect/architect) is organized and optimized around these principles.
+## Devs require the ability to preview work before committing it and, perhaps more importantly, the ability to run unit and integration tests as fast as possible. Time is precious, and every iteration counts — extra steps unnecessarily extend the feedback loop and lead time to production. [Architect serverless framework](https://www.npmjs.com/package/@architect/architect) is organized and optimized around these principles.
 
 At a minimum, a development workflow needs to support the following environments: `testing`, `previewing`, `staging`, and `production`.
 
@@ -130,4 +130,4 @@ Building a better web starts with building better web developers. A big part of 
 
 [View the complete example project on GitHub](https://github.com/arc-repos/arc-example-local-crud)
 
-* Not yet supported by sandbox: running scheduled, SQS, and DynamoDB- triggered Lambdas locally (however and we expect to add support soon). Sunrise support for Python is now available, and support for Go, .NET, and Java is coming soon. [Architect is an open source project](https://github.com/arc-repos/), we always appreciate your help and feedback!
+> Not yet supported by sandbox: running scheduled, SQS, and DynamoDB- triggered Lambdas locally (however and we expect to add support soon). Sunrise support for Python is now available, and support for Go, .NET, and Java is coming soon. [Architect is an open source project](https://github.com/arc-repos/), we always appreciate your help and feedback!

@@ -11,7 +11,7 @@ published: 'September 18, 2020'
 
 ![arc1](post-assets/arc1.jpg)
 
-[OpenJSF Architect](https://arc.codes/) now powers thousands of serverless applications all over the world. Folks continue to tell us they value its focused, direct, stable, lock-in-free approach to building blazing fast modern web apps without ever having to manage a single server.
+## [OpenJSF Architect](https://arc.codes/) now powers thousands of serverless applications all over the world. Folks continue to tell us they value its focused, direct, stable, lock-in-free approach to building blazing fast modern web apps without ever having to manage a single server.
 
 Today we’re extremely excited to announce Architect 7 (Chupacabra), a major step forward in building serverless web apps and APIs with AWS.
 

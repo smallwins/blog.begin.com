@@ -11,21 +11,21 @@ published: 'March 11, 2020'
 
 ![arc21](post-assets/arc21.png)
 
-[Mocha](https://mochajs.org/) is a well known testing framework for Node.js. It can support both xUnit and TAP outputs, and developers can choose their favorite assertion library. Mocha’s flexibility and large community still makes it a great choice for testing your Begin apps.
+## [Mocha](https://mochajs.org/) is a well known testing framework for Node.js. It can support both xUnit and TAP outputs, and developers can choose their favorite assertion library. Mocha’s flexibility and large community still makes it a great choice for testing your Begin apps.
 
 As you likely know, investing in your testing will help you write highly maintainable applications, and help ensure that new code will be less likely to cause regressions.
 
-In this post we’ll demonstrate the basics of testing with Mocha on a serverless app in [Begin](https://begin.com/); the example app in this post will achieve the same results as our articles about testing with [Jest](https://blog.begin.com/testing-serverless-apps-with-jest-on-begin-1408e1811e68) & [TAP](https://blog.begin.com/testing-your-serverless-app-on-begin-with-tap-54f39714d3bd).
+In this post we’ll demonstrate the basics of testing with Mocha on a serverless app in [Begin](https://begin.com/); the example app in this post will achieve the same results as our articles about testing with [Jest](/posts/2020-03-10-testing-serverless-apps-with-jest-on-begin) & [TAP](/posts/2020-03-09-testing-your-serverless-app-on-begin-with-tap).
 
 ## Try out Mocha with Begin right now!
 
 Hit this button to deploy a new Node.js + Mocha example app to Begin in 15 seconds:
 
-![Deploy to begin](deploy-to-begin.png)
+<a href="https://begin.com/apps/create?template=https://github.com/pchinjr/fcc-serverless-api"><img class="block m-auto mt3 mb3" src="https://res.cloudinary.com/practicaldev/image/fetch/s--yYw27_-V--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://static.begin.com/deploy-to-begin.svg" alt="Deploy to Begin" loading="lazy"></a>
 
 ## Testing the libraries
 
-If you’ve seen our previous serverless testing examples with [TAP](https://blog.begin.com/testing-your-serverless-app-on-begin-with-tap-54f39714d3bd) and [Jest](https://blog.begin.com/testing-serverless-apps-with-jest-on-begin-1408e1811e68), then this will look very familiar to you. Begin supports any testing framework because we’re committed to helping your team to focus on using tools that work for you.
+If you’ve seen our previous serverless testing examples with [TAP](/posts/2020-03-09-testing-your-serverless-app-on-begin-with-tap) and [Jest](/posts/2020-03-10-testing-serverless-apps-with-jest-on-begin), then this will look very familiar to you. Begin supports any testing framework because we’re committed to helping your team to focus on using tools that work for you.
 
 First, let’s create a hook for Mocha to start and stop `@architect/sandbox` (a local dev environment that lets developers work locally by emulating the behavior of API Gateway, Lambda functions, and DynamoDB), along with the necessary dependencies to execute your tests.
 
@@ -96,7 +96,7 @@ It’s finally time to see your beautiful app in production. Pushing code to Git
 
 - Deploy an AVA example app to Begin in 15 seconds:
 
-![Deploy to begin](deploy-to-begin.png)
+<a href="https://begin.com/apps/create?template=https://github.com/pchinjr/fcc-serverless-api"><img class="block m-auto mt3 mb3" src="https://res.cloudinary.com/practicaldev/image/fetch/s--yYw27_-V--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://static.begin.com/deploy-to-begin.svg" alt="Deploy to Begin" loading="lazy"></a>
 
 - [Try out another Begin tutorial, like a full CRUD app with Begin Data!](https://docs.begin.com/en/guides/crud-app)
 - 🌟 Check out (and star!) Begin’s open core [OpenJS Architect](https://github.com/architect/architect) on GitHub

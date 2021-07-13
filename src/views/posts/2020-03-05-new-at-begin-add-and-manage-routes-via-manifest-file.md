@@ -11,7 +11,7 @@ published: 'March 05, 2020'
 
 ![arc24](post-assets/arc24.png)
 
-We’ve got some pretty big news for how you build apps on Begin: **it’s finally possible to add and remove your app’s routes entirely via manifest file.**
+## We’ve got some pretty big news for how you build apps on Begin: **it’s finally possible to add and remove your app’s routes entirely via manifest file.**
 
 This crucial best practice for building modern applications is commonly known as infrastructure-as-code, and it’s a key enabler of iteration speed.
 
@@ -21,7 +21,7 @@ Our goal at Begin is to make you — and your apps — massively faster. A key i
 
 Hit this button to deploy a new CRUD app to Begin in 15 seconds. From there you’ll be able to add to its three existing routes:
 
-![Deploy to begin](deploy-to-begin.png)
+<a href="https://begin.com/apps/create?template=https://github.com/pchinjr/fcc-serverless-api"><img class="block m-auto mt3 mb3" src="https://res.cloudinary.com/practicaldev/image/fetch/s--yYw27_-V--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://static.begin.com/deploy-to-begin.svg" alt="Deploy to Begin" loading="lazy"></a>
 
 ## How it works
 
@@ -64,7 +64,7 @@ Your new route(s) will instantly activate in `staging`. Then deploy to `producti
 
 - Deploy an AVA example app to Begin in 15 seconds:
 
-![Deploy to begin](deploy-to-begin.png)
+<a href="https://begin.com/apps/create?template=https://github.com/pchinjr/fcc-serverless-api"><img class="block m-auto mt3 mb3" src="https://res.cloudinary.com/practicaldev/image/fetch/s--yYw27_-V--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://static.begin.com/deploy-to-begin.svg" alt="Deploy to Begin" loading="lazy"></a>
 
 - [Try out another Begin tutorial, like a full CRUD app with Begin Data!](https://docs.begin.com/en/guides/crud-app)
 - 🌟 Check out (and star!) Begin’s open core [OpenJS Architect](https://github.com/architect/architect) on GitHub

@@ -11,11 +11,11 @@ published: 'September 29, 2019'
 
 ![arc1](post-assets/arc1.jpg)
 
-Since 2017, Architect has been the premiere foundation-backed open source serverless framework, with a clear focus on being the simplest, fastest way to build a modern web app.
+## Since 2017, Architect has been the premiere foundation-backed open source serverless framework, with a clear focus on being the simplest, fastest way to build a modern web app.
 
 The space has evolved rapidly, and we’re incredibly excited to announce **Architect 6 (Ogopogo)**: a ground-up rewrite with first-class Ruby & Python support, that combines the speed and simplicity of which Architect users are accustomed, with the determinism of AWS’s infrastructure-as-code standard, CloudFormation.
 
-## Create your first serverless app in <60 seconds!
+## Create your first serverless app in < 60 seconds!
 
 Want to give it a go? Here’s the super quickstart, no AWS credentials required.
 

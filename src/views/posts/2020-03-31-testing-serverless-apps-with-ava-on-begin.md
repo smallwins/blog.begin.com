@@ -11,15 +11,15 @@ published: 'March 31, 2020'
 
 ![arc16](post-assets/arc16.png)
 
-[AVA](http://avajs.dev/) is a testing framework that aims to make your tests and results as concise as possible. The docs are straightforward and illustrate their philosophy towards building a productive test suite. One interesting feature is that AVA output is formatted to show code excerpts where your tests fail. We’ll see an example of that [later on](https://blog.begin.com/testing-serverless-apps-with-ava-on-begin-d0cfc8844df7#8e0e).
+## [AVA](http://avajs.dev/) is a testing framework that aims to make your tests and results as concise as possible. The docs are straightforward and illustrate their philosophy towards building a productive test suite. One interesting feature is that AVA output is formatted to show code excerpts where your tests fail. We’ll see an example of that [later on](https://blog.begin.com/testing-serverless-apps-with-ava-on-begin-d0cfc8844df7#8e0e).
 
-This post will give an overview of testing with AVA on a serverless app in [Begin](http://www.begin.com/). You can also check out our other articles on [TAP](https://blog.begin.com/testing-your-serverless-app-on-begin-with-tap-54f39714d3bd), [Jest](https://blog.begin.com/testing-serverless-apps-with-jest-on-begin-1408e1811e68), and [Mocha](https://blog.begin.com/testing-serverless-apps-with-mocha-on-begin-8318f03e6311).
+This post will give an overview of testing with AVA on a serverless app in [Begin](http://www.begin.com/). You can also check out our other articles on [TAP](/posts/2020-03-09-testing-your-serverless-app-on-begin-with-tap), [Jest](/posts/2020-03-10-testing-serverless-apps-with-jest-on-begin), and [Mocha](/posts/2020-03-11-testing-serverless-apps-with-mocha-on-begin).
 
 ## Try out a Begin app with AVA right now
 
 Hit this button to deploy a new Node.js + AVA example project to Begin in 15 seconds:
 
-![Deploy to begin](deploy-to-begin.png)
+<a href="https://begin.com/apps/create?template=https://github.com/pchinjr/fcc-serverless-api"><img class="block m-auto mt3 mb3" src="https://res.cloudinary.com/practicaldev/image/fetch/s--yYw27_-V--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://static.begin.com/deploy-to-begin.svg" alt="Deploy to Begin" loading="lazy"></a>
 
 ## Testing the libraries
 
@@ -99,7 +99,7 @@ We think tests are so cool that every single deploy on Begin automatically runs 
 
 - Deploy an AVA example app to Begin in 15 seconds:
 
-![Deploy to begin](deploy-to-begin.png)
+<a href="https://begin.com/apps/create?template=https://github.com/pchinjr/fcc-serverless-api"><img class="block m-auto mt3 mb3" src="https://res.cloudinary.com/practicaldev/image/fetch/s--yYw27_-V--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://static.begin.com/deploy-to-begin.svg" alt="Deploy to Begin" loading="lazy"></a>
 
 - [Try out another Begin tutorial, like a full CRUD app with Begin Data!](https://docs.begin.com/en/guides/crud-app)
 - 🌟 Check out (and star!) Begin’s open core [OpenJS Architect](https://github.com/architect/architect) on GitHub

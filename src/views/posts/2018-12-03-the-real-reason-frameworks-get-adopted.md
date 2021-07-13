@@ -13,7 +13,7 @@ published: 'December 03, 2018'
 ![arc46](post-assets/arc46.jpg)
 <small>Photo by Dan Gold</small>
 
-Sitting down to write a serverless application in 2018 feels a lot like it did to write a greenfield web application in the pre-Rails and Django times. Before the titanic Ruby and Python frameworks were de rigeur, things were slow, messy, and there were no conventions to speak of.
+## Sitting down to write a serverless application in 2018 feels a lot like it did to write a greenfield web application in the pre-Rails and Django times. Before the titanic Ruby and Python frameworks were de rigeur, things were slow, messy, and there were no conventions to speak of.
 
 Looking back now, it’s hard to believe that people wrote web applications without a framework. And that’s the thing: compared to today, they largely didn’t.
 

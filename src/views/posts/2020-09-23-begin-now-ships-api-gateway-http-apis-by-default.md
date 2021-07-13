@@ -12,7 +12,7 @@ published: 'September 23, 2020'
 ![arc7](post-assets/arc7.jpg)
 <small>Photo by Victor Lu</small>
 
-We’re excited to announce that all new Begin apps will now ship with next-generation AWS API Gateway `HTTP` APIs by default!
+## We’re excited to announce that all new Begin apps will now ship with next-generation AWS API Gateway `HTTP` APIs by default!
 
 Significantly streamlined compared to legacy API Gateway `REST` `APIs`,` HTTP APIs` give most users only what they need from an HTTP gateway, while lowering latency, being faster to provision, and being less expensive to operate. And the best part is you start taking advantage of it immediately: all new Begin apps are now provisioned using `HTTP` APIs!
 
@@ -20,7 +20,7 @@ Significantly streamlined compared to legacy API Gateway `REST` `APIs`,` HTTP AP
 
 Hit this button to deploy a new personal website app (running on an HTTP API) to Begin in 30 seconds (no credit card required):
 
-![Deploy to begin](deploy-to-begin.png)
+<a href="https://begin.com/apps/create?template=https://github.com/pchinjr/fcc-serverless-api"><img class="block m-auto mt3 mb3" src="https://res.cloudinary.com/practicaldev/image/fetch/s--yYw27_-V--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://static.begin.com/deploy-to-begin.svg" alt="Deploy to Begin" loading="lazy"></a>
 
 ## Differences between HTTP APIs and REST APIs
 
@@ -51,7 +51,7 @@ exports.handler = async function http (req) {
 
 ## Shipping an `HTTP` API-based app
 
-Because AWS introduced breaking changes to the [request and response](https://docs.begin.com/en/http-functions/api-reference behavior in HTTP APIs), we’ve opted not to auto-upgrade existing Begin users. That said, if you’d like to take advantage of the new payloads, simply create a new app.
+Because AWS introduced breaking changes to the [request and response](https://docs.begin.com/en/http-functions/api-reference) behavior in HTTP APIs, we’ve opted not to auto-upgrade existing Begin users. That said, if you’d like to take advantage of the new payloads, simply create a new app.
 
 If you’d like to upgrade your existing app from `REST` to `HTTP` APIs, delete the app in the Begin console (Settings > Delete app), and create a new app from the existing repository (New app > Use an existing repo > Select the repo you of the app you just deleted). However, be warned: doing this will change your app’s URLs and erase your domain configuration (if present).
 
@@ -83,7 +83,7 @@ exports.handler = arc.http.async(handler)
 
 - Deploy a new personal website to Begin in 30 seconds (no credit card required):
 
-![Deploy to begin](deploy-to-begin.png)
+<a href="https://begin.com/apps/create?template=https://github.com/pchinjr/fcc-serverless-api"><img class="block m-auto mt3 mb3" src="https://res.cloudinary.com/practicaldev/image/fetch/s--yYw27_-V--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://static.begin.com/deploy-to-begin.svg" alt="Deploy to Begin" loading="lazy"></a>
 
 - [Try out another Begin tutorial, like a full CRUD app with Begin Data!](https://docs.begin.com/en/guides/crud-app)
 - 🌟 Check out (and star!) Begin’s open core [OpenJS Architect](https://github.com/architect/architect) on GitHub
