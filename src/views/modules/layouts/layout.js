@@ -45,8 +45,8 @@ export default function layout (props = {}) {
       >
         ${Logo({ classes: 'logo' })}
       </a>
-    
-  <nav class="flex items-center justify-between w-full max-h-full pr-4 pl-4" style="
+   
+  <nav class="flex items-center justify-between w-full pr-4 pl-4" style="
   top:2.8rem;
   right:0;
   left:0;
@@ -88,30 +88,32 @@ export default function layout (props = {}) {
     </span>
   </nav>
   </div>
-      <div
-        class="
-          flex
-          items-center
-          justify-between
-        "
-      >
-        <button
-          aria-label="Menu"
-          id="menu-button"
-          class="
-            ml0
-            bg-unset
-            text-g0
-            text-h0
-            text-a2
-            hidden-lg
-            cursor-pointer
-          "
-        >
-          ${Icon({ href: 'hamburger', classes: 'icon fill-current' })}
-        </button>
-      </div>
-      <div class="indicator bg-image0 absolute right0 bottom0 left0"></div>
+
+  <div
+    class="
+      flex
+      items-center
+      justify-between
+      hidden-lg
+    "
+  >
+    <button
+      aria-label="Menu"
+      class="
+        ml0
+        bg-unset
+        text-g0
+        text-h0
+        text-a2
+      
+        cursor-pointer
+      "
+    >
+      ${Icon({ href: 'hamburger', classes: 'icon fill-current' })}
+    </button>
+  </div>
+      
+  <div class="indicator bg-image0 absolute right0 bottom0 left0"></div>
     </header>
     
     <main

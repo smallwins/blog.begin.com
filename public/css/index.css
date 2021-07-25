@@ -154,3 +154,7 @@ code {
   height: 5rem;
 }
 
+.menu-transition {
+  transition: max-height 0.25s cubic-bezier(0.79, 0.14, 0.15, 0.86);
+}
+
