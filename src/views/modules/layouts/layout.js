@@ -46,7 +46,7 @@ export default function layout (props = {}) {
         ${Logo({ classes: 'logo' })}
       </a>
    
-  <nav class="flex items-center justify-between w-full pr-4 pl-4" style="
+  <nav class="hidden flex-lg items-center justify-between w-full pr-4 pl-4" style="
   top:2.8rem;
   right:0;
   left:0;
