@@ -79,7 +79,7 @@ export default function postsLayout (props = {}) {
     >
       <div
         class="
-          max-width-content
+          max-width-post-layout
           m-auto
         "
       >

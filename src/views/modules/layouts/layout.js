@@ -127,7 +127,7 @@ export default function layout (props = {}) {
     >
       <div
         class="
-          max-width-content
+          max-width-layout
           m-auto
         "
       >

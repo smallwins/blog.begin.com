@@ -29,7 +29,7 @@ export default function HTML (props = {}) {
 
   return `
 <!DOCTYPE html>
-<html lang="${lang}" class=" ">
+<html lang="${lang}" class="">
 ${Head(props)}
 ${Symbols}
 <body

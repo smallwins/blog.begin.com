@@ -13,8 +13,11 @@
   .indicator {
     height: 4px;
   }
-  .max-width-content {
+  .max-width-post-layout {
     max-width: 50rem;
+  }
+  .max-width-layout {
+    max-width: 60rem;
   }
   .two-column {
     /* Height: Header | Content */

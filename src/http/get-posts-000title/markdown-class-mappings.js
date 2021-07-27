@@ -94,7 +94,7 @@ module.exports = {
       'mb-1',
       'pb1',
       'pt1',
-      'container1',
+      'container',
       'block',
       'm-auto'
     ],
