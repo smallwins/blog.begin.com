@@ -39,10 +39,11 @@ document.addEventListener('DOMContentLoaded', () => {
     // Copy-Paste function for code blocks
    
       
-      // const codeBlock = document.getElementById('code');
+      // const code = document.getElementById('code');
       const copyButton = document.querySelectorAll('.copy-button');
       const copySuccess = document.querySelectorAll('.copy-success');
 
+      
       console.log(copyButton)
       console.log(copySuccess)
 
@@ -55,12 +56,23 @@ document.addEventListener('DOMContentLoaded', () => {
           let success = parent.querySelector(".copy-success")
           success.style.display = "block"
           console.log(atob(code))
+          navigator.clipboard.writeText(atob(code)).then(
+            () => {
+              copySuccess
+              // setTimeout(() => {
+              //   copySuccess
+              // }, 2500);
+            },
+            () => {
+              console.log('Error writing to the clipboard');
+            }
+          );
         })
       }
     })
 
 
-    //   // console.log(codeBlock)
+      // console.log(code)
     
     //   const copyTextHandler = () => {
     //     const text = codeBlock.innerText;
@@ -80,5 +92,5 @@ document.addEventListener('DOMContentLoaded', () => {
     //   };
     
     //   copyButton.addEventListener('click', copyTextHandler);
-    // });
+    // }
     

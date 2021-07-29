@@ -162,7 +162,7 @@ code {
 }
 
 .copy-button {
-  display: none;
+  /* display: none; */
 }
 
 .menu-transition {
