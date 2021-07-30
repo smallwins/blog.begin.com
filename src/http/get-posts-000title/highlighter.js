@@ -2,12 +2,11 @@
 module.exports = function (hljs, escapeHtml, str, lang) {
   if (lang && hljs.getLanguage(lang)) {
     try {
-      return `<div class="relative"><button
+      return `<pre class="hljs radius1 pb1 pt1 mb3 mt3 flex"><div class="hidden">${Buffer.from(str).toString("base64")}</div><button
       class="
         copy-button
+        flex 
         
-        items-end
-        absolute
         pt-1
         pr1
         pb-1
@@ -22,14 +21,14 @@ module.exports = function (hljs, escapeHtml, str, lang) {
         text-h1
         font-semibold
         cursor-pointer
-      ">Copy</button><div class="hidden">${Buffer.from(str).toString("base64")}</div><pre class="hljs radius1 pb1 pt1 mb3 mt3">${hljs.highlight(str,{language: "vbscript", ignoreIllegals: true}).value}</pre><span class="copy-success">Code copied! :)</span></div>`
+      ">Copy</button>${hljs.highlight(str,{language: "vbscript", ignoreIllegals: true}).value}</pre>`
     }
     catch (err) {
       console.error(err)
     }
   }
 
-  return `<div class="relative"><button
+  return `<pre class="hljs radius1 pb1 pt1 mb3 mt3"><div class="relative"><button
   class="
     copy-button
     absolute
@@ -47,5 +46,5 @@ module.exports = function (hljs, escapeHtml, str, lang) {
     text-h1
     font-semibold
     cursor-pointer
-  ">Copy</button><div class="hidden">${Buffer.from(str).toString("base64")}</div><pre class="hljs radius1 pb1 pt1 mb3 mt3"></span>${escapeHtml(str)}</pre><span class="copy-success">Code copied! :)</div>`
+  ">Copy</button><div class="hidden">${Buffer.from(str).toString("base64")}</div></span>${escapeHtml(str)}</pre></div>`
 }
