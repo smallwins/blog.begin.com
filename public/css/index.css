@@ -144,6 +144,11 @@
   border-top-left-radius:4px;
 }
 
+pre {
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+
 code {
   background-color: #ffe8f0;
   color: #eb0052;
