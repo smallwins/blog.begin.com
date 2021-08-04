@@ -96,7 +96,8 @@ module.exports = {
       'pt1',
       'container',
       'block',
-      'm-auto'
+      'm-auto',
+      'min-h-1'
     ],
     ol: [
       'pl3',
