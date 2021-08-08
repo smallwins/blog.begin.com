@@ -60,7 +60,8 @@ exports.handler = async function index(req) {
   let blogCard = `
   <div class="grid-lg col-3 gap1">${createCard.map(card => `
     <div class="
-      mb0
+      mb0-lg
+      mb4
       bg-p1
       b-p18
       radius1
