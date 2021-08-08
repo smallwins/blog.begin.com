@@ -17,9 +17,9 @@ export default function layout (props = {}) {
       class="
         z1
         pt0
-        pr2
+        
         pb0
-        pl2
+        
         sticky
         relative-lg
         flex
@@ -31,7 +31,7 @@ export default function layout (props = {}) {
       " 
       style="min-width:4.777rem;min-height:1.333rem;"
     >
-    <div class="flex items-center justify-between w-full">
+    <div class="flex items-center justify-between w-full pr1 pl1">
       <a
         aria-label="Begin Blog"
         href="/"
@@ -53,6 +53,10 @@ export default function layout (props = {}) {
   items-center 
   justify-between 
   w-full 
+  pt1
+  pb1
+  pt-none-lg
+  pb-none-lg
   pr-4 
   pl-4 
   bg-p5
@@ -61,6 +65,7 @@ export default function layout (props = {}) {
   static-lg
   absolute
   menu-transition
+  z1
   " 
   style="
   top:2.8rem;
@@ -118,7 +123,7 @@ export default function layout (props = {}) {
       aria-label="Menu"
       id="hamburger"
       class="
-        ml0
+        pr1
         bg-unset
         text-g0
         text-h0
