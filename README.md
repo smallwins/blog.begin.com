@@ -23,3 +23,13 @@ Much of the layout for this blog was taken from the [Architect docs](https://arc
 ## Posts from Medium 
 
 <https://www.dropbox.com/scl/fi/2jjifa23fbgb1weqiagr2/blog.begin.com-archive-(2016-2020).paper?dl=0&rlkey=grqlz82zr2mxe2yuppi25ol0k>
+
+
+---
+
+Getting rid of posts in URL
+
+- Move get post handler logic into get-catchall logic
+- `Get post` index handler should be renamed to post middleware
+- `Get catchall`: Run post middleware after redirects
+- 

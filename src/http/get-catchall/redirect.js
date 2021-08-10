@@ -1,23 +1,28 @@
 // redirect Medium urls to blog.begin.com
 let redirects = {
     // 2016
-    '/': '/conversational-interaction-design-constructing-context-b21e2341334f',
-    '/': '/how-to-make-a-better-bot-c038626fd401',
+    '/conversational-interaction-design-constructing-context-b21e2341334f': '/posts/2016-03-30-conversational-interaction-design-constructing-context',
+    '/how-to-make-a-better-bot-c038626fd401': '/posts/2016-04-19-how-to-make-a-better-bot',
   
     // 2017
-    '/': '/introducing-slack-js-9-0-0-c425a63cc479',
- 
-  
+    '/introducing-slack-js-9-0-0-c425a63cc479': '/posts/2017-09-25-introducing-slack-js-9-0-0',
+    
+    
     // 2018
-    '/': '/build-an-infinitely-scalable-slack-app-in-5-minutes-972789924f3f)',
-    '/': '/build-an-infinitely-scalable-slack-app-part-2-prepping-for-distribution-in-the-slack-app-9183af539449',
-    '/': '/sunsetting-begin-and-a-new-beginning-9bb2cb867ac4',
-    '/': '/introducing-architect-4-0-faster-lighter-simpler-serverless-59f6dc156bf2',
-    '/': '/enable-cors-on-your-serverless-application-with-a-single-boolean-e784fc061b22',
-    '/': '/the-begin-master-plan-ff3ce53e9cc9',
-    '/': '/serverless-es-modules-1e9bd5e15086',
-    '/': '/local-offline-serverless-app-development-with-architect-6e7aa9af2c4f',
-    '/': '/the-real-reason-frameworks-get-adopted-1a6893051686',
+    '/2018-01-22-slack-for-js-10-x': '/posts/2018-01-22-slack-for-js-10-x',
+    '/build-an-infinitely-scalable-slack-app-in-5-minutes-972789924f3f': '/posts/2018-02-07-build-an-infinitely-scalable-slack-app-in-5-minutes',
+    '/build-an-infinitely-scalable-slack-app-part-2-prepping-for-distribution-in-the-slack-app-9183af539449': '/posts/2018-02-16-build-an-infinitely-scalable-slack-app-part-2-prepping-for-distribution-in-the-slack-app',
+    '/lets-begin-4c4f8e268be9': '/posts/2018-03-06-lets-begin',
+    '/sunsetting-begin-and-a-new-beginning-9bb2cb867ac4': '/posts/2018-04-26-sunsetting-begin-and-a-new-beginning',
+    '/introducing-architect-4-0-faster-lighter-simpler-serverless-59f6dc156bf2': '/posts/2018-10-23-introducing-architect-4-0-faster-lighter-simpler-serverless',
+    '/architect-4-1-serverless-meet-frontend-workflows-3b3dd457de9': '/posts/2018-10-29-architect-4-1-serverless-meet-frontend-workflows',
+    '/serverless-front-end-patterns-with-architect-views-cf4748aa1ec7': '/posts/2018-10-29-serverless-front-end-patterns-with-architect-views',
+    '/enable-cors-on-your-serverless-application-with-a-single-boolean-e784fc061b22': '/posts/2018-11-09-enable-cors-on-your-serverless-application-with-a-single-boolean',
+    '/the-begin-master-plan-ff3ce53e9cc9': '/posts/2018-11-09-the-begin-master-plan',
+    '/serverless-es-modules-1e9bd5e15086': '/posts/2018-11-13-serverless-es-modules',
+    '/local-offline-serverless-app-development-with-architect-6e7aa9af2c4f': '/posts/2018-11-14-local-offline-serverless-app-development-with-architect',
+    '/architect-4-3-even-faster-local-offline-development-and-sunrise-support-for-python-842dab85e210': '/posts/2018-11-15-architect-4-3-even-faster-local-offline-development-and-sunrise-support-for-python',
+    '/the-real-reason-frameworks-get-adopted-1a6893051686': '/posts/2018-12-03-the-real-reason-frameworks-get-adopted',
   
     // 2019
     '/': '/introducing-begin-data-dynamodb-made-ridiculously-easy-688a3d9ff392',
@@ -45,9 +50,11 @@ let redirects = {
   
   // eslint-disable-next-line
   module.exports = async function redirect (req) {
+    console.log(redirects)
     let isGet = req.requestContext.http.method.toLowerCase() === 'get'
     let isPath = Object.keys(redirects).includes(req.requestContext.http.path)
     if (isGet && isPath) {
+  
       return {
         statusCode: 301,
         headers: {
@@ -56,3 +63,5 @@ let redirects = {
       }
     }
   }
+
+  // if isget is true and ispath is tru then we redirect to path of redirects
