@@ -3,6 +3,7 @@
 🌤 📝 The Begin blog: how (and why) we make what we make at Begin
 
 - blog.begin.com/
+- https://medium.com/let-s-begin/stories/published
 - https://github.com/beginner-corp/blog.begin.com
 
 ## Styles

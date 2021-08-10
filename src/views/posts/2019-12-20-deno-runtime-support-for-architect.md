@@ -1,15 +1,15 @@
 ---
 title: Serverless Deno support with Architect
-image: 'post-assets/deno.png' 
+image: 'post-assets/arc84.png' 
 category: uncategorized
 description: Experimental next generation JavaScript runtime with first class TypeScript support now in beta
 author: 'Brian Leroux'
 avi: 'brian.jpg'
-readtime: '3 mins'
+readtime: '1 mins'
 published: 'December 20, 2019'
 ---
 
-![deno](post-assets/deno.png)
+![arc84](post-assets/arc84.png)
 
 > This post was last updated May, 2020 as Deno hit 1.0
 
@@ -54,11 +54,9 @@ Now you’re up and running with serverless Deno. You can find the [full source 
 
 Bonus: here is a bare metal [SAM version](https://github.com/brianleroux/sam-example-deno) for you to check out.
 
+---
+
 ## Next steps
 
-Deploy a simple Hello World! Deno app to Begin in 15 seconds. What are you waiting for, anyway?
-
-[![deploy-to-begin](deploy-to-begin.png)](https://begin.com/apps/create?template=https://github.com/begin-examples/deno-hello-world)
-
-- [Try out another Begin tutorial, like a full CRUD app with Begin Data!](https://docs.begin.com/en/guides/crud-app)
-- 🌟 Check out (and star!) Begin’s open core [OpenJS Architect](https://github.com/architect/architect) on GitHub
+- Sign up for [Begin.com](https://begin.com/), score your username, and make an app!
+- Star [architect/architect on GitHub!](https://github.com/architect/architect) 🌟

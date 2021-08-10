@@ -1,6 +1,6 @@
 ---
 title: Transpiling JavaScript with Babel on Begin
-image: 'post-assets/arc19.jpg' 
+image: 'post-assets/arc18.jpg' 
 category: uncategorized
 description: In this post we’ll demonstrate using Babel to implement a great new unreleased JS feature:optional chaining.
 author: 'Paul Chin Jr'
@@ -9,7 +9,7 @@ readtime: '4 mins'
 published: 'March 30, 2020'
 ---
 
-![arc19](post-assets/arc19.jpg)
+![arc18](post-assets/arc18.jpg)
 
 ## Transpilers are tools that read source code in one syntax and output it into another syntax. For example, your source could be written in TypeScript, or utilize an experimental language feature, and a transpiler will make sure it turns into standard JS. Transpilers let developers work with a wider variety tools, while also keeping the output compliant with browsers and Node.js.
 
