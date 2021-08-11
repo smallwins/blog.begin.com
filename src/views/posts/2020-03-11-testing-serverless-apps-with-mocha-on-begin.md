@@ -1,6 +1,6 @@
 ---
 title: Testing serverless apps with Mocha on Begin
-image: 'post-assets/arc22.png' 
+image: 'post-assets/arc22.png'
 category: uncategorized
 description: In this post we’ll demonstrate using Babel to implement a great new unreleased JS feature:optional chaining.
 author: 'Paul Chin Jr'
@@ -15,7 +15,7 @@ published: 'March 11, 2020'
 
 As you likely know, investing in your testing will help you write highly maintainable applications, and help ensure that new code will be less likely to cause regressions.
 
-In this post we’ll demonstrate the basics of testing with Mocha on a serverless app in [Begin](https://begin.com/); the example app in this post will achieve the same results as our articles about testing with [Jest](/posts/2020-03-10-testing-serverless-apps-with-jest-on-begin) & [TAP](/posts/2020-03-09-testing-your-serverless-app-on-begin-with-tap).
+In this post we’ll demonstrate the basics of testing with Mocha on a serverless app in [Begin](https://begin.com/); the example app in this post will achieve the same results as our articles about testing with [Jest](/2020-03-10-testing-serverless-apps-with-jest-on-begin) & [TAP](/2020-03-09-testing-your-serverless-app-on-begin-with-tap).
 
 ## Try out Mocha with Begin right now!
 
@@ -26,7 +26,7 @@ Hit this button to deploy a new Node.js + Mocha example app to Begin in 15 secon
 
 ## Testing the libraries
 
-If you’ve seen our previous serverless testing examples with [TAP](/posts/2020-03-09-testing-your-serverless-app-on-begin-with-tap) and [Jest](/posts/2020-03-10-testing-serverless-apps-with-jest-on-begin), then this will look very familiar to you. Begin supports any testing framework because we’re committed to helping your team to focus on using tools that work for you.
+If you’ve seen our previous serverless testing examples with [TAP](/2020-03-09-testing-your-serverless-app-on-begin-with-tap) and [Jest](/2020-03-10-testing-serverless-apps-with-jest-on-begin), then this will look very familiar to you. Begin supports any testing framework because we’re committed to helping your team to focus on using tools that work for you.
 
 First, let’s create a hook for Mocha to start and stop `@architect/sandbox` (a local dev environment that lets developers work locally by emulating the behavior of API Gateway, Lambda functions, and DynamoDB), along with the necessary dependencies to execute your tests.
 
@@ -57,7 +57,7 @@ In Mocha, we describe our tests and what it should do. This first test will ensu
   describe('@http', function() {
     it('should get /', async () => {
       let url = 'http://localhost:3333'
-      let result = await tiny.get({ url })    
+      let result = await tiny.get({ url })
     })
   })
 ...

@@ -1,6 +1,6 @@
 ---
 title: 📦 Serverless ES Modules
-image: 'post-assets/arc51.jpg' 
+image: 'post-assets/arc51.jpg'
 category: uncategorized
 description: This post will walk you through how to get started working with standards based JavaScript modules in an Architect serverless project.
 author: 'Kristofer Joseph'
@@ -22,7 +22,7 @@ But now you can use ES Modules in the browser without any extra overhead, making
 
 This post will walk you through how to get started working with standards based JavaScript modules in an Architect serverless project.
 
-> We’ll build on concepts from [serverless frontend patterns with Architect Views](/posts/2018-10-29-serverless-front-end-patterns-with-architect-views), so you may find it helpful to [check that out first](/posts/2018-10-29-serverless-front-end-patterns-with-architect-views).
+> We’ll build on concepts from [serverless frontend patterns with Architect Views](/2018-10-29-serverless-front-end-patterns-with-architect-views), so you may find it helpful to [check that out first](/2018-10-29-serverless-front-end-patterns-with-architect-views).
 
 1. Make a new Architect project
 

@@ -1,6 +1,6 @@
 ---
 title: 'Introducing Architect 5.0: fully serverless WebSockets'
-image: 'post-assets/arc44.jpg' 
+image: 'post-assets/arc44.jpg'
 category: uncategorized
 description: Realtime serverless compute is here! e’re thrilled to announce Architect 5.0 (Catalope), with full API Gateway WebSocket integration.
 author: 'Brian Leroux'
@@ -17,8 +17,8 @@ published: 'January 24, 2019'
 
 This article will:
 
-- [Answer your burning questions about serverless WebSockets on AWS ](/posts/2019-01-24-introducing-architect-5-0-fully-serverless-websockets)🔥
-- [Show you how to build serverless WebSockets](/posts/2019-01-24-introducing-architect-5-0-fully-serverless-websockets) with [JSF Architect](https://arc.codes/)
+- [Answer your burning questions about serverless WebSockets on AWS ](/2019-01-24-introducing-architect-5-0-fully-serverless-websockets)🔥
+- [Show you how to build serverless WebSockets](/2019-01-24-introducing-architect-5-0-fully-serverless-websockets) with [JSF Architect](https://arc.codes/)
 
 ## Serverless WebSocket FAQ 🔌
 
@@ -73,7 +73,7 @@ Add the sections below to your `app.arc` file:
 @app
 mywsapp
 @ws
-# no further config required! 
+# no further config required!
 @http
 get /
 ```

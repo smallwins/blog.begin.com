@@ -28,10 +28,7 @@ const cache = {} // cheap warm cache
 const arc = require('@architect/functions')
 
 
-module.exports = async function render (req) {
-
-  let docName = req.pathParameters.title
- 
+module.exports = async function render (docName) {
   let doc = `${docName}`
 
   let activePath = path.join(
@@ -43,6 +40,7 @@ module.exports = async function render (req) {
 
   let filePath = path.join(
     __dirname,
+    '..',
     'node_modules',
     '@architect',
     'views',
@@ -64,7 +62,7 @@ module.exports = async function render (req) {
       body: err.message
     }
   }
-  
+
   // Declare in outer scope for use later... sorry
   let frontmatter = ''
   const md = Markdown({
@@ -82,7 +80,7 @@ module.exports = async function render (req) {
     })
     .use(arcStaticImg)
   const children = md.render(file)
-  
+
   const { category, description, title, image, avi, author, published } = frontmatter
 
   return {
@@ -91,11 +89,11 @@ module.exports = async function render (req) {
       'cache-control': 'no-cache, no-store, must-revalidate, max-age=0, s-maxage=0',
       'content-type': 'text/html; charset=utf8'
     },
-    body: Html({children: postsLayout({category, description, title, image: arc.static(image), avi: arc.static(avi), author, published, children}),
-    scripts: [
-      '/index.js',
-    ],
+    body: Html({ children: postsLayout({ category, description, title, image: arc.static(image), avi: arc.static(avi), author, published, children }),
+      scripts: [
+        '/index.js',
+      ],
     }),
-    
+
   }
 }

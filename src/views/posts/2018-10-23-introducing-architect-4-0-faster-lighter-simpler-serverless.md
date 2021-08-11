@@ -1,6 +1,6 @@
 ---
 title: 'Introducing Architect 4.0: faster, lighter, simpler serverless'
-image: 'post-assets/arc56.jpg' 
+image: 'post-assets/arc56.jpg'
 category: uncategorized
 description: We’ve been listening to your feedback and today we’re extremely excited to introduce Architect 4.0 (Yeti), the fastest, simplest, most powerful way to build serverless applications.
 author: 'Ryan Block'
@@ -18,7 +18,7 @@ published: 'October 23, 2018'
 
 > Less, but better.
 
-[✨ Skip to the part where you create a serverless app with Architect in 30s](posts/2018-10-23-introducing-architect-4-0-faster-lighter-simpler-serverless)
+[✨ Skip to the part where you create a serverless app with Architect in 30s](2018-10-23-introducing-architect-4-0-faster-lighter-simpler-serverless)
 
 ## About Architect
 
@@ -110,7 +110,7 @@ In the directory of any Lambda function, add a `role.json` file containing a `po
 // src/http/get-index/role.json
 {
   "policies": [
-    "arn:aws:iam::aws:policy/AmazonDynamoDBReadOnlyAccess", 
+    "arn:aws:iam::aws:policy/AmazonDynamoDBReadOnlyAccess",
     "arn:aws:iam::aws:policy/AlexaForBusinessReadOnlyAccess"
   ]
 }

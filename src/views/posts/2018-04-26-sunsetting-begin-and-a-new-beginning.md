@@ -1,6 +1,6 @@
 ---
 title: Sunsetting Begin — and a new Beginning
-image: 'post-assets/arc57.png' 
+image: 'post-assets/arc57.png'
 category: uncategorized
 description: We’ve been listening to your feedback and today we’re extremely excited to introduce Architect 4.0 (Yeti), the fastest, simplest, most powerful way to build serverless applications.
 author: 'Ryan Block'
@@ -20,7 +20,7 @@ If you tried it out, let me thank you! It’s a privilege to get to build someth
 
 (Special shout-out if you ever took the time to send feedback — even the critical kind, which is the best! — or bug reports.)
 
-I’m confident that over time [our vision of narrow-domain-AI-enabled productivity software,](posts/2018-03-06-lets-begin) driven by natural language, will come to pass.
+I’m confident that over time [our vision of narrow-domain-AI-enabled productivity software,](2018-03-06-lets-begin) driven by natural language, will come to pass.
 
 Unfortunately, the path we took to execute that vision — building a Slack-first team tasking tool — isn’t currently a viable one.
 

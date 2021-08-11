@@ -1,6 +1,6 @@
 ---
 title: Begin supports renaming default GitHub branches
-image: 'post-assets/arc9.jpg' 
+image: 'post-assets/arc9.jpg'
 category: uncategorized
 description: We‘re excited to announce that Begin apps will deploy with any default branch you configure in GitHub.
 author: 'Paul Chin Jr'
@@ -21,7 +21,7 @@ This feature is a nice improvement for customization and a small step forward in
 
 For example, you can now rename `master` branch to `main` and Begin will continue deploying to `staging` and `production` environments on every `git push`. At Begin, we are proud to enable open workflows while maintaining best practices.
 
-[Check out our step-by-step guide to rename your default branch](/posts/2020-07-15-how-to-rename-your-master-branch-to-main-or-something-else)
+[Check out our step-by-step guide to rename your default branch](/2020-07-15-how-to-rename-your-master-branch-to-main-or-something-else)
 
 ![arc10](post-assets/arc10.png)
 

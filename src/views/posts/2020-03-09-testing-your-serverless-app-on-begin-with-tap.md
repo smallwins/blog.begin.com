@@ -1,6 +1,6 @@
 ---
 title: Serverless app testing with TAP on Begin
-image: 'post-assets/arc23.png' 
+image: 'post-assets/arc23.png'
 category: uncategorized
 description: In this post we’ll demonstrate the basics of testing with TAP on a serverless app in Begin; the example app in this post will achieve the same results as our article about testing with Jest.
 author: 'Paul Chin Jr'
@@ -15,7 +15,7 @@ published: 'March 09, 2020'
 
 ## [Node-Tap (part of the TAP family)](https://node-tap.org/) is a mature, powerful, and lightweight testing framework that help you write highly maintainable applications, and help ensure that new code will be less likely to cause regressions.
 
-In this post we’ll demonstrate the basics of testing with TAP on a serverless app in [Begin](https://begin.com/); the example app in this post will achieve the same results as our [article about testing with Jest](/posts/2020-03-10-testing-serverless-apps-with-jest-on-begin).
+In this post we’ll demonstrate the basics of testing with TAP on a serverless app in [Begin](https://begin.com/); the example app in this post will achieve the same results as our [article about testing with Jest](/2020-03-10-testing-serverless-apps-with-jest-on-begin).
 
 ## Try out testing with TAP right now
 
@@ -68,13 +68,13 @@ The next two test cases will use Begin Data’s `data.set` method to create a ta
 ```js
 // test/get-index-test.js
 
-// test that you can write data with @begin/data library 
+// test that you can write data with @begin/data library
 tap.test('data.set', async t => {
   let result = await data.set({table: 'tmp'})
   t.ok(result.table === 'tmp')
   console.log(result)
 })
-// test that you can read data with @begin/data library 
+// test that you can read data with @begin/data library
 tap.test('data.get', async t => {
   let result = await data.get({table: 'tmp'})
   t.ok(result.length == 1)

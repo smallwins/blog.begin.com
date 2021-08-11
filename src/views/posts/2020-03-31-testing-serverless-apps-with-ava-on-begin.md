@@ -1,6 +1,6 @@
 ---
 title: Testing serverless apps with AVA on Begin
-image: 'post-assets/arc16.png' 
+image: 'post-assets/arc16.png'
 category: uncategorized
 description: This post will give an overview of testing with AVA on a serverless app in Begin. You can also check out our other articles on TAP, Jest, and Mocha.
 author: 'Paul Chin Jr'
@@ -13,7 +13,7 @@ published: 'March 31, 2020'
 
 ## [AVA](http://avajs.dev/) is a testing framework that aims to make your tests and results as concise as possible. The docs are straightforward and illustrate their philosophy towards building a productive test suite. One interesting feature is that AVA output is formatted to show code excerpts where your tests fail. We’ll see an example of that [later on](https://blog.begin.com/testing-serverless-apps-with-ava-on-begin-d0cfc8844df7#8e0e).
 
-This post will give an overview of testing with AVA on a serverless app in [Begin](http://www.begin.com/). You can also check out our other articles on [TAP](/posts/2020-03-09-testing-your-serverless-app-on-begin-with-tap), [Jest](/posts/2020-03-10-testing-serverless-apps-with-jest-on-begin), and [Mocha](/posts/2020-03-11-testing-serverless-apps-with-mocha-on-begin).
+This post will give an overview of testing with AVA on a serverless app in [Begin](http://www.begin.com/). You can also check out our other articles on [TAP](/2020-03-09-testing-your-serverless-app-on-begin-with-tap), [Jest](/2020-03-10-testing-serverless-apps-with-jest-on-begin), and [Mocha](/2020-03-11-testing-serverless-apps-with-mocha-on-begin).
 
 ## Try out a Begin app with AVA right now
 

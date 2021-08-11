@@ -1,6 +1,6 @@
 ---
 title: 'Build an infinitely scalable* Slack app, part 2: prepping for distribution in the Slack App Directory'
-image: 'post-assets/arc58.png' 
+image: 'post-assets/arc58.png'
 category: uncategorized
 description: In part 1 of this series, we used Architect to provision the infrastructure needed to build a (theoretically) infinitely scalable serverless Slack app.
 author: 'Brian Leroux'
@@ -11,13 +11,13 @@ published: 'February 16, 2018'
 
 ![arc58](post-assets/arc58.png)
 
-## In [part 1 of this series](/posts/2018-02-07-build-an-infinitely-scalable-slack-app-in-5-minutes), we used [Architect](https://arc.codes/) to provision the infrastructure needed to build a (theoretically) infinitely scalable serverless Slack app.
+## In [part 1 of this series](/2018-02-07-build-an-infinitely-scalable-slack-app-in-5-minutes), we used [Architect](https://arc.codes/) to provision the infrastructure needed to build a (theoretically) infinitely scalable serverless Slack app.
 
 Slack makes it easy to install an simple app into a workspace, but to unleash the full power of the Slack platform you’ll want to enable distribution in the Slack App Directory.
 
 In this article we will implement the **Add to Slack** OAuth flow with AWS Lambda and persist the resulting access token to DynamoDB.
 
-> Before you begin: ➡️ Make sure you’ve set up a local dev environment and AWS from [part 1](/posts/2018-02-07-build-an-infinitely-scalable-slack-app-in-5-minutes).
+> Before you begin: ➡️ Make sure you’ve set up a local dev environment and AWS from [part 1](/2018-02-07-build-an-infinitely-scalable-slack-app-in-5-minutes).
 
 ## Set up HTML routes
 
@@ -79,7 +79,7 @@ const layout = require('@architect/shared/views/bootstrap')
 
 function route(req, res) {
   let html = layout({
-    title: 'My App', 
+    title: 'My App',
     body: `
     <div class=jumbotron>
       <h1 class=display-4>Add to Slack</h1>
@@ -87,7 +87,7 @@ function route(req, res) {
       <hr class=my-4>
       <p>${msg}</p>
       <p class="lead">TODO REAL BUTTON HEREEEE</p>
-    </div>`, 
+    </div>`,
   })
   res({html})
 }
@@ -124,10 +124,10 @@ module.exports = function addToSlack() {
   let href = `https://slack.com/oauth/authorize?scope=${scope}&client_id=${clientID}&redirect_uri=${redirect}`
   return `
 <a href=${href}>
-<img alt="Add to Slack" 
-  height="40" 
-  width="139" 
-  src="https://platform.slack-edge.com/img/add_to_slack.png" 
+<img alt="Add to Slack"
+  height="40"
+  width="139"
+  src="https://platform.slack-edge.com/img/add_to_slack.png"
   srcset="https://platform.slack-edge.com/img/add_to_slack.png 1x, https://platform.slack-edge.com/img/add_to_slack@2x.png 2x">
 </a>
 `
