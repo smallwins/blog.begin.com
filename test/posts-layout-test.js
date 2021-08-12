@@ -1,6 +1,5 @@
 import postsLayout from '../src/views/modules/layouts/posts-layout.js'
 import test from 'tape'
-import strip from './helpers/strip.js'
 
 test('Check if Posts layout exists', t => {
 

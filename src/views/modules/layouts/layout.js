@@ -4,10 +4,9 @@ import Icon from '../components/icon.js'
 
 export default function layout (props = {}) {
 
-  let children = props.children || ""
-  let image = props.image || ""
+  let children = props.children || ''
 
-    return `
+  return `
     <div
     class="
     h-full
@@ -485,5 +484,4 @@ export default function layout (props = {}) {
     </main>
   </div>
     `
-  }
-  
+}

@@ -3,13 +3,14 @@ import Icon from '../components/icon.js'
 
 export default function postsLayout (props = {}) {
 
-  let children = props.children || ""
-  let title = props.title || ""
+  let children = props.children || ''
+  let title = props.title || ''
 
-  let avi = props.avi || ""
-  let published = props.published || ""
-  let author = props.author || ""
-    return `
+  let avi = props.avi || ''
+  let published = props.published || ''
+  let author = props.author || ''
+
+  return `
     <div
     class="
     h-full
@@ -496,5 +497,4 @@ export default function postsLayout (props = {}) {
     </main>
   </div>
     `
-  }
-  
+}

@@ -2,12 +2,6 @@ import Head from './head.js'
 import Symbols from './symbols.js'
 import Script from './script.js'
 import State from './state.js'
-// import Logo from '../components/logo.js'
-// import Icon from '../components/icon.js'
-// // import Sidebar from '../components/sidebar.js'
-// import GithubLink from '../components/github-link.js'
-// import SlackLink from '../components/slack-link.js'
-
 
 
 export default function HTML (props = {}) {
@@ -16,7 +10,6 @@ export default function HTML (props = {}) {
     scripts = '',
     state = {},
     thirdparty = '',
-    title = '',
     children = ''
   } = props
 

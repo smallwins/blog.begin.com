@@ -75,4 +75,3 @@ let redirects = {
   }
 }
 
-// if isget is true and ispath is true then we redirect to path of redirects
