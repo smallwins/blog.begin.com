@@ -1,7 +1,7 @@
 export default function Head (props = {}) {
 
-  let fullTitle = props.frontmatter ? props.frontmatter.title : 'Begin blog'
-  let descriptionContent = props.frontmatter ? props.frontmatter.description : 'The official Begin blog'
+  let fullTitle = props.frontmatter && props.frontmatter.title ? props.frontmatter.title : 'Begin blog'
+  let descriptionContent = props.frontmatter && props.frontmatter.description ? props.frontmatter.description : 'The official Begin blog'
 
   return `
 <head>
