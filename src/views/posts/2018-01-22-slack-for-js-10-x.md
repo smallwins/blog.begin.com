@@ -4,7 +4,7 @@ image: 'post-assets/arc71.jpg'
 category: uncategorized
 description: Slack for JS is a super tiny Slack Web API client for NodeJS and the browser.
 author: 'Brian Leroux'
-avi: 'brian.jpg'
+avatar: 'brian.jpg'
 readtime: '2 mins'
 published: 'January 22, 2018'
 ---

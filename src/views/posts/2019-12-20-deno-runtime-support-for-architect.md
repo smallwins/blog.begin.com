@@ -1,10 +1,10 @@
 ---
 title: Serverless Deno support with Architect
-image: 'post-assets/arc84.png' 
+image: 'post-assets/arc84.png'
 category: uncategorized
 description: Experimental next generation JavaScript runtime with first class TypeScript support now in beta
 author: 'Brian Leroux'
-avi: 'brian.jpg'
+avatar: 'brian.jpg'
 readtime: '1 mins'
 published: 'December 20, 2019'
 ---

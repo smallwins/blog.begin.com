@@ -5,7 +5,8 @@ const fs = require('fs')
 const Markdown = require('markdown-it')
 const markdownClass = require('@toycode/markdown-it-class')
 const markdownAnchor = require('markdown-it-anchor')
-const frontmatterParser = require('markdown-it-front-matter')
+const markdownArcStatic = require('markdown-it-arc-static-img')
+const meta = require('markdown-it-meta')
 const classMapping = require('./markdown-class-mappings')
 const hljs = require('highlight.js')
 const { escapeHtml } = Markdown().utils
@@ -16,28 +17,9 @@ hljs.registerLanguage('arc', arcGrammar)
 const readFile = util.promisify(fs.readFile)
 const Html = require('@architect/views/modules/document/html.js').default
 const postsLayout = require('@architect/views/modules/layouts/posts-layout.js').default
-const arcStaticImg = require('markdown-it-arc-static-img')
-const md = require('markdown-it')()
-  .use(arcStaticImg)
-const imgMD = '![My Image](myimage.jpg)'
-const result = md.render(imgMD)
-
-const yaml = require('js-yaml')
-const EDIT_DOCS = `edit/main/src/views/docs/`
 const cache = {} // cheap warm cache
-const arc = require('@architect/functions')
 
-
-module.exports = async function render (docName) {
-  let doc = `${docName}`
-
-  let activePath = path.join(
-    'posts',
-    docName
-  )
-
-  let active = `/${activePath}`
-
+module.exports = async function render (doc) {
   let filePath = path.join(
     __dirname,
     '..',
@@ -63,25 +45,30 @@ module.exports = async function render (docName) {
     }
   }
 
-  // Declare in outer scope for use later... sorry
-  let frontmatter = ''
   const md = Markdown({
     highlight,
     linkify: true,
     html: true,
-    typography: true
+    typographer: true
   })
     .use(markdownClass, classMapping)
     .use(markdownAnchor, {
       permalinkSymbol: ' '
     })
-    .use(frontmatterParser, function (str) {
-      frontmatter = yaml.load(str)
-    })
-    .use(arcStaticImg)
-  const children = md.render(file)
+    .use(markdownArcStatic)
+    .use(meta)
 
-  const { category, description, title, image, avi, author, published } = frontmatter
+  const children = md.render(file)
+  const frontmatter = md.meta
+  const {
+    category,
+    description,
+    title,
+    image,
+    avatar,
+    author,
+    published
+  } = frontmatter
 
   return {
     statusCode: 200,
@@ -90,12 +77,20 @@ module.exports = async function render (docName) {
       'content-type': 'text/html; charset=utf8'
     },
     body: Html({
-      children: postsLayout({ category, description, title, author, published, children, image: arc.static(image), avi: arc.static(avi) }),
-      frontmatter: frontmatter,
+      children: postsLayout({
+        category,
+        description,
+        title,
+        author,
+        published,
+        children,
+        image,
+        avatar
+      }),
+      frontmatter,
       scripts: [
         '/index.js',
       ],
-    }),
-
+    })
   }
 }

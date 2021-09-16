@@ -1,10 +1,10 @@
 ---
 title: 'Architect 7.0: HTTP APIs and even better Sandbox testing!'
-image: 'post-assets/arc1.jpg' 
+image: 'post-assets/arc1.jpg'
 category: uncategorized
 description: By popular demand:API Gateway HTTP APIs are now the default in Architect serverless apps
 author: 'Ryan Block'
-avi: 'ryan.png'
+avatar: 'ryan.png'
 readtime: '4 mins'
 published: 'September 18, 2020'
 ---
@@ -99,8 +99,8 @@ To learn more, please check out our extensive [Architect upgrade guide](https://
 We couldn’t do this work without the support and feedback of the Architect community, and of the folks at AWS working hard to make the future a little more serverless.
 
 > **More specifically, we’d like to give a shout out to:**
-> Akash Peri, Alan Tan, Khozema Ujjainwala, and the entire API 
-> Gateway team, Ali Servet Donmez, Andy Buckingham, Carter 
+> Akash Peri, Alan Tan, Khozema Ujjainwala, and the entire API
+> Gateway team, Ali Servet Donmez, Andy Buckingham, Carter
 > Rabasa, Fil Maj, Greg Allen, Gregor Martynus, Jordan Harband, Jory Burson, and Kris Borchers.
 
 Since releasing Architect with the OpenJS Foundation, there have been over 390 releases — with many [more to come based on your feedback](https://github.com/architect/architect/issues/new/choose) and [contributions](https://github.com/architect/).

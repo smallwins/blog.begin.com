@@ -1,10 +1,10 @@
 ---
 title: Serverless Deno + React with server-side rendering on Begin
-image: 'post-assets/arc11.jpg' 
+image: 'post-assets/arc11.jpg'
 category: uncategorized
-description: Deno is a next-generation JavaScript runtime that features a built-in TypeScript compiler and code bundler, allowing developers to create applications without Webpack, Babel, or Rollup. 
+description: Deno is a next-generation JavaScript runtime that features a built-in TypeScript compiler and code bundler, allowing developers to create applications without Webpack, Babel, or Rollup.
 author: 'Paul Chin Jr'
-avi: 'paul.jpg'
+avatar: 'paul.jpg'
 readtime: '3 mins'
 published: 'May 14, 2020'
 ---

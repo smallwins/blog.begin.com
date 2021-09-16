@@ -1,10 +1,10 @@
 ---
 title: 'Introducing Begin Data: DynamoDB made ridiculously easy!'
-image: 'post-assets/arc44.jpg' 
+image: 'post-assets/arc44.jpg'
 category: uncategorized
 description: Fast, scalable cloud function-based apps need fast, scalable cloud function-capable persistence.
 author: 'Brian Leroux'
-avi: 'brian.jpg'
+avatar: 'brian.jpg'
 readtime: '5 mins'
 published: 'January 22, 2019'
 ---

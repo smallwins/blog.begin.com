@@ -1,10 +1,10 @@
 ---
 title: 'Architect 8.3: custom file paths & much more'
-image: 'post-assets/arc1.jpg' 
+image: 'post-assets/arc1.jpg'
 category: uncategorized
 description: By popular demand:OpenJS Architect 8.3 (El Chupacabra) now supports custom file paths, custom Lambda templates, a fresh new local (and global) preferences file, and lots more!
 author: 'Ryan Block'
-avi: 'ryan.png'
+avatar: 'ryan.png'
 readtime: '3 mins'
 published: 'December 09, 2020'
 ---

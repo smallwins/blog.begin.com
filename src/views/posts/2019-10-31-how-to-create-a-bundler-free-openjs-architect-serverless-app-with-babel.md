@@ -1,10 +1,10 @@
 ---
 title: How to create a bundler-free OpenJS Architect serverless app with Babel
-image: 'post-assets/arc25.jpg' 
+image: 'post-assets/arc25.jpg'
 category: uncategorized
 description: Author serverless AWS Lambda functions with next-generation JS, and without using bundlers
 author: 'Brian Leroux'
-avi: 'brian.jpg'
+avatar: 'brian.jpg'
 readtime: '3 mins'
 published: 'October 31, 2019'
 ---
@@ -48,7 +48,7 @@ export async function handler(req) {
 From the root of this app, let’s install the minimal dependencies required:
 
 ```bash
-npm i @babel/cli 
+npm i @babel/cli
 npm i @babel/core
 npm i @babel/plugin-proposal-optional-chaining
 npm i @babel/preset-env

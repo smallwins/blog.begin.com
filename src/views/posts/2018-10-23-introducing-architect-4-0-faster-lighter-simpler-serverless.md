@@ -4,7 +4,7 @@ image: 'post-assets/arc56.jpg'
 category: uncategorized
 description: We’ve been listening to your feedback and today we’re extremely excited to introduce Architect 4.0 (Yeti), the fastest, simplest, most powerful way to build serverless applications.
 author: 'Ryan Block'
-avi: 'ryan.png'
+avatar: 'ryan.png'
 readtime: '5 mins'
 published: 'October 23, 2018'
 ---

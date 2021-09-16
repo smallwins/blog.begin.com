@@ -4,7 +4,7 @@ image: 'post-assets/arc58.png'
 category: uncategorized
 description: In part 1 of this series, we used Architect to provision the infrastructure needed to build a (theoretically) infinitely scalable serverless Slack app.
 author: 'Brian Leroux'
-avi: 'brian.jpg'
+avatar: 'brian.jpg'
 readtime: '8 mins'
 published: 'February 16, 2018'
 ---

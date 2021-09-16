@@ -4,7 +4,7 @@ image: 'post-assets/arc16.png'
 category: uncategorized
 description: This post will give an overview of testing with AVA on a serverless app in Begin. You can also check out our other articles on TAP, Jest, and Mocha.
 author: 'Paul Chin Jr'
-avi: 'paul.jpg'
+avatar: 'paul.jpg'
 readtime: '4 mins'
 published: 'March 31, 2020'
 ---

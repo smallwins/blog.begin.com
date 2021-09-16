@@ -1,10 +1,10 @@
 ---
 title: Run serverless Deno in AWS Lambda
-image: 'post-assets/deno.png' 
+image: 'post-assets/deno.png'
 category: uncategorized
 description: Use Begin to build a serverless / FASTstack Deno app!
 author: 'Brian Leroux'
-avi: 'brian.jpg'
+avatar: 'brian.jpg'
 readtime: '3 mins'
 published: 'January 17, 2020'
 ---

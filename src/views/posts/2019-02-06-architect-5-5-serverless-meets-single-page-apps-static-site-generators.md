@@ -1,10 +1,10 @@
 ---
 title: 'Architect 5.5: serverless meets single-page apps & static site generators'
-image: 'post-assets/arc39.jpg' 
+image: 'post-assets/arc39.jpg'
 category: uncategorized
 description: Seamless integration of SPAs & static site generators with a super-fast serverless backend
 author: 'Brian Leroux'
-avi: 'brian.jpg'
+avatar: 'brian.jpg'
 readtime: '5 mins'
 published: 'February 06, 2019'
 ---

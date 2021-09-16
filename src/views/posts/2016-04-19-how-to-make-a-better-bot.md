@@ -4,7 +4,7 @@ image: 'post-assets/arc72.gif'
 category: uncategorized
 description: The bots have landed. And as is usually the case, some early products shipped that could have used some more time in the oven. Personally, I’ve yet to use a bot that’s really impressed me.
 author: 'Ryan Block'
-avi: 'ryan.png'
+avatar: 'ryan.png'
 readtime: '8 mins'
 published: 'April 19, 2017'
 ---

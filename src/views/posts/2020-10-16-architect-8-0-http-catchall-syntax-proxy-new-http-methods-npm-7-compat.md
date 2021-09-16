@@ -1,10 +1,10 @@
 ---
 title: 'Architect 8.0: HTTP catchall syntax, @proxy, new HTTP methods, npm 7 compat'
-image: 'post-assets/arc1.jpg' 
+image: 'post-assets/arc1.jpg'
 category: uncategorized
 description: More flexible and powerful than ever, with greedy catchall syntax, and legacy server migration with @proxy
 author: 'Ryan Block'
-avi: 'ryan.png'
+avatar: 'ryan.png'
 readtime: '3 mins'
 published: 'October 16, 2020'
 ---

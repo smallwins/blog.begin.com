@@ -1,15 +1,25 @@
-export default function Head (props = {}) {
+import Style from './style.js'
 
-  let fullTitle = props.frontmatter && props.frontmatter.title ? props.frontmatter.title : 'Begin blog'
-  let descriptionContent = props.frontmatter && props.frontmatter.description ? props.frontmatter.description : 'The official Begin blog'
+export default function Head (state = {}) {
+  const {
+    frontmatter = {},
+    styles = []
+  } = state
+  const {
+    description = 'The Begin blog',
+    title = 'Begin blog'
+  } = frontmatter
+  const styleLinks = styles
+    .map(href => Style({ href }))
+    .join('')
 
   return `
 <head>
 <!-- Primary Meta Tags -->
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1">
-<meta name="description" content="${descriptionContent}">
-<title>${fullTitle}</title>
+<meta name="description" content="${description}">
+<title>${title}</title>
 
 <!-- Search Engine -->
 <meta name="description" content="The official Begin blog.">
@@ -65,10 +75,7 @@ export default function Head (props = {}) {
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
-<link rel="stylesheet" type="text/css" href="/css/styles.css">
-<link rel="stylesheet" type="text/css" href="/css/index.css">
-<link rel="stylesheet" type="text/css" href="/css/syntax.css">
-<link rel="stylesheet" href="https://fonts.begin.com/fonts.css">
+  ${styleLinks}
 </head>
 `
 }

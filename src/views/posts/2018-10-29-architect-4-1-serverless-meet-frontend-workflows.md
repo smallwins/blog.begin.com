@@ -4,7 +4,7 @@ image: 'post-assets/arc55.jpg'
 category: uncategorized
 description: Last week we released Architect 4 (Yeti), focused on simplicity and speed. Today we’re incredibly stoked to share Architect 4.1, our most frontend friendly release ever.
 author: 'Ryan Block'
-avi: 'ryan.png'
+avatar: 'ryan.png'
 readtime: '2 mins'
 published: 'October 29, 2018'
 ---

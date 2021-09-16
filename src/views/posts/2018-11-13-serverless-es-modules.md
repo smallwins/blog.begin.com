@@ -4,7 +4,7 @@ image: 'post-assets/arc51.jpg'
 category: uncategorized
 description: This post will walk you through how to get started working with standards based JavaScript modules in an Architect serverless project.
 author: 'Kristofer Joseph'
-avi: 'kj.png'
+avatar: 'kj.png'
 readtime: '3 mins'
 published: 'November 13, 2018'
 ---

@@ -1,10 +1,10 @@
 ---
 title: How to rename your ‘master’ branch to ‘main’ (or something else)
-image: 'post-assets/arc8.jpg' 
+image: 'post-assets/arc8.jpg'
 category: uncategorized
 description: Terms like master-slave carry powerful implications of racial supremacy and oppression, and have no place in our lexicon. Efforts across our industry are rightfully underway to retire such references to the dustbin of history, where they belong.
 author: 'Ryan Block'
-avi: 'ryan.png'
+avatar: 'ryan.png'
 readtime: '3 mins'
 published: 'July 15, 2020'
 ---

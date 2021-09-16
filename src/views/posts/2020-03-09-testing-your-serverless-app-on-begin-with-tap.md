@@ -4,7 +4,7 @@ image: 'post-assets/arc23.png'
 category: uncategorized
 description: In this post we’ll demonstrate the basics of testing with TAP on a serverless app in Begin; the example app in this post will achieve the same results as our article about testing with Jest.
 author: 'Paul Chin Jr'
-avi: 'paul.jpg'
+avatar: 'paul.jpg'
 readtime: '3 mins'
 published: 'March 09, 2020'
 ---

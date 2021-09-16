@@ -1,10 +1,10 @@
 ---
 title: Make a serverless Express API with OpenJS Architect
-image: 'post-assets/arc25.jpg' 
+image: 'post-assets/arc25.jpg'
 category: uncategorized
 description: Migrate your existing Express API or make use of your existing Express middleware in a serverless app
 author: 'Brian Leroux'
-avi: 'brian.jpg'
+avatar: 'brian.jpg'
 readtime: '2 mins'
 published: 'February 11, 2020'
 ---

@@ -1,10 +1,10 @@
 ---
 title: How to create an OpenJS Architect serverless app with Babel and Rollup
-image: 'post-assets/arc25.jpg' 
+image: 'post-assets/arc25.jpg'
 category: uncategorized
 description: Author serverless AWS Lambda functions with next-generation JS
 author: 'Brian Leroux'
-avi: 'brian.jpg'
+avatar: 'brian.jpg'
 readtime: '3 mins'
 published: 'October 29, 2019'
 ---

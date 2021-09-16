@@ -7,7 +7,7 @@ fingerprint true
 
 @http
 get /
-get /*
+get /posts/:post
 
 @tables
 data

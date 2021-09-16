@@ -4,7 +4,7 @@ image: 'post-assets/arc22.png'
 category: uncategorized
 description: In this post we’ll demonstrate using Babel to implement a great new unreleased JS feature:optional chaining.
 author: 'Paul Chin Jr'
-avi: 'paul.jpg'
+avatar: 'paul.jpg'
 readtime: '3 mins'
 published: 'March 11, 2020'
 ---

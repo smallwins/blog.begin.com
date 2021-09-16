@@ -1,10 +1,10 @@
 ---
 title: A new view for Begin Data
-image: 'post-assets/arc15.png' 
+image: 'post-assets/arc15.png'
 category: uncategorized
 description: Begin Data is a fast, durable key value store that comes with every Begin app — even the free ones!
 author: 'Paul Chin Jr'
-avi: 'paul.jpg'
+avatar: 'paul.jpg'
 readtime: '2 mins'
 published: 'April 22, 2020'
 ---

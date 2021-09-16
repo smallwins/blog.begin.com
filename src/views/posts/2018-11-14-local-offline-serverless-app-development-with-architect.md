@@ -1,10 +1,10 @@
 ---
 title: Local, offline serverless app development with Architect
-image: 'post-assets/arc50.jpg' 
+image: 'post-assets/arc50.jpg'
 category: uncategorized
 description: Build & deploy serverlessly without sacrificing the local development experience
 author: 'Brian Leroux'
-avi: 'brian.jpg'
+avatar: 'brian.jpg'
 readtime: '3 mins'
 published: 'November 14, 2018'
 ---
@@ -78,17 +78,17 @@ Create a directory called tests and add a file named `get-index-test.js` to it.
 Next you’ll add some generic setup/teardown tests that starts and stops the sandbox server headlessly.
 
 ```js
-let arc = require('@architect/architect')   
+let arc = require('@architect/architect')
 let data = require('@architect/data')
-let tiny = require('tiny-json-http')                                   
+let tiny = require('tiny-json-http')
 let test = require('tape')
 let end // save a ref
-test('start sandbox', async t=> {                         
-  t.plan(1)                         
-  end = await arc.sandbox.start()            
-  t.ok('started sandbox')                      
+test('start sandbox', async t=> {
+  t.plan(1)
+  end = await arc.sandbox.start()
+  t.ok('started sandbox')
 })
-test('shut down the sandbox', t=> {    
+test('shut down the sandbox', t=> {
   t.plan(1)
   end()
   t.ok(true, 'shutdown successfully')
@@ -98,11 +98,11 @@ test('shut down the sandbox', t=> {
 In between these tests we can now talk through the network to check our application:
 
 ```js
-test('can get /', async t=> {                         
-  t.plan(1)                         
-  let url = 'http://localhost:3333'                         
-  let result = await tiny.get({url})      
-  t.ok(result.body, 'got a 200 response')          
+test('can get /', async t=> {
+  t.plan(1)
+  let url = 'http://localhost:3333'
+  let result = await tiny.get({url})
+  t.ok(result.body, 'got a 200 response')
   console.log(result.body)
 })
 ```
@@ -110,10 +110,10 @@ test('can get /', async t=> {
 … and even connect directly to the in-memory database:
 
 ```js
-test('can list cats', async t=> {                         
-  t.plan(1)                         
-  let result = await data.cats.scan({})   
-  t.ok(result, 'got result')             
+test('can list cats', async t=> {
+  t.plan(1)
+  let result = await data.cats.scan({})
+  t.ok(result, 'got result')
   console.log(result)
 })
 ```

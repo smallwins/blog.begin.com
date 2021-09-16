@@ -1,10 +1,10 @@
 ---
 title: Begin now ships API Gateway HTTP APIs by default
-image: 'post-assets/arc7.jpg' 
+image: 'post-assets/arc7.jpg'
 category: uncategorized
 description: We’re excited to announce that all new Begin apps will now ship with next-generation AWS API Gateway HTTP APIs by default!
 author: 'Paul Chin Jr'
-avi: 'paul.jpg'
+avatar: 'paul.jpg'
 readtime: '3 mins'
 published: 'September 23, 2020'
 ---
@@ -36,7 +36,7 @@ exports.handler = async function http (req) {
   return {
     // Be sure you now include statusCode!
     statusCode: 200,
-    headers: { 
+    headers: {
       'content-type': 'application/json; charset=utf-8',
     },
     body: JSON.stringify(req)

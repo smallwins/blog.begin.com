@@ -1,10 +1,10 @@
 ---
 title: 'Architect 6.0: Ruby, Python, CDNs, and CloudFormation'
-image: 'post-assets/arc1.jpg' 
+image: 'post-assets/arc1.jpg'
 category: uncategorized
 description: The simplest, fastest way to build modern applications just got a lot more powerful
 author: 'Ryan Block'
-avi: 'ryan.png'
+avatar: 'ryan.png'
 readtime: '4 mins'
 published: 'September 29, 2019'
 ---
