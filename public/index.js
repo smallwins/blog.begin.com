@@ -29,12 +29,12 @@ document.addEventListener('DOMContentLoaded', () => {
     return Math.floor((currentTop / currentHeight) * 100)
   }
 
-  // Hamburger Menu
-  const hamburger = document.getElementById('hamburger')
-  const navUL = document.getElementById('nav-ul')
+  // Menu
+  const menu = document.querySelector('.js-menu')
+  const navUL = document.querySelector('.js-nav')
 
-  hamburger.addEventListener('click', () => {
-    navUL.classList.toggle('show')
+  menu.addEventListener('click', () => {
+    navUL.classList.toggle('menu-open')
   })
 
   // Copy-Paste function for code blocks

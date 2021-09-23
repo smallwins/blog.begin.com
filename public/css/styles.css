@@ -699,8 +699,8 @@
   .overflow-x-hidden{overflow-x:hidden;}
   .overflow-y-scroll{overflow-y:scroll;}
   .overflow-y-hidden{overflow-y:hidden;}
-  .scrolling-touch{webkit-overflow-scrolling:touch;}
-  .scrolling-auto{webkit-overflow-scrolling:auto;}
+  .scrolling-touch{-webkit-overflow-scrolling:touch;}
+  .scrolling-auto{-webkit-overflow-scrolling:auto;}
 
 
   /* VISIBILITY */
@@ -1179,8 +1179,8 @@
   .overflow-x-hidden-lg{overflow-x:hidden;}
   .overflow-y-scroll-lg{overflow-y:scroll;}
   .overflow-y-hidden-lg{overflow-y:hidden;}
-  .scrolling-touch-lg{webkit-overflow-scrolling:touch;}
-  .scrolling-auto-lg{webkit-overflow-scrolling:auto;}
+  .scrolling-touch-lg{-webkit-overflow-scrolling:touch;}
+  .scrolling-auto-lg{-webkit-overflow-scrolling:auto;}
 
 
   /* VISIBILITY */

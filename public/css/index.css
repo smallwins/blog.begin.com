@@ -19,11 +19,30 @@ html {
 .max-width-layout {
   max-width: 60rem;
 }
+.max-h-0 {
+  max-height: 0;
+}
+
 .two-column {
   /* Height: Header | Content */
   grid-template-rows: 3rem 1fr;
   /* Width: Sidebar | Content */
   grid-template-columns: 17.666rem 1fr;
+}
+.js-nav {
+  top: 2.8rem;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+.js-nav.menu-open {
+  padding-bottom:1.333rem;
+}
+.menu-open,
+.max-h-900 {
+  max-height: 50rem;
+}
+.pointer-none {
+  pointer-events: none;
 }
 .icon {
   width: 1.25rem;
@@ -58,86 +77,20 @@ html {
 .resize-vertical {
   resize: vertical;
 }
-.open,
-.transition-x {
-  transition: transform 100ms cubic-bezier(0.23, 1, 0.320, 1);
-}
-.open,
-.translate-x-sidebar {
-  transform: translateX(var(--sidebar));
-}
-.transition-fill {
-  transition: fill 2s ease-out;
-}
 
 @media only screen and (min-width:48em) {
-  .open,
-  .transition-x {
-    transition: none;
-   }
-  .open,
-  .translate-x-sidebar {
-    transform: translateX(0);
-  }
   .resize-none-lg {
     resize: none;
   }
 }
 
-@keyframes HeroAnimation {
-  0% {
-    opacity: 0;
-    transform: translateY(20px);
-  }
 
-  100% {
-    opacity: 3;
-    transform: translateY(0);
-  }
-}
-
-.shadow-card {
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  transition: box-shadow 0.5s;
-}
-.shadow-card:hover {
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
-}
-.shadow-card:active {
-  box-shadow: 0 0px 5px rgba(0, 0, 0, 0.4);
-}
 .boxshadow {
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.4);
-}
-
-.transition-transform {
-  transition: transform 0.15s ease-out
-}
-.transition-background-x {
-  transition: background-position-x 0.5s cubic-bezier(.16,.7,.19,1.04);
-}
-.transform-scale-hover:hover {
-  transform: scale(1.005);
-  transition: transform 0.5s cubic-bezier(.16,.7,.19,1.04);
-}
-.transform-scale-active:active {
-  transform: scale(1);
-  transition: transform 0.15s cubic-bezier(.16,.7,.19,1.04);
 }
 .link-login {
   max-width: 6rem;
 }
-.guide-link:hover > .h-gradient {
-  background-position-x: -5.5rem;
-}
-.guide-link:active > .h-gradient {
-  background-position-x: 0;
-}
-
-.background-size-cover {
-  background-size:cover;
-}
-
 .guides-item-bg-h {
   height: 9.777rem;
 }

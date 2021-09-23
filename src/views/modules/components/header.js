@@ -1,0 +1,268 @@
+import Icon from './icon.js'
+import Logo from '../components/logo.js'
+
+export default function Header () {
+  return `
+<header
+  class="
+    z1
+    pt0
+    pb0
+    sticky
+    relative-lg
+    flex
+    items-center
+    justify-between
+    top0
+    bg-p5
+    text-g0
+  "
+>
+  <div
+    class="
+     flex
+     items-center
+     justify-between
+     w-full
+     pr1
+     pl1
+   "
+  >
+    <a
+      aria-label="Begin Blog"
+      href="/"
+      class="
+        mr4
+        text-g0
+        text-h0
+        text-a2
+        items-center
+        cursor-pointer
+      "
+    >
+      ${Logo()}
+    </a>
+
+    <nav
+      class="
+        js-nav
+        absolute
+        right0
+        left0
+        flex-lg
+        flex-col
+        flex-row-lg
+        items-center-lg
+        justify-between
+        max-h-0
+        max-h-full-lg
+        w-full
+        pt-none-lg
+        pb-none-lg
+        pl-none-lg
+        pr-none-lg
+        pr-3
+        pl-3
+        bg-p5
+        overflow-hidden
+        menu-transition
+        z1
+      "
+    >
+      <span class="flex-lg">
+
+        <a
+           class="
+            flex
+            uppercase
+            items-center
+            font-medium
+            leading5
+            text-p8
+            radius-pill
+            text-h0
+            pl-1
+            pr0
+            mb-2
+            mb-none-lg
+            mr1-lg
+            bg-a3
+            no-underline
+            "
+          alt="https://begin.com/apps"
+          href="https://begin.com/apps"
+        >
+          ${Icon({ href: 'apps', classes: 'icon-nav mr-2 f-p26' })}
+          <span>Apps</span>
+        </a>
+
+        <a
+          class="
+            flex
+            uppercase
+            items-center
+            font-medium
+            leading5
+            text-p8
+            radius-pill
+            text-h0
+            pl-1
+            pr0
+            mb-2
+            mb-none-lg
+            mr1-lg
+            bg-a3
+            no-underline
+           "
+          alt="https://docs.begin.com"
+          href="https://docs.begin.com"
+        >
+          ${Icon({ href: 'docs', classes: 'icon-nav mr-2 f-p26' })}
+          <span>Docs</span>
+        </a>
+
+
+        <a
+          class="
+            flex
+            uppercase
+            items-center
+            font-medium
+            leading5
+            text-p8
+            radius-pill
+            text-h0
+            pl-1
+            pr0
+            mb-2
+            mb-none-lg
+            mr1-lg
+            bg-a3
+            no-underline
+          "
+          alt="https://learn.begin.com"
+          href="https://learn.begin.com"
+        >
+          ${Icon({ href: 'learn', classes: 'icon-nav mr-2 f-p26' })}
+          <span>Learn</span>
+        </a>
+
+        <a
+          class="
+            flex
+            uppercase
+            items-center
+            font-medium
+            leading5
+            text-p8
+            radius-pill
+            text-h0
+            pl-1
+            pr0
+            mb-2
+            mb-none-lg
+            mr1-lg
+            bg-a3
+            no-underline
+          "
+          alt="https://github.com/smallwins/begin-community/discussions"
+          href="https://github.com/smallwins/begin-community/discussions">
+          ${Icon({ href: 'community', classes: 'icon-nav mr-2 f-p26' })}
+          <span>Community</span>
+        </a>
+
+        <a
+          class="
+            flex
+            uppercase
+            items-center
+            font-medium
+            leading5
+            text-p8
+            radius-pill
+            text-h0
+            pl-1
+            pr0
+            mb-2
+            mb-none-lg
+            mr1-lg
+            bg-a3
+            no-underline
+          "
+          alt="https://begin.com/support"
+          href="https://begin.com/support"
+        >
+          ${Icon({ href: 'support', classes: 'icon-nav mr-2 f-p26' })}
+          <span>Support</span>
+        </a>
+
+      </span>
+
+    <span class=" mb0 mb-none-lg ">
+      <a
+        href="https://begin.com/login"
+        class="
+          link-login
+          pt-4
+          pr-1
+          pb-4
+          pl-1
+          mt-3
+          mt-none-lg
+          mr0
+          mb-2
+          mb-none-lg
+          ml-3
+          ml-none-lg
+          font-medium
+          text-center
+          text-p5
+          text-h0
+          uppercase
+          radius-pill
+          no-underline
+          bg-p10
+        "
+      >
+        Login
+      </a>
+    </span>
+    </nav>
+  </div>
+
+  <div
+  class="
+    flex
+    items-center
+    justify-between
+    hidden-lg
+  "
+  >
+  <button
+    aria-label="Menu"
+    class="
+      js-menu
+      pr1
+      bg-unset
+      text-g0
+      text-h0
+      text-a2
+      cursor-pointer
+      bg-p0
+    "
+  >
+    ${Icon({ href: 'hamburger', classes: 'icon fill-current' })}
+  </button>
+  </div>
+    <div
+    class="
+      indicator
+      bg-image0
+      absolute
+      right0
+      bottom0
+      left0
+    "></div>
+</header>
+`
+}
